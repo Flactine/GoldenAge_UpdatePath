@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>	
+	<Row Name="ICON_ATLAS_BUILDINGS_PURPLE" IconSize="32" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_purple_32.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PURPLE" IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_purple_38.dds"/>
+	<Row Name="ICON_ATLAS_BUILDINGS_PURPLE" IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_purple_50.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PURPLE" IconSize="80" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_purple_80.dds"/>
+	<Row Name="ICON_ATLAS_BUILDINGS_PURPLE" IconSize="128" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_purple_128.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_PURPLE" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_purple_256.dds"/>
+	<Row Name="ICON_ATLAS_BUILDINGS_PURPLE_FOW" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_purple_256.dds"/>
+
+  	<Row Name="ICON_ATLAS_BUILDINGS_BLUE" IconSize="32" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_blue_32.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_BLUE" IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_blue_38.dds"/>
+	<Row Name="ICON_ATLAS_BUILDINGS_BLUE" IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_blue_50.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_BLUE" IconSize="80" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_blue_80.dds"/>
+	<Row Name="ICON_ATLAS_BUILDINGS_BLUE" IconSize="128" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_blue_128.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_BLUE" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_blue_256.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_BLUE_FOW" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_blue_256.dds"/>
+	
+	<Row Name="ICON_ATLAS_BUILDINGS_GREEN" IconSize="32" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_green_32.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_GREEN" IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_green_38.dds"/>
+	<Row Name="ICON_ATLAS_BUILDINGS_GREEN" IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_green_50.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_GREEN" IconSize="80" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_green_80.dds"/>
+	<Row Name="ICON_ATLAS_BUILDINGS_GREEN" IconSize="128" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_green_128.dds"/>
+    <Row Name="ICON_ATLAS_BUILDINGS_GREEN" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_green_256.dds"/>
+	<Row Name="ICON_ATLAS_BUILDINGS_GREEN_FOW" IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="Buildings_green_256.dds"/>
+  </IconTextureAtlases>
+  <IconDefinitions>
+	<Row Name="ICON_BUILDING_STONEMASON"             	Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="20"/>
+    <Row Name="ICON_BUILDING_SMELTERY"             	 	Atlas="ICON_ATLAS_BUILDINGS_BLUE" Index="20"/>
+    <Row Name="ICON_BUILDING_RAWMATERIAL"             	Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="26"/>
+    <Row Name="ICON_BUILDING_FABRICATION"             	Atlas="ICON_ATLAS_BUILDINGS_BLUE" Index="26"/>
+      
+    <Row Name="ICON_BUILDING_ALCHEMY_HOUSE"             Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="4"/>
+    <Row Name="ICON_BUILDING_OBSERVATORY"               Atlas="ICON_ATLAS_BUILDINGS_BLUE" Index="4"/>
+    <Row Name="ICON_BUILDING_PUBLIC_SCHOOL"             Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="18"/>
+    <Row Name="ICON_BUILDING_ACADEMIC_EXCHANGE"         Atlas="ICON_ATLAS_BUILDINGS_BLUE" Index="18"/>
+    <Row Name="ICON_BUILDING_BIOLOGY_LAB"               Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="37"/>
+	<Row Name="ICON_BUILDING_ANIMAL_LAB"               	Atlas="ICON_ATLAS_BUILDINGS_GREEN" Index="37"/>
+    <Row Name="ICON_BUILDING_CHEMISTRY_LAB"             Atlas="ICON_ATLAS_BUILDINGS_BLUE" Index="37"/>
+	<Row Name="ICON_BUILDING_GIANT_TELESCOPE"           Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="8"/>
+	<Row Name="ICON_BUILDING_HADRON_COLLIDER"           Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="8"/>
+	<Row Name="ICON_BUILDING_SUPER_COMPUTER"           	Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="8"/>
+	
+	<Row Name="ICON_BUILDING_MINT"                		Atlas="ICON_ATLAS_BUILDINGS_BLUE" Index="11"/>
+    <Row Name="ICON_BUILDING_POST_STATION"              Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="11"/>
+    <Row Name="ICON_BUILDING_TAX_BUREAU"                Atlas="ICON_ATLAS_BUILDINGS_BLUE" Index="23"/>
+    <Row Name="ICON_BUILDING_COMMERCIAL"                Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="23"/>
+    <Row Name="ICON_BUILDING_URBAN_CONSTRUCTION"        Atlas="ICON_ATLAS_BUILDINGS_BLUE" Index="28"/>
+    <Row Name="ICON_BUILDING_MILITARY_CORP"             Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="28"/>
+    <Row Name="ICON_BUILDING_LUXURY_GOODS"              Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="6"/>
+    <Row Name="ICON_BUILDING_DIGITAL_CURRENCY"          Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="6"/>
+    <Row Name="ICON_BUILDING_FINANCIAL_TOWER"           Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="6"/>
+    <Row Name="ICON_BUILDING_MINING_GROUP"              Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="6"/>
+	
+    <Row Name="ICON_BUILDING_STONEMASON_FOW"             	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="20"/>
+    <Row Name="ICON_BUILDING_SMELTERY_FOW"             	 	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="20"/>
+    <Row Name="ICON_BUILDING_RAWMATERIAL_FOW"             	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="26"/>
+    <Row Name="ICON_BUILDING_FABRICATION_FOW"             	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="26"/>
+	<Row Name="ICON_BUILDING_ASSEMBLYLINE_FOW"             	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="27"/>
+	<Row Name="ICON_BUILDING_AUTOMATED_FOW"             	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="27"/>
+
+    <Row Name="ICON_BUILDING_ALCHEMY_HOUSE_FOW"             Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="4"/>
+    <Row Name="ICON_BUILDING_OBSERVATORY_FOW"             	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="4"/>
+    <Row Name="ICON_BUILDING_PUBLIC_SCHOOL_FOW"             Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="18"/>
+    <Row Name="ICON_BUILDING_ACADEMIC_EXCHANGE_FOW"         Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="18"/>
+	<Row Name="ICON_BUILDING_BIOLOGY_LAB_FOW"             	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="37"/>
+	<Row Name="ICON_BUILDING_ANIMAL_LAB_FOW"             	Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="37"/>
+	<Row Name="ICON_BUILDING_CHEMISTRY_LAB_FOW"             Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="37"/>
+    <Row Name="ICON_BUILDING_GIANT_TELESCOPE_FOW"       	Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="8"/>   
+    <Row Name="ICON_BUILDING_HADRON_COLLIDER_FOW"       	Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="8"/>   
+    <Row Name="ICON_BUILDING_SUPER_COMPUTER_FOW"       		Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="8"/>
+	
+	<Row Name="ICON_BUILDING_MINT_FOW"                		Atlas="ICON_ATLAS_BUILDINGS_BLUE_FOW" Index="11"/>
+    <Row Name="ICON_BUILDING_POST_STATION_FOW"              Atlas="ICON_ATLAS_BUILDINGS_PURPLE_FOW" Index="11"/>
+    <Row Name="ICON_BUILDING_TAX_BUREAU_FOW"                Atlas="ICON_ATLAS_BUILDINGS_BLUE_FOW" Index="23"/>
+    <Row Name="ICON_BUILDING_COMMERCIAL_FOW"                Atlas="ICON_ATLAS_BUILDINGS_PURPLE_FOW" Index="23"/>
+    <Row Name="ICON_BUILDING_URBAN_CONSTRUCTION_FOW"        Atlas="ICON_ATLAS_BUILDINGS_BLUE_FOW" Index="28"/>
+    <Row Name="ICON_BUILDING_MILITARY_CORP_FOW"            	Atlas="ICON_ATLAS_BUILDINGS_PURPLE_FOW" Index="28"/>
+    <Row Name="ICON_BUILDING_LUXURY_GOODS_FOW"              Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="6"/>
+    <Row Name="ICON_BUILDING_DIGITAL_CURRENCY_FOW"          Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="6"/>
+    <Row Name="ICON_BUILDING_FINANCIAL_TOWER_FOW"           Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="6"/>
+    <Row Name="ICON_BUILDING_MINING_GROUP_FOW"              Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="6"/>
+	
+	<Row Name="ICON_BUILDING_EPIC_THEATRE"         Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="16"/>
+	<Row Name="ICON_BUILDING_TAMPLE_STAGE"         Atlas="ICON_ATLAS_BUILDINGS_GREEN" Index="16"/>
+	
+	<Row Name="ICON_BUILDING_THERTERMUSEUM"          Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="25"/>
+    <Row Name="ICON_BUILDING_LIBRARYMUSEUM"     Atlas="ICON_ATLAS_BUILDINGS_BLUE" Index="25"/>
+	
+	<Row Name="ICON_BUILDING_OPERA_HOUSE"          Atlas="ICON_ATLAS_BUILDINGS_GREEN" Index="35"/>
+    <Row Name="ICON_BUILDING_ART_ASSOCIATION"     Atlas="ICON_ATLAS_BUILDINGS_PURPLE" Index="35"/>
+	<Row Name="ICON_BUILDING_PHOTOSTUDIO"    	 Atlas="ICON_ATLAS_BUILDINGS_BLUE" Index="36"/>
+	
+	<Row Name="ICON_BUILDING_CINEMA"			Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="7"/>
+    <Row Name="ICON_BUILDING_CONCERT_HALL"		Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="7"/>
+	<Row Name="ICON_BUILDING_WE_MEDIA"			Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="7"/>
+	
+	<Row Name="ICON_BUILDING_EPIC_THEATRE_FOW"         Atlas="ICON_ATLAS_BUILDINGS_PURPLE_FOW" Index="16"/>
+	<Row Name="ICON_BUILDING_TAMPLE_STAGE_FOW"         Atlas="ICON_ATLAS_BUILDINGS_BLUE_FOW" Index="16"/>
+	
+	<Row Name="ICON_BUILDING_THERTERMUSEUM_FOW"		Atlas="ICON_ATLAS_BUILDINGS_PURPLE_FOW" Index="25"/>
+    <Row Name="ICON_BUILDING_LIBRARYMUSEUM_FOW"     Atlas="ICON_ATLAS_BUILDINGS_BLUE_FOW" Index="25"/>
+	
+	<Row Name="ICON_BUILDING_OPERA_HOUSE_FOW"          Atlas="ICON_ATLAS_BUILDINGS_GREEN_FOW" Index="35"/>
+    <Row Name="ICON_BUILDING_ART_ASSOCIATION_FOW"     Atlas="ICON_ATLAS_BUILDINGS_PURPLE_FOW" Index="35"/>
+	<Row Name="ICON_BUILDING_PHOTOSTUDIO_FOW"    	 Atlas="ICON_ATLAS_BUILDINGS_BLUE_FOW" Index="36"/>
+	
+	<Row Name="ICON_BUILDING_CINEMA_FOW"			Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="7"/>
+    <Row Name="ICON_BUILDING_CONCERT_HALL_FOW"		Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="7"/>
+	<Row Name="ICON_BUILDING_WE_MEDIA_FOW"			Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="7"/>
+</IconDefinitions>
+</GameData>
