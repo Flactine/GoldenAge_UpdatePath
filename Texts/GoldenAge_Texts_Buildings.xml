@@ -1,0 +1,369 @@
+<GameData>
+    <LocalizedText>	
+	<!--市政广场-->
+	<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>新城市获得1个免费的建造者。[NEWLINE]所有城市受到的爆铺惩罚减少一个等级。[NEWLINE][COLOR_FLOAT_MILITARY]所有城市可建造的专业化区域数量-1（需要至少5个人口才能建造第一个专业化区域）。[ENDCOLOR][NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="en_US">
+      <Text>New cities receive a free Builder. [NEWLINE]Reduce one level of crazy-expansion penalty for all cities.[NEWLINE][COLOR_FLOAT_MILITARY]-1 specialty district slot for all cities (requires at least 5 citizens to build the first specialty district.).[ENDCOLOR][NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>占领的城市+8忠诚度。[NEWLINE]占领一座敌方城市后，所有城市将获得+10%的所有类型产出加成，效果持续10回合，效果可叠加。[NEWLINE][COLOR_FLOAT_MILITARY]城市边境扩张的速度-20%。[ENDCOLOR][NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION" Language="en_US">
+      <Text>+8 loyalty for all captured cities. [NEWLINE]Capturing an enemy City grants 10% bonus for all types of yields in all Cities for 10 turns. This bonus is stackable. [NEWLINE][COLOR_FLOAT_MILITARY]-20% city border expansion speed.[ENDCOLOR][NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>有 [ICON_Governor] 总督就职的城市+2 [ICON_Amenities] 宜居度并+2所有类型产出，[ICON_Governor] 总督的每次升级+5%所有非食物产出。[NEWLINE][COLOR_FLOAT_MILITARY]没 [ICON_Governor] 总督就职的城市-5忠诚度。[ENDCOLOR][NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Amenities] amenities and +2 for all types of yields in cities with a [ICON_Governor] governor, each [ICON_Governor] Governors upgrate provide +5% bonus for all non-food yields. [NEWLINE][COLOR_FLOAT_MILITARY]-5 loyalty in cities without a [ICON_Governor] governor.[ENDCOLOR] [NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>间谍与间谍容量+1。[NEWLINE]我方间谍行动的成功率上升1个等级,敌方间谍在我方领土行动的成功率降低1个等级。[NEWLINE]您的间谍可以选择任何可用升级。[NEWLINE][COLOR_FLOAT_MILITARY]每回合获得的同盟点数减少0.25。[ENDCOLOR][NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION" Language="en_US">
+      <Text>+1 Spy and Spy capacity.[NEWLINE]Enemy Spy level reduced by 1 in your lands. Your Spy level is increased by 1 for offensive operations.[NEWLINE]Your Spy units can choose from any possible promotion.[NEWLINE][COLOR_FLOAT_MILITARY]-0.25 alliance points per turn.[ENDCOLOR][NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>获得用 [ICON_Faith] 信仰值购买陆地战斗单位和平民单位的能力。[NEWLINE]此城释放的宗教压力加倍。[NEWLINE][COLOR_FLOAT_MILITARY]若玩家没有创立宗教或城市没有宗教信仰，则该城市购买陆地战斗单位和平民单位的价格+20%。[ENDCOLOR][NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION" Language="en_US">
+      <Text>Grants the ability to buy land combat units and civilian units with [ICON_Faith] Faith.[NEWLINE]Double religious pressure released from this city.[NEWLINE][COLOR_FLOAT_MILITARY]The cost of purchasing land units is increased by +20% in city without a religion or if player has no founded religion.[ENDCOLOR][NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有单位消灭敌方单位均可恢复生命值（上限20点）。[NEWLINE]军团和军队，舰队和无敌舰队的训练速度加快25%。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION" Language="en_US">
+      <Text>All units heal up to 20 hit points when they eliminate a unit.[NEWLINE]Corps and Army training costs reduced 25%. Fleet and Armada training costs reduced 25%.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>提供任意6个巨作槽位。[NEWLINE]+25% [ICON_TOURISM] 旅游业绩。[NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION" Language="en_US">
+      <Text>Provides 6 slots for any Great Work.[NEWLINE]+25% [ICON_TOURISM] TOURISM.[NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每回合获得5点影响力点数和5点 [ICON_FAVOR] 外交支持。[NEWLINE]征召城邦单位消耗的 [ICON_Gold] 金币减半。[NEWLINE]如您是城邦的宗主国，则城邦单位+5 [ICON_Strength] 战斗力（征召单位包含在内）。[NEWLINE][COLOR_FLOAT_MILITARY]每拥有一座占领的城市，每回合-1 [ICON_FAVOR] 外交支持。[ENDCOLOR][NEWLINE]奖励1个 [Icon_Governor] 总督头衔。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>Provide +5 Influence points and +5 [ICON_FAVOR] Favor per turn.[NEWLINE]Leveraging City States costs half [ICON_Gold] Gold.[NEWLINE]City State units gain +5 [ICON_Strength] Combat Strength if you are the City State's Suzerain (including Leveraged Units).[NEWLINE][COLOR_FLOAT_MILITARY]-1 [ICON_FAVOR] favor for each captured city you own.[ENDCOLOR][NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text>
+    </Replace>
+	<!--其他-->		
+		<Replace Tag="LOC_BUILDING_WATER_MILL_NAME" Language="zh_Hans_CN">
+            <Text>磨坊</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_WATER_MILL_NAME" Language="en_US">
+            <Text>Mill</Text>
+        </Replace>
+	<Replace Tag="LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[ICON_RESOURCE_RICE] 大米， [ICON_RESOURCE_WHEAT] 小麦资源分别+1 [ICON_Food] 食物。</Text>
+    </Replace>	
+	<Replace Tag="LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="en_US">
+      <Text>[ICON_RESOURCE_RICE] Rice, [ICON_RESOURCE_WHEAT] Wheat resources gain +1 [ICON_Food] Food each.</Text>
+    </Replace>	
+	<Replace Tag="DLC_LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[ICON_RESOURCE_RICE] 大米， [ICON_RESOURCE_WHEAT] 小麦和 [ICON_RESOURCE_MAIZE] 玉米资源分别+1 [ICON_Food] 食物。</Text>
+    </Replace>	
+	<Replace Tag="DLC_LOC_BUILDING_WATER_MILL_DESCRIPTION" Language="en_US">
+      <Text>[ICON_RESOURCE_RICE] Rice, [ICON_RESOURCE_WHEAT] Wheat, and [ICON_RESOURCE_MAIZE] Maize resources gain +1 [ICON_Food] Food each.</Text>
+    </Replace>	
+	<Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为所有食物类加成资源+1 [ICON_Food] 食物。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Food] Food for all types of Bonus Resources. Can only be built once in a city, even if the city has multiple Neighborhoods.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市人口增长速度提高30%。</Text>
+    </Replace>	
+	<Replace Tag="LOC_BUILDING_SEWER_DESCRIPTION" Language="en_US">
+      <Text>City growth rate increase 30%.</Text>
+    </Replace>	
+	<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+10 [ICON_Tourism] 旅游业绩。只能在城市中建造一个，即使城市拥有多个社区也同样如此。</Text>
+    </Replace>	
+	<Replace Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION" Language="en_US">
+      <Text>+10 [ICON_Tourism] Tourism. Can only be built once in a city, even if the city has multiple Neighborhoods.</Text>
+    </Replace>		
+	<Replace Tag="LOC_BUILDING_ARMORY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>该城市中训练的所有陆地单位+25%战斗经验值。[NEWLINE]战略资源储备+20（标准速度下）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MILITARY_ACADEMY_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>此城中训练的所有陆地单位+25%战斗经验值。[NEWLINE]战略资源储备+30（标准速度下）。[NEWLINE]可直接训练军团和军队。军团和军队的训练费用降低25%。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_ARMORY_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+25% combat experience for all land units trained in this city.[NEWLINE]Strategic Resource Stockpiles increased +20 (on Standard Speed).</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MILITARY_ACADEMY_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+25% combat experience for all land units trained in this city.[NEWLINE]Strategic Resource Stockpiles increased +30 (on Standard Speed).[NEWLINE]Allows Corps and Armies to be trained directly. Corps and Army training costs reduced 25%.</Text>
+    </Replace>	
+		<Replace Tag="LOC_BUILDING_GRANARY_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>[ICON_RESOURCE_SHEEP] 绵羊， [ICON_RESOURCE_CATTLE] 牛群和 [ICON_RESOURCE_DEER] 鹿资源分别+1 [ICON_Food] 食物。</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_GRANARY_DESCRIPTION" Language="en_US">
+            <Text>[ICON_RESOURCE_SHEEP] SHEEP, [ICON_RESOURCE_CATTLE] CATTLE and [ICON_RESOURCE_DEER] DEER resources gain +1 [ICON_Food] Food each. </Text>
+        </Replace>		
+	<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可再生水源向城市提供+6 [ICON_Power] 电力，向6格范围内的其它城市提供+3 [ICON_Power] 电力。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION" Language="en_US">
+      <Text>Provides the city +6 [ICON_Power] Power from renewable water sources, also +3 [ICON_Power] Power for other cities within 6 tiles.</Text>
+    </Replace>
+		<!--港口区-->
+	<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>当前城市训练的所有海军单位+25%战斗经验值。此城所有海岸单元格+1 [ICON_Production] 生产力，解锁电力科技后海洋单元格也+1 [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+25% combat experience for all naval units trained in this city. +1 [ICON_Production] Production on all Coast tiles for this city, +1 [ICON_Production] Production for Ocean tiles after Electricity technology.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_SEAPORT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>此城中生产的所有海军单位+25%战斗经验值。可直接生产舰队和无敌舰队。舰队和无敌舰队的生产费用降低25%。此城所有海岸单元格和海洋单元格+2 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_SEAPORT_DESCRIPTION" Language="en_US">
+      <Text>+25% combat experience for all naval units trained in this city. Allows Fleets and Armadas to be trained directly. Fleet and Armada training costs reduced 25%.  +2 [ICON_Gold] Gold on all Coast tiles and Ocean tiles for this city. </Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>此城中生产的所有海军单位+25%战斗经验值。此城所有海岸单元格+1 [ICON_Food] 食物，解锁电力科技后海洋单元格也+1 [ICON_Food] 食物。若此城市没有市场，则+1 [ICON_TradeRoute] 贸易路线容量。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>+25% combat experience for all naval units trained in this city. +1 [ICON_Food] Food on all Coast tiles for this city, +1 [ICON_Food] Food for Ocean tiles after Electricity technology. +1 [ICON_TradeRoute] TradeRoute if there is no Market in this city.</Text>
+    </Replace>
+		<!--娱乐设施-->
+	    <Replace Tag="LOC_BUILDING_ARENA_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+3 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到3个单元格中的每个市中心(此加成1座城市仅能应用1次，可与水上乐园建筑叠加)。</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_ARENA_EXPANSION1_DESCRIPTION" Language="en_US">
+            <Text>+3 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Bonus [ICON_Amenities] Amenity extends to each city center within 3 tiles. This bonus applies once to a city but can stack with Water Park buildings.</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+6 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到4个单元格中的每个市中心(此加成1座城市仅能应用1次，可与水上乐园建筑叠加)。</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION" Language="en_US">
+            <Text>+6 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Bonus [ICON_Amenities] Amenity extends to each city center within 4 tiles. This bonus applies once to a city but can stack with Water Park buildings.</Text>
+        </Replace>		
+		<Replace Tag="LOC_BUILDING_STADIUM_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+9 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到5个单元格中的每个市中心(此加成1座城市仅能应用1次，可与水上乐园建筑叠加)。</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_STADIUM_EXPANSION1_DESCRIPTION" Language="en_US">
+            <Text>+9 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Bonus [ICON_Amenities] Amenity extends to each city center within 5 tiles. This bonus applies once to a city but can stack with Water Park buildings.</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_FERRIS_WHEEL_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+3 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到3个单元格中的每个市中心(此加成1座城市仅能应用1次，可与娱乐中心建筑叠加)。</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_FERRIS_WHEEL_DESCRIPTION" Language="en_US">
+            <Text>+3 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Bonus [ICON_Amenities] Amenity extends to each city center within 3 tiles. This bonus applies once to a city but can stack with Entertainment Complex buildings.</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_AQUARIUM_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+6 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到4个单元格中的每个市中心(此加成1座城市仅能应用1次，可与娱乐中心建筑叠加)。</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_AQUARIUM_DESCRIPTION" Language="en_US">
+            <Text>+6 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Bonus [ICON_Amenities] Amenity extends to each city center within 4 tiles. This bonus applies once to a city but can stack with Entertainment Complex buildings.</Text>
+        </Replace>
+        <Replace Tag="LOC_BUILDING_AQUATICS_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>+9 [ICON_TOURISM] 旅游业绩。[NEWLINE][NEWLINE][ICON_Amenities] 宜居度加成延伸到5个单元格中的每个市中心(此加成1座城市仅能应用1次，可与娱乐中心建筑叠加)。</Text>
+        </Replace>
+		<Replace Tag="LOC_BUILDING_AQUATICS_CENTER_DESCRIPTION" Language="en_US">
+            <Text>+9 [ICON_TOURISM] Tourism.[NEWLINE][NEWLINE]Bonus [ICON_Amenities] Amenity extends to each city center within 5 tiles. This bonus applies once to a city but can stack with Entertainment Complex buildings.</Text>
+        </Replace>
+		
+	<!--剧院广场-->	
+	<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION" Language="en_US">
+      <Text>Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Theater Tier 1 building.</Text>
+    </Replace>	
+	<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可存放 [ICON_GreatWork_Landscape] 艺术巨作。如果在剧院广场区域已经有一座考古博物馆则无法修建。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="en_US">
+      <Text>Holds [ICON_GreatWork_Landscape] Great Works of Art. May not be built in a Theater Square district that already has an Archaeological Museum. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Theater Tier 2 building.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可存放 [ICON_GreatWork_Artifact] 文物。如果在剧院广场区域已经有一座艺术博物馆则无法修建。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="en_US">
+      <Text>Holds [ICON_GreatWork_Artifact] Artifacts. May not be built in a Theater Square district that already has an Art Museum. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Theater Tier 2 building.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION" Language="en_US">
+      <Text>Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Theater Tier 3 building.</Text>
+    </Replace>
+	<!--商业中心-->	
+	<Replace Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>如此城尚未建有灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Lighthouse building.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Commercial Hub Tier 1 building.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_BANK_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>如此城有至少24人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_BANK_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_TradeRoute] if city has no less than 24 [ICON_Citizen] citizens.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Commercial Hub Tier 2 building.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>如此城有至少36人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到5个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_TradeRoute] if city has no less than 36 [ICON_Citizen] citizens.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Commercial Hub Tier 3 building.</Text>
+    </Replace>
+	<!--工业区-->	
+	<Replace Tag="LOC_BUILDING_WORKSHOP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_WORKSHOP_DESCRIPTION" Language="en_US">
+      <Text>Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Industrial Zone Tier 1 building.</Text>
+    </Replace> 
+	<Replace Tag="LOC_GAEXP_BUILDING_FACTORY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_GAEXP_BUILDING_FACTORY_DESCRIPTION" Language="en_US">
+      <Text>Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Factory building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将任意数额的 [ICON_RESOURCE_COAL] 煤自动转换为 [ICON_Power] 电力，每回合可为周围5个单元格内的城市提供其所需电力：[NEWLINE][ICON_Bullet]1点 [ICON_RESOURCE_COAL] 煤 [ICON_PowerRight] 6点 [ICON_Power] 电力[NEWLINE][ICON_Bullet]会向大气层排放大量二氧化碳[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的“发电厂”建筑获得加成）。[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]环境保护模式下，由于环境污染，本城市的所有单元格-1魅力。[ENDCOLOR]</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION" Language="en_US">
+      <Text>Automatically converts any amount of [ICON_RESOURCE_COAL] Coal into [ICON_Power] Power for cities within 5 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_COAL] Coal [ICON_PowerRight] 6 [ICON_Power] Power[NEWLINE][ICON_Bullet]Heavy CO2 into the atmosphere.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Power Plant building.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Under Environmental Conservation mode, -1 appeal for all tiles in this city due to environmental pollution.[ENDCOLOR] </Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将任意数额的 [ICON_RESOURCE_OIL] 石油自动转换为 [ICON_Power] 电力，每回合可为周围5个单元格内的城市提供其所需电力：[NEWLINE][ICON_Bullet]1点 [ICON_RESOURCE_OIL] 石油 [ICON_PowerRight] 9点 [ICON_Power] 电力[NEWLINE][ICON_Bullet]会向大气层排放中量二氧化碳[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的“发电厂”建筑获得加成）。[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]环境保护模式下，由于环境污染，本城市的所有单元格-1魅力。[ENDCOLOR]</Text>
+    </Replace>  
+	<Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION" Language="en_US">
+      <Text>Automatically converts any amount of [ICON_RESOURCE_OIL] Oil into [ICON_Power] Power for cities within 5 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_OIL] Oil [ICON_PowerRight] 9 [ICON_Power] Power[NEWLINE][ICON_Bullet]Moderate CO2 into the atmosphere[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Power Plant building.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Under Environmental Conservation mode, -1 appeal for all tiles in this city due to environmental pollution.[ENDCOLOR]</Text>
+    </Replace>  
+	<Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将任意数额的 [ICON_RESOURCE_URANIUM] 铀自动转换为 [ICON_Power] 电力，每回合可为周围5个单元格内的城市提供其所需电力：[NEWLINE][ICON_Bullet]1点 [ICON_RESOURCE_URANIUM] 铀 [ICON_PowerRight] 12点 [ICON_Power] 电力[NEWLINE][ICON_Bullet]会向大气层排放少量二氧化碳[NEWLINE]建成后发生核事故的概率会随着核电站老化而增加。[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的“发电厂”建筑获得加成）。[NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]环境保护模式下，不会造成环境污染。[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>Automatically converts any amount of [ICON_RESOURCE_URANIUM] Uranium into [ICON_Power] Power for cities within 5 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_URANIUM] Uranium [ICON_PowerRight] 12 [ICON_Power] Power[NEWLINE][ICON_Bullet]Miniscule CO2 into the atmosphere[NEWLINE]Once built, as a Nuclear Power Plant ages, there is an increased chance for a Nuclear Accident to occur. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Power Plant building.[NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]Under Environmental Conservation mode, this building will not cause environmental pollution.[ENDCOLOR]</Text>
+	</Replace> 
+	<!--学院-->	
+	<Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION" Language="en_US">
+      <Text>Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Campus Tier 1 building.</Text>
+    </Replace>  
+	<Replace Tag="LOC_BUILDING_UNIVERSITY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_UNIVERSITY_DESCRIPTION" Language="en_US">
+      <Text>Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Campus Tier 2 building.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>其基础产出延伸到5个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION" Language="en_US">
+      <Text>Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Campus Tier 3 building.</Text>
+    </Replace>  
+	<!--圣地-->	
+	<Replace Tag="LOC_BUILDING_SHRINE_DESCRIPTION_HERO" Language="zh_Hans_CN">
+      <Text>在此城中获得或召回的英雄单位拥有10%的额外 [ICON_Lifespan] 寿命。允许购买传教士。传教士只能通过 [ICON_Faith] 信仰值购买。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_SHRINE_DESCRIPTION_HERO" Language="en_US">
+      <Text>Hero units claimed or recalled in this City have 10% longer [ICON_Lifespan] Lifespans.[NEWLINE]Allows the purchasing of Missionaries. Missionaries can only be purchased with [ICON_Faith] Faith.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Holy Site Tier 1 building.</Text>
+    </Replace>	
+	<Replace Tag="LOC_BUILDING_SHRINE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>在此城中获得或召回的英雄单位拥有10%的额外 [ICON_Lifespan] 寿命。允许购买传教士。传教士只能通过 [ICON_Faith] 信仰值购买。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_SHRINE_DESCRIPTION" Language="en_US">
+      <Text>Hero units claimed or recalled in this City have 10% longer [ICON_Lifespan] Lifespans.[NEWLINE]Allows the purchasing of Missionaries. Missionaries can only be purchased with [ICON_Faith] Faith.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Holy Site Tier 2 building.</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_TEMPLE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>在此城中召回英雄所花费的 [ICON_Faith] 信仰值降低15%。[NEWLINE]允许购买使徒、上师、审判官，拥有特定信仰还可购买武僧。这些宗教单位只能通过 [ICON_Faith] 信仰值购买。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_TEMPLE_DESCRIPTION" Language="en_US">
+      <Text>Recalling Heroes in this city costs 15% less [ICON_Faith] Faith. [NEWLINE]Allows the purchasing of Apostles, Gurus, Inquisitors, and with the proper belief, Warrior Monks. These units can only be purchased with [ICON_Faith] Faith.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Holy Site Tier 2 building.</Text>
+    </Replace>
+	<!-- <Replace Tag="LOC_HOLY_SITE_TIER3_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_HOLY_SITE_TIER3_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Holy Site Tier 3 building.</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_CATHEDRAL_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_CATHEDRAL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_CATHEDRAL_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_CATHEDRAL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_DAR_E_MEHR_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_DAR_E_MEHR_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_DAR_E_MEHR_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_DAR_E_MEHR_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_GURDWARA_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_GURDWARA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_GURDWARA_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_GURDWARA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_MEETING_HOUSE_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_MEETING_HOUSE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_MEETING_HOUSE_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_MEETING_HOUSE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_MOSQUE_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_MOSQUE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_MOSQUE_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_MOSQUE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_STUPA_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_STUPA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_STUPA_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_STUPA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_SYNAGOGUE_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_SYNAGOGUE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_SYNAGOGUE_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_SYNAGOGUE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_WAT_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_WAT_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_WAT_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_WAT_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_GOTHIC_CHURCH_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_GOTHIC_CHURCH_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_GOTHIC_CHURCH_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_GOTHIC_CHURCH_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_TAOIST_TEMPLE_DESCRIPTION" Language="zh_Hans_CN"> -->
+      <!-- <Text>{LOC_BUILDING_TAOIST_TEMPLE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!-- <Replace Tag="LOC_BUILDING_TAOIST_TEMPLE_DESCRIPTION" Language="en_US"> -->
+      <!-- <Text>{LOC_BUILDING_TAOIST_TEMPLE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_HOLY_SITE_TIER3_DESCRIPTION}</Text> -->
+    <!-- </Replace> -->
+	<!--外交-->	
+	<Replace Tag="LOC_BUILDING_CONSULATE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每回合影响力点数+2。为所有其他文明提供高于一个等级的外交能见度。[NEWLINE]奖励3个 [ICON_ENVOY]使者。可额外招募一名间谍。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_CONSULATE_DESCRIPTION" Language="en_US">
+      <Text>+2 Influence Points per turn. Provides one more level of diplomatic visibility on all other civilizations. [NEWLINE]Awards +3 [ICON_ENVOY] Envoy. Grants the ability to construct an additional Spy.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_CHANCERY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每回合影响力点数+3。此文明俘获或杀死一名敌方间谍时，此间谍每拥有一级升级，文明便获得200点 [ICON_Science] 科技值和200点 [ICON_Culture] 文化值。[NEWLINE]奖励3个 [ICON_ENVOY]使者。可额外招募一名间谍。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_CHANCERY_DESCRIPTION" Language="en_US">
+      <Text>+3 Influence Points per turn.  When this civilization captures or kills an enemy Spy, receive 200 [ICON_Science] Science and 200 [ICON_Culture] Culture for every level of the enemy Spy.[NEWLINE]Awards +3 [ICON_ENVOY] Envoy. Grants the ability to construct an additional Spy.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>
