@@ -1,0 +1,30 @@
+<GameData>
+    <LocalizedText>	
+	<Replace Tag="LOC_UNIT_SETTLER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可创建新城市。新城市的初始人口和单元格数量会随着时代的进步而增加。[NEWLINE]完成时，该城市 [ICON_Citizen] 人口减1。</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_SETTLER_DESCRIPTION" Language="en_US">
+      <Text>May create new cities. Initial population and tiles of a new city will increase with the progression of game era.[NEWLINE]Reduces city's [ICON_Citizen] Population by 1 when completed.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_PROMOTION_THRUST_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Movement] 移动力。+1视野范围。</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_THRUST_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Movement] Movement. +1 sight range.</Text>
+    </Replace>
+	
+	  <Replace Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以无视地形提供6格视野的支援单位。可显示视野范围内的隐身单位。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION" Language="en_US">
+			<Text>Support unit that can provide a huge range (6 tiles) of sight regardless of terrain. Can reveal stealth units in its field of view.</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_DRONE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以无视地形提供8格视野的支援单位。可显示视野范围内的隐身单位。</Text>
+	  </Replace>
+	  <Replace Tag="LOC_UNIT_DRONE_DESCRIPTION" Language="en_US">
+			<Text>Support unit that can provide a huge range (8 tiles) of sight regardless of terrain. Can reveal stealth units in its field of view.</Text>
+	  </Replace>
+	</LocalizedText>
+</GameData>

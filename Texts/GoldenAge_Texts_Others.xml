@@ -1,0 +1,38 @@
+<GameData>
+    <LocalizedText>	
+	<Replace Tag="LOC_DVP_TOOLTIP_DIFFICULTIES" Language="zh_Hans_CN">
+      <Text>[ICON_Bullet]从游戏难度获得{1_Amount}点</Text>
+    </Replace>
+	<Replace Tag="LOC_DVP_TOOLTIP_DIFFICULTIES" Language="en_US">
+      <Text>[ICON_Bullet]{1_Amount} points from game difficulties.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_WORLD_RANKINGS_CULTURE_VICTORY_DETAILS" Language="zh_Hans_CN">
+      <Text>为获得[COLOR:ResCultureLabelCS]文化[ENDCOLOR] 胜利，您必须通过大幅提升 [ICON_Culture] 文化值和 [ICON_Tourism] 旅游业绩。各个文明每累积150点[ICON_Culture] 文化值即可产生一名[COLOR:ResCultureLabelCS]国内游客[ENDCOLOR]。每累积（150*玩家数量）点[ICON_Tourism] 旅游业绩即可吸引一名[COLOR:ResCultureLabelCS]国际游客[ENDCOLOR]。对不同文明输出的 [ICON_Tourism] 旅游业绩数量会受到贸易、宗教、意识形态等的影响。当您因自己文明所吸引的[COLOR:ResCultureLabelCS]国际游客[ENDCOLOR]数量比[COLOR:ResCultureLabelCS]国内游客[ENDCOLOR]数量最多的其他文明的多时，您会取得该类型胜利。</Text>
+    </Replace>
+	<Replace Tag="LOC_WORLD_RANKINGS_CULTURE_VICTORY_DETAILS" Language="en_US">
+      <Text>To achieve a [COLOR:ResCultureLabelCS]CULTURE[ENDCOLOR] victory, you must become [COLOR:ResCultureLabelCS]CULTURALLY DOMINANT[ENDCOLOR] over all other civilizations. Cultural dominance occurs when you attract more [COLOR:ResCultureLabelCS]VISITING TOURISTS[ENDCOLOR] to your civilization than other civilization who has the most number of [COLOR:ResCultureLabelCS]DOMESTIC TOURISTS[ENDCOLOR].[NEWLINE][NEWLINE]Generating high amounts of [ICON_Culture] Culture increases your domestic tourists (150 [ICON_Culture] Culture for 1 domestic tourist). Generating high amounts of [ICON_Tourism] Tourism increases visiting tourists from other civilizations ((150*number of players) [ICON_Tourism] Tourism for 1 visiting tourist).</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_VICTORY_DIPLOMATIC_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>抢先累积足够数量的外交胜利点数后即可达成[COLOR:DiplomaticLabelCS]外交[ENDCOLOR]胜利。投票支持的目标和项目通过世界议会决议后，即可获得1点外交胜利点数。利用世界议会中的外交胜利提案即可获得更多胜利点数，方法有：在请求援助中得到最高分；建成“自由女神像”、“摩诃菩提寺”或“布达拉宫”奇观等等。</Text>
+    </Replace>
+	<Replace Tag="LOC_VICTORY_DIPLOMATIC_DESCRIPTION" Language="en_US">
+      <Text>To achieve a [COLOR:DiplomaticLabelCS]DIPLOMATIC[ENDCOLOR] victory, be the first to accumulate the target number of Diplomatic Points. Whenever you vote for the target and option combination that passes for a World Congress Resolution, you will earn one Diplomatic Point.  You can earn additional points through the Diplomatic Victory Proposal in the World Congress, by generating the highest score in Aid Requests, or the Statue of Liberty, Mahabodhi Temple, or Potala Palace Wonders etc.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_HERO_MONUMENT_NAME" Language="zh_Hans_CN">
+      <Text>禁止AI招募英雄</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HERO_MONUMENT_NAME" Language="en_US">
+      <Text>BAN AI HERO</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POP_TEXT" Language="zh_Hans_CN">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]其中{1_Num}来自城市数量惩罚[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_POP_TEXT" Language="en_US">
+      <Text>[ICON_BULLET][COLOR_FLOAT_CULTURE]including {1_Num} from Crazy-expansion Penalty[ENDCOLOR]</Text>
+    </Replace>	
+	</LocalizedText>
+</GameData>	

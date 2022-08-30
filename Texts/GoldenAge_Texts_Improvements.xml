@@ -1,0 +1,11 @@
+<GameData>
+    <LocalizedText>	
+	<!--改良设施-->
+	<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁建造者建造渔场能力。只能建在海洋资源旁。</Text>
+    </Replace>
+	<Replace Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION" Language="en_US">
+      <Text>Unlocks the Builder ability to construct a fishery. Can only be built beside sea resources.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

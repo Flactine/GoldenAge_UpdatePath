@@ -1,0 +1,845 @@
+<GameData>
+    <LocalizedText>		
+	    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_GOLDENAGE_NAME" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]黄金时代-美丽新世界[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_GOLDENAGE_NAME" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]GoldenAge-Brave New World[ENDCOLOR]</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]简介[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]Introduction[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
+          <Text>在原版游戏中，发展城市人口数量完全没有意义，被戏称为“养猪"。而疯狂地建立新城市，仅把每座城市的人口控制在4，这样的策略被认为是赢得神级难度AI的最佳方法，就离谱。本模组的宗旨就是鼓励玩家们能回过头来关注城市人口的发展。如今，您将会发现 “人口就是一切”，而无脑爆铺将会受到惩罚！您必须升级你的城市市政厅，从村庄到国际大都会，多个人口众多的大城市将是您获胜的关键！</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_PARA_1" Language="en_US">
+          <Text>[NEWLINE]In the original game, city with large populations is meaningless. Crazy expansion of new cities (Wide play) with about only 10 citizens is believed as the best strategy to win deity difficulty. The most important goal of this mod is to let you pay your attention back to the development of city population by encouraging Tall play. Now you will find that [COLOR_FLOAT_CULTURE] ‘population is everything’ [ENDCOLOR].</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
+          <Text>黄金时代同样强调城市规划的乐趣。当您把同种类型的元素摆放在一起（组成三角形或菱形时），您将会得到大量加成奖励。比如，隶属于不同城市的同一种区域相邻时，或将同一种区域围绕着对应的国家奇观摆放时，能给予您巨额区域相邻加成。又如，当您将矿山或伐木场改良设施建在一起时，能够获得大量生产力加成。甚至连相邻的森林、相邻的发电厂改良设施，都能给您带来额外产出。我很肯定您将会十分青睐全新的城市规划系统，繁荣的国际大都会少不了您对一草一木的精心规划！</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_PARA_2" Language="en_US">
+          <Text>GoldenAge also emphasizes the fun of urban planning. You will get super huge bonus when you put the same type of things together. For example, same districts from different cities (make a triangle or rhombus) will give you tremendous district adjacency bonus. You will also receive huge production bonus when you put mines or lumber mills together. I am pretty sure that you are going to love the new urban planning system. </Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN">
+          <Text>黄金时代的最终目的则是使游戏变得更加有趣。我们添加了大量的新元素，包括地域人文特性、史实辉煌与至暗时代、新魅力系统、友谊的礼物、世界大战、全面战争等等！总而言之，黄金时代是文明6社区难得一见持续坚持开发的大修模组，绝大部分游戏机制已被彻底革新。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_PARA_3" Language="en_US">
+          <Text>The last aim of GoldenAge is to make the game more interesting. This is accomplished by breaking the traditional way of gameplay and highlighting the characteristics of each civilization. Thus, all civilizations and leaders have been reworked. A lot of new mechanics and rules have been added, including Appeal system, Historical glorious and dark era, Regional and Cultural traits etc. </Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_PARA_4" Language="zh_Hans_CN">
+          <Text>游玩本模组时，您将获得全新的游戏体验。让我们用黄金时代建立起一个伟大的帝国吧！再来亿回合！</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_INTRODUCTION_CHAPTER_CONTENT_PARA_4" Language="en_US">
+          <Text>Overall, the game has been overhauled and you will have a whole new experience. Let’s build a great empire with GoldenAge~!!</Text>
+        </Replace>
+				
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BASE_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]城市与人口[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BASE_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]City and Population[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BASE_PARA_1" Language="zh_Hans_CN">
+          <Text>在黄金时代mod中，城市 [ICON_CITIZEN] 人口数量非常重要，而爆铺却会受到一定的限制。城市 [ICON_CITIZEN] 人口越多，城市产出越高。相反的，城市数量越多， [ICON_CITIZEN] 人口少的小城市的产出越低。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BASE_PARA_1" Language="en_US">
+          <Text>In GoldenAge, city [ICON_CITIZEN] population is very important, while madly expansion of new cities will get severe punishments. The more [ICON_CITIZEN] population in a city, the more yields you will have. On the contrary, the more cities you own, the less yields from undeveloped cities with low [ICON_CITIZEN] population you will have.</Text>
+        </Replace>		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BONUS_TITLE" Language="zh_Hans_CN">
+          <Text>人口红利与惩罚</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BONUS_TITLE" Language="en_US">
+          <Text>Population Bonus and Punishment</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BONUS_PARA_1" Language="zh_Hans_CN">
+          <Text>人口红利：[NEWLINE][ICON_Bullet]城市中的每个 [ICON_Citizen] 公民带来+0.4 [ICON_SCIENCE] 科技值、 [ICON_Culture] 文化值和 [ICON_PRODUCTION] 生产力（原版游戏中分别为0.5,0.3,0）。[NEWLINE][ICON_Bullet]城市中每增加一个人口，每个 [ICON_Citizen] 公民带来的 [ICON_SCIENCE] 科技值，[ICON_Culture] 文化值和 [ICON_PRODUCTION] 生产力额外+0.01。 </Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BONUS_PARA_1" Language="en_US">
+          <Text>Population Bonus: [NEWLINE][ICON_Bullet]Each [ICON_Citizen] Citizen in this city provide 0.4 [ICON_SCIENCE] Science, [ICON_Culture] Culture, and [ICON_PRODUCTION] Production. (which was 0.5, 0.3, and 0 in the base game)[NEWLINE][ICON_Bullet]+0.01 extra [ICON_SCIENCE] Science, [ICON_Culture] Culture, and [ICON_PRODUCTION] Production for per [ICON_Citizen] citizen when the population is increased by 1.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BONUS_PARA_2" Language="zh_Hans_CN">
+          <Text>然而，随着人口的增长，城市需要更多的[ICON_Amenities]宜居度（来自城市设施）和[ICON_PowerInsufficient] 电力（来自杂项耗电）来满足日常需求。[NEWLINE][ICON_Bullet]如果 [ICON_Citizen] 人口不少于10，则-1[ICON_Amenities] 宜居度，[ICON_PowerInsufficient] 电力负荷 +1；[NEWLINE][ICON_Bullet]如果 [ICON_Citizen] 人口不少于20，则-2[ICON_Amenities] 宜居度，[ICON_PowerInsufficient] 电力负荷 +2；[NEWLINE][ICON_Bullet]如果 [ICON_Citizen] 人口不少于30，则-3[ICON_Amenities] 宜居度，[ICON_PowerInsufficient] 电力负荷 +3；[NEWLINE][ICON_Bullet]以此类推。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BONUS_PARA_2" Language="en_US">
+          <Text>However, with the growth of population, city will need additional [ICON_Amenities] Amenities (from City Facilities) and additional [ICON_PowerInsufficient] Power (from Miscellaneous) to meet the everyday demand. [NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is not less than 10, -1 [ICON_Amenities] Amenities, [ICON_PowerInsufficient] Power Load +1;[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is not less than 20, -2 [ICON_Amenities] Amenities, [ICON_PowerInsufficient] Power Load +2;[NEWLINE][ICON_Bullet]If [ICON_Citizen] Population is not less than 30, -3 [ICON_Amenities] Amenities, [ICON_PowerInsufficient] Power Load +3;[NEWLINE][ICON_Bullet]And so on.</Text>
+        </Replace>	
+        <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BONUS_PARA_3" Language="zh_Hans_CN">
+          <Text>在游戏后期，[ICON_PowerInsufficient] 电量不足的城市会受到 [ICON_Amenities] 宜居度惩罚：[NEWLINE][ICON_Bullet]处于现代时，-1 [ICON_Amenities]宜居度；[NEWLINE][ICON_Bullet]处于原子能时代时，-2 [ICON_Amenities]宜居度；[NEWLINE][ICON_Bullet]处于信息时代时，-3 [ICON_Amenities]宜居度；[NEWLINE][ICON_Bullet]处于未来时代时，-4 [ICON_Amenities]宜居度。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_BONUS_PARA_3" Language="en_US">
+          <Text>In the late game, city with [ICON_PowerInsufficient] insufficient power will receive a punishment on [ICON_Amenities] Amenities: [NEWLINE][ICON_Bullet]-1 [ICON_Amenities] Amenities when game era is Modern era; [NEWLINE][ICON_Bullet]-2 [ICON_Amenities] Amenities when game era is Atomic era; [NEWLINE][ICON_Bullet]-3 [ICON_Amenities] Amenities when game era is Information era; [NEWLINE][ICON_Bullet]-4 [ICON_Amenities] Amenities when game era is Future era.</Text>
+        </Replace>				
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_GUILDHALL_TITLE" Language="zh_Hans_CN">
+          <Text>市政厅与城市扩建</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_GUILDHALL_TITLE" Language="en_US">
+          <Text>Guildhall and Urban Expansion</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_GUILDHALL_PARA_1" Language="zh_Hans_CN">
+          <Text>建立新城市时获得一个免费的新建筑——市政厅（村庄）。当你研究特定的市政之后，可以通过城市扩建项目将市政厅升级至更高级别。完成城市扩建项目后，你还将会获得额外的 [ICON_Housing] 住房。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_GUILDHALL_PARA_1" Language="en_US">
+          <Text>All cities will receive a free new building – Guildhall (Village) once they are established. Guildhall can be upgraded to higher level once you complete the new urban expansion projects which unlock at certain civics. Once you complete the urban expansion projects, you will also receive extra [ICON_Housing] housing.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_GUILDHALL_PARA_2" Language="zh_Hans_CN">
+          <Text>市政厅有三个功能：[NEWLINE][ICON_Bullet] 城市中的每个[ICON_CITIZEN] 公民将提供 [ICON_Science] 科技值、[ICON_Culture] 文化值和 [ICON_Production] 生产力，这些加成会随着市政厅等级的提高而增加。[NEWLINE][ICON_Bullet] 如果城市达到了要求的 [ICON_CITIZEN] 人口数量，则减轻爆铺惩罚。最高等级的市政厅将彻底免除爆铺惩罚。[NEWLINE][ICON_Bullet] 向附近友方城市释放 [ICON_PressureUp] 忠诚度压力，并向其他文明城市释放 [ICON_PressureDown] 忠诚度压力，这也会随着市政厅等级的提高而增加。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_GUILDHALL_PARA_2" Language="en_US">
+          <Text>Guildhall has three functions: [NEWLINE][ICON_Bullet] Provides [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production for per [ICON_CITIZEN] citizen, which will increase with Guildhall level.[NEWLINE][ICON_Bullet] Reduces the degree of Crazy-Expansion Punishment you experienced, if city has reached the required [ICON_CITIZEN] population. Crazy-Expansion Punishment will be waived in the highest level of Guildhall.[NEWLINE][ICON_Bullet] Exports [ICON_PressureUp] Loyalty pressure to your cities nearby, as well as [ICON_PressureDown] Loyalty pressure to cities from other civilizations nearby, which will also increase with Guildhall level.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_GUILDHALL_PARA_3" Language="zh_Hans_CN">
+          <Text>市政厅的升级树为：村庄 – 小镇 – 郡县 – 城市 – 大都会。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_GUILDHALL_PARA_3" Language="en_US">
+          <Text>The upgrade tree for Guildhall is: Village – Town – County – City – Metropolis.</Text>
+        </Replace>	
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_PUNISHMENT_TITLE" Language="zh_Hans_CN">
+          <Text>爆铺惩罚</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_PUNISHMENT_TITLE" Language="en_US">
+          <Text>Crazy-Expansion Penalty</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_PUNISHMENT_PARA_1" Language="zh_Hans_CN">
+          <Text>爆铺惩罚：所有城市的[ICON_Science] 科技值、[ICON_Culture] 文化值、[ICON_Gold] 金币及 [ICON_Faith] 信仰值产出[COLOR_RED]-4%* （您文明的城市总数量）[ENDCOLOR]。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_PUNISHMENT_PARA_1" Language="en_US">
+          <Text>Crazy-Expansion penalty: [COLOR_RED]-4%* (total number of cities in your civilization)[ENDCOLOR] yields for [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold and [ICON_Faith] Faith for all cities.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_PUNISHMENT_PARA_2" Language="zh_Hans_CN">
+          <Text>城市人口达到一定数量以及拥有相应等级的市政厅后，爆铺惩罚可得以减轻，每座城市单独计算：[NEWLINE][ICON_Bullet]若城市 [ICON_CITIZEN] 人口不少于10且拥有市政厅（小镇），惩罚减轻至3%*（城市数量）；[NEWLINE][ICON_Bullet]若城市 [ICON_CITIZEN] 人口不少于20且拥有市政厅（郡县），惩罚减轻至2%*（城市数量）；[NEWLINE][ICON_Bullet]若城市 [ICON_CITIZEN] 人口不少于30且拥有市政厅（城市），惩罚减轻至1%*（城市数量）；[NEWLINE][ICON_Bullet]若城市 [ICON_CITIZEN] 人口不少于40且拥有市政厅（大都会），则彻底免除爆铺惩罚！</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_PUNISHMENT_PARA_2" Language="en_US">
+          <Text>The Crazy-Expansion penalty can be mitigated when city reach certain population and has corresponding level of Guildhall, each city is counted individually: [NEWLINE][ICON_Bullet]-3%*(city number) when city has no less than 10 [ICON_CITIZEN] citizens and has Guildhall-Town; [NEWLINE][ICON_Bullet]-2%*(city number) when city has no less than 20 [ICON_CITIZEN] citizens and has Guildhall-County; [NEWLINE][ICON_Bullet]-1%*(city number) when city has no less than 30 [ICON_CITIZEN] citizens and has Guildhall-City; [NEWLINE][ICON_Bullet]Waive the penalty when city has no less than 40 [ICON_CITIZEN] citizens and has Guildhall-Megalopolis!</Text>
+        </Replace>		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_OTHER_TITLE" Language="zh_Hans_CN">
+          <Text>其他城市相关改动</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_OTHER_TITLE" Language="en_US">
+          <Text>Other Related Changes</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_OTHER_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 城市单元格可以有两个 [ICON_Citizen] 公民工作。[NEWLINE]b) 每点[ICON_Amenities]宜居度可以维持的人口由2上调为3。[NEWLINE]c) 上调 [ICON_Housing] 住房对人口增长的局限性。城市人口达到 [ICON_Housing] 住房数量即停止人口增长。[NEWLINE]d) 市中心所处单元格的最低基本产出调整为2 [ICON_Food] 食物 2 [ICON_Production] 生产力，每过一个时代则额外+1 [ICON_Food] 食物+1 [ICON_Production] 生产力。[NEWLINE]e) 新增6种[ICON_Amenities]宜居度状态，最低与最高的[ICON_Amenities]宜居度状态的[ICON_Amenities]宜居度跨度加大至-11~11。[NEWLINE]f) 每拥有一座城市，下一次进入 [ICON_Glory_Golden_Age] 黄金时代所需的时代得分便增加4点。[NEWLINE]g) 随着时代的进步，新城市获得更多初始人口和起始单元格。[NEWLINE]h) 来自城市人口数量的忠诚度压力上限由20上调为30。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPOPULATION_CHAPTER_OTHER_PARA_1" Language="en_US">
+          <Text>a) City tile allows two [ICON_Citizen] citizens working on it together.[NEWLINE]b) The number of populations needed for 1 point of [ICON_Amenities] amenity is increased from 2 to 3.[NEWLINE]c) Increase the role of [ICON_Housing] housing in limiting city growth. City population stop growing if it exceeds [ICON_Housing] housing.[NEWLINE]d) Adjust the minium base yield of a city center tile to 2 [ICON_Food] food and 2 [ICON_Production] production. Additionally, +1 [ICON_Food] food and 1 [ICON_Production] production per era.[NEWLINE]e) 6 new happinesses status. Increase the [ICON_Amenities] amenity span (-11~11) between the lowest and the highest happinesses status.[NEWLINE]f) +4 era scores threshold to enter next [ICON_Glory_Golden_Age] golden age for each city you own.[NEWLINE]g) New cities start with more population and tiles with the progression of game era.[NEWLINE]h) Increase the upper limit of loyalty pressure from nearby cities' citizens from 20 to 30. </Text>
+        </Replace>		
+				
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_BASE_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]城市规划[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_BASE_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]City planning[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_BASE_PARA_1" Language="zh_Hans_CN">
+          <Text>详细资料请前往文明百科标签“区域”和“改良设施”查看。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_BASE_PARA_1" Language="en_US">
+          <Text>More detailed information can be found in the Districts and Improvements tags of Civilopedia.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_DISTRICTS_TITLE" Language="zh_Hans_CN">
+          <Text>区域</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_DISTRICTS_TITLE" Language="en_US">
+          <Text>Districts</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_DISTRICTS_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 城市中每有4个 [ICON_Citizen] 人口才能建造更多的专业化区域。而非专业化区域（如市政广场和外交区）不再有 [ICON_Citizen] 人口要求。 [NEWLINE]b) 军营和军营建筑现在不再提供 [ICON_Production] 生产力，而是改为提供 [ICON_Housing] 住房。军营和娱乐中心根据区域相邻条件提供 [ICON_Housing] 住房和 [ICON_Amenities] 宜居度。[NEWLINE]c) 不能在市中心周围建造工业区。 [NEWLINE]d) 堤坝和运河也能像水渠一样，从河流、湖泊、绿洲、山脉引水，为城市提供淡水。如果城市已经拥有了淡水，它们会额外提供+3 [ICON_Housing] 住房。 [NEWLINE]e) 除 [ICON_Housing] 住房外，水渠、下水道和社区也能提供额外的城市人口增长速度。 [NEWLINE]f) 水渠能为城市中的农场提供额外的 [ICON_Food] 食物；堤坝能为相邻的单元格提供额外的 [ICON_Production] 生产力和 [ICON_Food] 食物；运河能为相邻的单元格提供额外的 [ICON_Gold] 金币。[NEWLINE]g) 港口也获得区域防御（远程攻击）的效果，但港口和军营的远程攻击范围下调为1。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_DISTRICTS_PARA_1" Language="en_US">
+          <Text>a) Require each 4 [ICON_Citizen] citizens in a city to build more Specialty districts (was 3), while non-specialty districts such as Government and Diplomatic quarter no longer have [ICON_Citizen] population requirement. [NEWLINE]b) Encampment and its buildings are now focus on [ICON_Housing] housing, but no longer provide [ICON_Production] production yield. Encampment and Entertainment Complex provide [ICON_Housing] housing and [ICON_Amenities] amenities based on their adjacency. [NEWLINE]c) Can’t build Industrial Zone near city center. [NEWLINE]d) Dam and Canal also provide fresh water (with a source of fresh water from an adjacent River, Lake, Oasis, or Mountain) like Aqueduct. If the city already has fresh water, +3 extra [ICON_Housing] housing instead. [NEWLINE]e) Aqueduct, Sewer, and Neighborhood provide extra city growth rate in addition to [ICON_Housing] housing. [NEWLINE]f) Aqueduct provides extra  [ICON_Food] food for farms in the city; Dam provides extra  [ICON_Food] food and [ICON_Production] production for adjacent tiles; Canal provides extra [ICON_Gold] gold for adjacent tiles. [NEWLINE]g) Add defense (range attack) for Harbor. The attack range of Encampment and Harbor are reduced to 1.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_DISTRICT_ADJACENCY_TITLE" Language="zh_Hans_CN">
+          <Text>区域相邻加成</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_DISTRICT_ADJACENCY_TITLE" Language="en_US">
+          <Text>Districts Adjacency Bonus</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_DISTRICT_ADJACENCY_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 市中心像市政广场一样，能为周围区域提供标准相邻加成。 [NEWLINE]b) 一些初始相邻加成被移除，但随着科技和市政的发展，可以解锁更多的相邻加成。 [NEWLINE]c) 相同类型的特色区域（来自不同的城市）相邻时将会有非常多的相邻加成！（请规划和设计好你的城市群！）</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_DISTRICT_ADJACENCY_PARA_1" Language="en_US">
+          <Text>a) City center has the standard district adjacency yield as government. [NEWLINE]b) Some initial adjacency bonuses are removed. Require the development of techs and civics to unlock more adjacency bonuses. [NEWLINE]c) If the same type of districts (from different cities) are adjacent to each other, there will be tremendous adjacency bonuses! (Plan and design your city!)</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_IMPROVEMENTS_TITLE" Language="zh_Hans_CN">
+          <Text>改良设施</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_IMPROVEMENTS_TITLE" Language="en_US">
+          <Text>Improvements</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_IMPROVEMENTS_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 改良设施随着科技与文化的进步获得更多产出。[NEWLINE]b) 农场/渔船/牧场/猎场/种植园提供的 [ICON_Housing] 住房改为+1。[NEWLINE]c) 渔场和市立公园改为通用改良设施，由特定科技或市政解锁，不再需要总督梁。[NEWLINE]d) 堡垒类改良设施增加移动力限制。[NEWLINE]e) 相同类型的改良设施相邻时将会有非常多的相邻加成！[NEWLINE]f) 国家公园产出等同于其 [ICON_Tourism] 旅游业绩的 [ICON_GOLD] 金币。[NEWLINE]g) 获得有其他文明特色改良设施的地块时不会自动移除该改良设施。[NEWLINE]h) 即使科技进步了，依然无法在丘陵上修建农场。[NEWLINE]i) 资源培育模式中，农场和矿山只能在资源或地貌上修建。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_IMPROVEMENTS_PARA_1" Language="en_US">
+          <Text>a) Improvements yields increase with the development of technologies and civics.[NEWLINE]b) Farm/Fishing boats/Pasture/Camp/Plantation provides +1 [ICON_Housing] housing instead of +0.5.[NEWLINE]c) Fishery and City Park become common improvements and are available after unlocking related tech and civic.[NEWLINE]d) Add movement limit to all kinds of fort.[NEWLINE]e) If the same type of improvements are adjacent to each other, there will be tremendous bonuses in their yields! [NEWLINE]f) National Parks will yield [ICON_GOLD] Gold equal to their [ICON_Tourism] Tourism output.[NEWLINE]g) Acquisition of a tile with unique improvements will no longer automatically remove them. [NEWLINE]h) Can no longer build Farm on Hills even with the progression of technologies. [NEWLINE]i) Under Resource Cultivation mode, farms and mines can only be build on tiles with resource or feature.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_ROUTES_TITLE" Language="zh_Hans_CN">
+          <Text>道路</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_ROUTES_TITLE" Language="en_US">
+          <Text>Routes</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_ROUTES_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 改良地块后会自动生成道路。[NEWLINE]b) 军事工程师无需消耗使用次数即可修建道路。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYPLANNING_CHAPTER_ROUTES_PARA_1" Language="en_US">
+          <Text>a) Roads will be built automatically when you improve a tile. [NEWLINE]b) Military engineer can build road without using any charge.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_BASE_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]城市建设[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_BASE_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]City development[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_BASE_PARA_1" Language="zh_Hans_CN">
+          <Text>详细资料请前往文明百科标签“建筑”和“奇观和项目”查看。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_BASE_PARA_1" Language="en_US">
+          <Text>More detailed information can be found in the Buildings and Wonders and Projects tags of Civilopedia.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_BUILDINGS_TITLE" Language="zh_Hans_CN">
+          <Text>建筑</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_BUILDINGS_TITLE" Language="en_US">
+          <Text>Buildings</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_BUILDINGS_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 特色区域的1、2级建筑在供电充足时也能提供额外收益。 [NEWLINE]b) （水上）娱乐区的建筑提供了更多的宜居度和更多的旅游业绩。 [NEWLINE]c) 当城市 [ICON_Citizen] 人口数量到达特定水平时，银行和证券交易所能提供额外的贸易路线。 [NEWLINE]d) 学院、剧院广场、商业中心建筑也拥有为一定范围内的市中心提供加成的效果，像工业区的工厂一样。 [NEWLINE]e) 新增学院、剧院广场、工业区的第四级建筑。 [NEWLINE]f) 调整建筑和区域(项目)的建造和维护费用。[NEWLINE]g) 大大降低核事故发生的概率，核电站变得更加安全。[NEWLINE]h) 各级城墙只增加城市血量，移除城墙的防御力加成。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_BUILDINGS_PARA_1" Language="en_US">
+          <Text>a) Tier 1 and tier 2 buildings in specialty districts also provide extra yields when city is powered. [NEWLINE]b) Buildings in (water) entertainment district provide more amenities and more tourism. [NEWLINE]c) Bank and Stock-Exchange provide extra trade route when city [ICON_Citizen] population reaches specific level. [NEWLINE]d) Buildings in Campus, Theater, and Commercial Hub have regional effect like factory. [NEWLINE]e) New Tier 4 buildings for campus, theater, and industrial zone. [NEWLINE]f) Tweak the cost and maintenance of Buildings and Districts (projects). [NEWLINE]g) Nuclear accidents are much less likely to occur. [NEWLINE]h) Walls only increase city hitpoint. Remove defense strength from all levels of walls.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_PROJECTS_TITLE" Language="zh_Hans_CN">
+          <Text>项目</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_PROJECTS_TITLE" Language="en_US">
+          <Text>Projects</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_PROJECTS_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 新增将战略资源转化为 [ICON_Gold] 金币的项目，以避免冗余的战略资源。[NEWLINE]b) 迁都改为全文明通用项目，由“行政部门”市政解锁。[NEWLINE]c) 无需气候协议紧急事件，在研究特定市政后即可解锁移除燃煤发电厂、燃油发电厂和核电站的项目。[NEWLINE]d) 新增多种航天项目。[NEWLINE]e) 新增多种大规模杀伤性武器项目。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_PROJECTS_PARA_1" Language="en_US">
+          <Text>a) New projects that can convert redundant strategic resources into [ICON_Gold] gold.[NEWLINE]b) Requires Spaceport district to conduct all 4 nuclear projects.[NEWLINE]c) Power Plants running on Coal, Oil, or Uranium can be decommissioned at any time after unlocking certain civics without a congress agreement. [NEWLINE]d) Add new space race projects.[NEWLINE]e) Add new WMD projects.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_SPECIALISTS_TITLE" Language="zh_Hans_CN">
+          <Text>专家</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_SPECIALISTS_TITLE" Language="en_US">
+          <Text>Specialists</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_SPECIALISTS_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 专家提供2点对应的伟人点数!但同时上调了招募伟人的费用。[NEWLINE]b) 专业区域的建筑会增加每个专家提供的产出。[NEWLINE]c) 为军营和(水上)娱乐区增加专家槽位。由于不会产出伟人点数，娱乐中心的专家拥有更高的产出。[NEWLINE]d) 专业区域的地基也提供一个专家槽位。[NEWLINE]e) 专家额外消耗1点 [ICON_Food] 食物。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_SPECIALISTS_PARA_1" Language="en_US">
+          <Text>a) Specialists provide 2 corresponding great person points! But the cost of great person is increased. [NEWLINE]b) Buildings in specialty districts provide more yields for each specialist. [NEWLINE]c) Add specialist slots for Encampment and (Water) Entertainment district. Specialists from (Water) Entertainment district provide more yields as they do not provide great person points. [NEWLINE]d) Base specialty districts also provide +1 citizen slot. [NEWLINE]e) Specialists require one more [ICON_Food] food.</Text>
+        </Replace>		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_WONDERS_TITLE" Language="zh_Hans_CN">
+          <Text>奇观</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_WONDERS_TITLE" Language="en_US">
+          <Text>Wonders</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_WONDERS_PARA_1" Language="zh_Hans_CN">
+          <Text>国家奇观:[NEWLINE][ICON_Bullet]以区域的形式存在，每种国家奇观每个文明只能建造一个，且不能与其他类型的国家奇观共存于同一城市。[NEWLINE][ICON_Bullet]国家奇观区域为对应专业区域提供超大量相邻加成。[NEWLINE][ICON_Bullet]国家奇观区域中的建筑也会带来大量产出，但其产出会随着你城市数量的增多而减少。[NEWLINE] [NEWLINE]世界奇观:[NEWLINE][ICON_Bullet]部分世界奇观已被重新设计，例如效果全国化等。[NEWLINE][ICON_Bullet]完成世界奇观会触发文化炸弹。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYDEVELOPMENT_CHAPTER_WONDERS_PARA_1" Language="en_US">
+          <Text>National Wonders:[NEWLINE][ICON_Bullet]National Wonders are shown in the form of specialty districts. Each type of National Wonders can be built only once in each civilization and can’t build in the same city with other type of National Wonders. [NEWLINE][ICON_Bullet]National Wonder Districts provide tremendous adjacency bonuses for corresponding specialty districts. [NEWLINE][ICON_Bullet]National Wonder Buildings also provide tremendous yield bonuses, but their yields will decrease with the increase of total number of city you own. [NEWLINE][NEWLINE]World Wonders:[NEWLINE][ICON_Bullet]Some are reworked such as adding nationwide effect. [NEWLINE][ICON_Bullet]Trigger a culture bomb when a world wonder is finished.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_BASE_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]社会人文[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_BASE_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]Humanities[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_GOVERNMENTS_TITLE" Language="zh_Hans_CN">
+          <Text>政体</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_GOVERNMENTS_TITLE" Language="en_US">
+          <Text>Governments</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_GOVERNMENTS_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 每个政体以不同形式提供城市所有类型产出。[NEWLINE]b) 每个政体有自己的缺点。[NEWLINE]c) 更多的政体专属政策。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_GOVERNMENTS_PARA_1" Language="en_US">
+          <Text>a) Each government provides all types of yields to cities in different ways.[NEWLINE]b) Each government has its own weakness. [NEWLINE]c) More government-specific policies.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_POLICIES_TITLE" Language="zh_Hans_CN">
+          <Text>政策</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_POLICIES_TITLE" Language="en_US">
+          <Text>Policies</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_POLICIES_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 贸易路线相关政策变为外交绿卡。[NEWLINE]b) 工业区港口区相关政策变为军事红卡。[NEWLINE]c) 将通配符政策转变为其他类型，如伟人相关政策和未来时代政策。[NEWLINE]d) 整体上平衡各政策的强度，以加大政策取舍的乐趣。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_POLICIES_PARA_1" Language="en_US">
+          <Text>a) Convert trade route related policies into diplomatic type.[NEWLINE]b) Convert industrial zone and harbor related policies into military type. [NEWLINE]c) Convert wildcard policies such as great persons related policies or future era policies into other types. [NEWLINE]d) Overall, balance the usefulness of all policies to increase the fun of choice making.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_POLICIES_PARA_2" Language="zh_Hans_CN">
+          <Text>详细：[NEWLINE]a) 新增所有区域类型及其区域建筑生产力加成的政策。[NEWLINE]b) 更好的政策升级系列（驻军政策、战略资源、单位经验值、城市防御等）。[NEWLINE]c) 优化区域相邻政策和建筑产出加成政策以呼应重视区域规划与人口发展的核心体验。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_POLICIES_PARA_2" Language="en_US">
+          <Text> Details: [NEWLINE]a) New production bonus policies for all districts and buildings in those districts.[NEWLINE]b) Better policies upgrade and obsolete series. (Strategic resources, city defense, units experience, garrison related etc.)[NEWLINE]c) Rework district adjacency policies and building yields bonus policies to fit the aim of GoldenAge (city planning and population development). </Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_BELIEFS_TITLE" Language="zh_Hans_CN">
+          <Text>信仰</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_BELIEFS_TITLE" Language="en_US">
+          <Text>Beliefs</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_BELIEFS_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 万神殿只产出信仰值，新增一些万神殿信仰。[NEWLINE]b) 合并一些弱的宗教信条，新增一些宗教信条。[NEWLINE]c) 创建宗教时的初始信条下调为1。[NEWLINE]d) 上调传教士和使者传播宗教的效率。[NEWLINE]e) 传教士改为由“神学”市政解锁，无需神社建筑。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_BELIEFS_PARA_1" Language="en_US">
+          <Text>a) Pantheons only yield faith, remove other types of yields and bonus. [NEWLINE]b) Combine some weak Religions and make them more powerful.[NEWLINE]c) New Pantheons beliefs and new Religions beliefs.[NEWLINE]c) Reduce initial beliefs of founding a religion to 1.[NEWLINE]d) Increase the religion spread efficiency of Missionaries and Apostles. [NEWLINE]e) Missionaries unlock at "Theology" civic instead of requiring a Shrine building.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_GOVERNORS_TITLE" Language="zh_Hans_CN">
+          <Text>总督</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_GOVERNORS_TITLE" Language="en_US">
+          <Text>Governors</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_GOVERNORS_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 技能树和技能大修。详细资料请前往文明百科标签“总督”查看。[NEWLINE]b) 总督部署时间减少至3回合。[NEWLINE]c) 上调最多可任命的总督数至9。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_HUMANITIES_CHAPTER_GOVERNORS_PARA_1" Language="en_US">
+          <Text>a) Promotion tree and promotions overhauled. More detailed information can be found in the Governors tag of Civilopedia.[NEWLINE]b) Shorten governor transition time to 3 turns. [NEWLINE]c) Increase the total number of established governor to 9.</Text>
+        </Replace>
+							
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_BASE_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]战争[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_BASE_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]Warfare[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_COUNTER_TITLE" Language="zh_Hans_CN">
+          <Text>兵种克制关系</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_COUNTER_TITLE" Language="en_US">
+          <Text>Strength and Weakness</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_COUNTER_PARA_1" Language="zh_Hans_CN">
+          <Text>远程类火力攻击城市或区域防御时-20 [ICON_Strength] 战斗力。[NEWLINE]轰炸类火力攻击单位时-20 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_COUNTER_PARA_1" Language="en_US">
+          <Text>-20 [ICON_Strength] Combat Strength when ranged firepower attacks a city or district defense. [NEWLINE]-20 [ICON_Strength] Combat Strength when bombard firepower attacks a land combat unit.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_COUNTER_PARA_2" Language="zh_Hans_CN">
+          <Text>远程单位对抗火力支援单位时+15 [ICON_Strength] 战斗力。[NEWLINE]火力支援单位对抗近战单位时+15 [ICON_Strength] 战斗力。[NEWLINE]近战单位对抗抗骑兵单位时+15 [ICON_Strength] 战斗力。[NEWLINE]抗骑兵单位对抗轻骑兵和重骑兵单位时+15 [ICON_Strength] 战斗力。[NEWLINE]轻骑兵单位对抗攻城单位时+15 [ICON_Strength] 战斗力。[NEWLINE]重骑兵单位对抗远程单位时+15 [ICON_Strength] 战斗力。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_COUNTER_PARA_2" Language="en_US">
+          <Text>+15 [ICON_Strength] Combat Strength for Ranged Units when vs. Fire Support Units.[NEWLINE]+15 [ICON_Strength] Combat Strength for Fire Support Units when vs. Melee Units.[NEWLINE]+15 [ICON_Strength] Combat Strength for Melee Units when vs. Anti Cavalry Units.[NEWLINE]+15 [ICON_Strength] Combat Strength for Anti Cavalry Units when vs. Heavy Cavalry and Light Cavalry Units. [NEWLINE]+15 [ICON_Strength] Combat Strength for Light Cavalry Units when vs. Siege Units.[NEWLINE]+15 [ICON_Strength] Combat Strength for Heavy Cavalry Units when vs. Ranged Units.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_COUNTER_PARA_3" Language="zh_Hans_CN">
+          <Text></Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_COUNTER_PARA_3" Language="en_US">
+          <Text></Text>
+        </Replace>
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN"> -->
+          <!-- <Text>[NEWLINE]补给供应系统：[NEWLINE]回合开始时，处于敌方文明领土内的区域上的战斗单位和宗教单位-3生命值，处于敌方文明领土内的其他无区域单元格上的战斗单位和宗教单位额外-2生命值。[NEWLINE]若与军事工程师，医疗兵，或补给车队位于同一单元格内则不会损失生命值。</Text> -->
+        <!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_CONTENT_PARA_3" Language="en_US"> -->
+          <!-- <Text>[NEWLINE]Attrition and Supply:[NEWLINE] At the beginning of your turn, -3 healths if Unit is on a district tile of enemy territory, -2 additional healths if Unit is on a non-district tile of enemy territory. If Unit is in the same tile with Military engineer, Medic, and Supply Convoy, no such health loss.</Text> -->
+        <!-- </Replace> -->
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_SIGHT_TITLE" Language="zh_Hans_CN">
+          <Text>单位视野</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_SIGHT_TITLE" Language="en_US">
+          <Text>Sight</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_SIGHT_PARA_1" Language="zh_Hans_CN">
+          <Text>所有近战单位、抗骑兵单位、远程单位、攻城单位的基础视野均下调为1。这些军事单位位于丘陵单元格上时，+1视野。[NEWLINE]除间谍以外的所有平民单位、除观测气球和无人机以外的所有支援单位在平坦地形上的视野也均下调为1。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_SIGHT_PARA_1" Language="en_US">
+          <Text>Base sight range of Melee units, Anti-Cavalry units, Siege units, and Ranged units was reduced to 1. These land combat units gain +1 sight when on hills. [NEWLINE]Sight range of Civilian units (except Spy) and Support units (except Observation balloon and Drone) was also reduced to 1 when they are on flat tile. </Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_PROMOTION_TITLE" Language="zh_Hans_CN">
+          <Text>单位晋升</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_PROMOTION_TITLE" Language="en_US">
+          <Text>Unit Promotion</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_PROMOTION_PARA_1" Language="zh_Hans_CN">
+          <Text>陆地战斗单位获得全新的晋升树!详细资料请前往文明百科标签“单位强化”查看。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_PROMOTION_PARA_1" Language="en_US">
+          <Text>Brand new unit promotion tree for land combat units! More detailed information can be found in the Unit Promotions tag of Civilopedia.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_OTHERS_TITLE" Language="zh_Hans_CN">
+          <Text>其它改动</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_OTHERS_TITLE" Language="en_US">
+          <Text>Others</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_OTHERS_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 所有战斗单位每回合都会消耗1点对应的战略资源维护费。[NEWLINE]b) 航空母舰改为像末日机甲一样通过解锁科技来获得晋升。[NEWLINE]c) 单位与野蛮人战斗最多可以升到3级（晋升2次）。[NEWLINE]d) 攻城塔可以升级为军事工程师，与军事工程师相邻的近战和抗骑兵单位可以对所有等级城墙造成全额伤害。[NEWLINE]e) 除了堤坝、运河和水渠，军事工程师还可以加速城墙和社区的建造进度。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_WARFARE_CHAPTER_OTHERS_PARA_1" Language="en_US">
+          <Text>a) All combat units require 1 point of corresponding strategic resource per turn as maintenance. [NEWLINE]b) Aircraft carrier now grant promotion by researching technologies like GDR.[NEWLINE]c) Units can get experience from barbarian until level 3 (2 promotions allowed).[NEWLINE]d) Siege tower can upgrade to Military Engineer. Friendly melee and anti-cavalry units adjacent to Military Engineer can do full damage to city defenses. [NEWLINE]e) Military Engineer can also boost the construction progress of Neighborhood and Walls.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_BASE_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]AI与外交[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_BASE_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]AI & Diplomacy[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_AI_TITLE" Language="zh_Hans_CN">
+          <Text>游戏难度</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_AI_TITLE" Language="en_US">
+          <Text>Game Difficulties</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_AI_PARA_1" Language="zh_Hans_CN">
+          <Text>[ICON_Bullet]大大增加不同难度等级之间的跨度，因此高难度非常具有挑战性。[NEWLINE][ICON_Bullet]公平开局！所有难度的AI均为单城开局且无额外战斗单位。[NEWLINE][ICON_Bullet]最低难度约等于原版的王子难度，五级难度约等于原版的神级难度，最高难度则十分困难。[NEWLINE][ICON_Bullet]游戏前期AI作弊较少，随着游戏时代的进步，AI将获得更多作弊，以确保游戏后期也充满挑战。[NEWLINE][ICON_Bullet]AI获得免费的战略资源以保证AI的兵种多样性。[NEWLINE][ICON_Bullet]AI获得额外的 [ICON_Housing] 住房、[ICON_Amenities] 宜居度、外交胜利点数、每回合系外行星探索光年、战斗单位 [ICON_Strength]  战斗力加成、战斗单位攻击区域防御时的 [ICON_Strength]  战斗力加成。[NEWLINE][ICON_Bullet]每个领袖都有自己喜欢的游戏胜利方式倾向，并会朝着这个方向发展。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_AI_PARA_1" Language="en_US">
+          <Text>[ICON_Bullet]Greatly increase the span between different difficulty levels.[NEWLINE][ICON_Bullet]Each leader has his/her preferred victory type and will develop in that direction.[NEWLINE][ICON_Bullet]Fair start! AI starts with one settler and no other starting units no matter what difficulty level is. [NEWLINE][ICON_Bullet]Settler here mataches Prince of the base game. King here match Deity of the base game.[NEWLINE][ICON_Bullet]AIs receive more cheat on their yields with the progress of game era.[NEWLINE][ICON_Bullet]AI gains free strategic resources to ensure the diversity of their arms.[NEWLINE][ICON_Bullet]AIs receive extra [ICON_Housing] housing, [ICON_Amenities] amenities, diplomatic victory points, exoplanet expedition progress/turn, [ICON_Strength] combat strength, and [ICON_Strength] combat strength when attacking districts.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_AI_PARA_2" Language="zh_Hans_CN">
+          <Text></Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_AI_PARA_2" Language="en_US">
+          <Text></Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_DIPLOMACY_TITLE" Language="zh_Hans_CN">
+          <Text>外交相关改动</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_DIPLOMACY_TITLE" Language="en_US">
+          <Text>Diplomacy</Text>
+        </Replace>
+        <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_DIPLOMACY_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 工业时代的世界会议即开始外交胜利议程（原为现代）。[NEWLINE]b) 谴责后3回合即可用战争借口宣战（原为5回合）。[NEWLINE]c) 诺贝尔奖通用化，无需瑞典。[NEWLINE]d) 下调第三方文明因其他文明对你的不满而产出的不满。[NEWLINE]e) 上调发起求援或紧急事件所需的外交支持费用。[NEWLINE]f) 灾难请求援助紧急事件的持续时间由30回合下调至10回合，冷却时间由30回合上调至60回合。[NEWLINE]g) 大大增加解放城邦、解放城市、复活玩家时的外交支持奖励！[NEWLINE]h)上调AI主动发出交易、宣友和停战协议的间隔回合数。[NEWLINE]i)上调文明间宣布友好、同盟、谴责的持续时间至40回合。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_DIPLOMACY_CHAPTER_DIPLOMACY_PARA_1" Language="en_US">
+          <Text>a) Diplomatic victory agenda begins in the industrial era instead of modern era.[NEWLINE]b) Nobel Prize in every game, even without Sweden.[NEWLINE]c) War can be declared on the pretext of war after 3 rounds of condemnation.[NEWLINE]d) Reduce third party grievances.[NEWLINE]e) Increase Favor cost for aid requests or emergencies. [NEWLINE]f) Reduce the duration of aid from disasters emergency to 10 turns from 30 turns, while increasing the cooldown of the aid request to 60 turns from 30 turns. [NEWLINE]g) Greatly increase the Favor bonus when you liberate a city state or player city, or relive a player.[NEWLINE]h) Increases cooldown turns for trade offers and peace offers from AI.[NEWLINE]i) Increse the duration of friendship, alliance, and denouncement from 30 to 40 turns.</Text>
+        </Replace>	
+			
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_BASE_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]上帝的杰作[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_BASE_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]The Works of God[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_BASE_PARA_1" Language="zh_Hans_CN">
+          <Text>详细资料请前往文明百科“地形和地貌”和“资源”标签查看。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_BASE_PARA_1" Language="en_US">
+          <Text>More detailed information can be found in the Terrains and Features and Resources tags of Civilopedia.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_TERRAINSFEATURES_TITLE" Language="zh_Hans_CN">
+          <Text>地形和地貌</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_TERRAINSFEATURES_TITLE" Language="en_US">
+          <Text>Terrains and Features</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_TERRAINSFEATURES_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 所有地形的初始产量为3。[NEWLINE]b) 所有地貌都可以在研究特定科技后移除。[NEWLINE]c) 冰现在可以通行，但移动费用很高。冰也可以为沿海城市提供淡水。[NEWLINE]d) 研究“工程”科技后才可以在泛滥平原上建造区域（会移除地貌），且可以派遣人口在山脉单元格工作。[NEWLINE]e) 研究“自然历史”市政后，您可以在不移除地貌的同时在树林和雨林上建造区域（工业区、军营、航空港、和宇航中心除外）。[NEWLINE]f) 下调移除地貌与收获资源的产出，但马格努斯就职时则相同于原版产出。[NEWLINE]g) 全新地貌：冻土泛滥平原，可以在冻土泛滥平原修建农场。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_TERRAINSFEATURES_PARA_1" Language="en_US">
+          <Text>a) All terrains have an initial yield of 3.[NEWLINE]b)	All features can be removed after researching specific tech.[NEWLINE]c) Ice is now passable, with high movement cost. Ice also provides fresh water. [NEWLINE]d) Allows building of Districts on Floodplain (will remove the feature) and citizen working on Mountains tiles after researching tech “Engineering”.[NEWLINE]e) Allows building of districts (except Industrial Zone, Encampment, Airport, Spaceport) on Forests and Jungles without removing them after unlocking Civic "Natural History". [NEWLINE]f) Reduced yields from remove feature and harvest resource, but yields are the same with base game when Magnus is established in a city. [NEWLINE]g) New Feature: Tundra Floodplain, you can build Farm on Tundra Floodplain.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_RESOURCES_TITLE" Language="zh_Hans_CN">
+          <Text>资源</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_RESOURCES_TITLE" Language="en_US">
+          <Text>Resources</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_RESOURCES_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 将所有资源的基本产量调整为1，且将随着你的技术与市政的发展而增加。[NEWLINE]b) 在所有类型的地形上您都可以找到战略资源。[NEWLINE]c) 研究“货币”科技后，可以收获奢侈品资源。研究显示对应战略资源的科技后，可以收获战略资源。历史古迹和海难遗址也是可以收获的。[NEWLINE]d) 战略资源即便没有改良，每回合也会获得1点，上调改良后的战略资源提取数量。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_RESOURCES_PARA_1" Language="en_US">
+          <Text>a) Adjust the base yield all resources to 1, which will increase with the development of your tech or civic. [NEWLINE]b) Strategic resources can be found on all types of terrains.[NEWLINE]c) After researching tech “Currency”, Luxury resources can be harvested. After researching techs or civics that reveal Strategic resources, as well as Antiquity Site and Shipwreck, they can also be harvested. [NEWLINE]d) You will receive 1 per turn for unimproved strategic resource in your territory. Increase the extraction rate for improved strategic resource.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_WONDERS_TITLE" Language="zh_Hans_CN">
+          <Text>自然奇观</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_WONDERS_TITLE" Language="en_US">
+          <Text>Natural Wonders</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_WONDERS_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 大大增加地图中自然奇观的数量。[NEWLINE]b) 将自身提供产出的自然奇观上调至8产出（有特效则为6），为相邻单元格提供产出的自然奇观上调为3产出（火山或有特效则为2）。[NEWLINE][NEWLINE]+ Terra Mirabilis：[NEWLINE]c) 全新的自然奇观。[NEWLINE]d) 自然奇观单元格被纳入领土时，获得额外的效果。[NEWLINE]e) 自然奇观为所有特色区域提供相应的标准相邻加成。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_WONDERS_PARA_1" Language="en_US">
+          <Text>a) More natural wonders on the map.[NEWLINE]b) Natural wonders that provide yields on their own tiles are increased to +8 yields. Natural wonders that provide yields to adjacent tiles are increased to +3 yields.[NEWLINE][NEWLINE]+ Terra Mirabilis：[NEWLINE]c) Brand new natural wonders.[NEWLINE]d) Each Natural Wonder now provides a unique effect for owning at least one of their tiles.[NEWLINE]e) Specialty districts will receive standard adjacency bonuses from being constructed next to a natural wonder. </Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_CLIMATE_TITLE" Language="zh_Hans_CN">
+          <Text>气候现象</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_CLIMATE_TITLE" Language="en_US">
+          <Text>Climate</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_CLIMATE_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 上调自然灾害对战斗单位、平民单位、城墙和市中心的破坏力。[NEWLINE]b) 自然灾害有可能增加所有类型的地块产出。[NEWLINE]c) 大型自然灾害会在最低级灾害设置中发生，小型自然灾害会在最高级灾害设置中发生。[NEWLINE]d) 大大上调气候变化所需的二氧化碳排放总量。[NEWLINE]e) 更多单元格会受到海平面上升的影响。[NEWLINE]f) 上调风暴类灾害的持续时间。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_CLIMATE_PARA_1" Language="en_US">
+          <Text>a) Increases natural disasters damage toward combat unit, civilian unit, wall, and city center.[NEWLINE]b) Natural disaster can provide additional plot yields of all types. [NEWLINE]c) Optimize the frequency of disasters in different disaster intensity settings. Devastating disasters may occur in even the lowest intensity setting. Minor disasters may occur in the highest setting as well.[NEWLINE]d) Increase the required carbon dioxide emissions to trigger climate change. [NEWLINE]e) More tiles will get flooded from Climate Change. [NEWLINE]f) Increase the duration of storm.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_MAP_TITLE" Language="zh_Hans_CN">
+          <Text>地图</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_MAP_TITLE" Language="en_US">
+          <Text>Map</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_MAP_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 所有地图的大陆数量+2。[NEWLINE]b) 加大盘古大陆、大陆、大陆与岛屿、小型大陆地图的陆地面积。[NEWLINE]c) 稍微缩小雪地地形的生成纬度，稍微加大冻土地形的生成纬度。[NEWLINE]d) 野蛮人营地和部落村庄不会在雪地上生成。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_NATURAL_CHAPTER_MAP_PARA_1" Language="en_US">
+          <Text>a) +2 continents for all maps.[NEWLINE]b) Increase land size of Pangaea, Continents, Continents_Islands, and Small_Continents maps.[NEWLINE]c) Sligtly reduce the latitude range of Snow terrains. Sligtly increase the latitude range of Tundra terrains.[NEWLINE]d) Barbarian camps and Tribes will no longer spawn on Snow terrains.</Text>
+        </Replace>
+	
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_BASE_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]游戏模式[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_BASE_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]Game Mode[ENDCOLOR]</Text>
+        </Replace>		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_APOCALYPSE_TITLE" Language="zh_Hans_CN">
+          <Text>天启模式</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_APOCALYPSE_TITLE" Language="en_US">
+          <Text>Apocalypse Mode</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_APOCALYPSE_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 预言家触发的灾难不再提供额外的地块产出。[NEWLINE]b) 预言家现在可以是一个像大法师或者女巫一样的魔法单位！他们制造的超大型史诗级灾害将彻底毁灭你的敌人！[NEWLINE][ICON_Bullet] [COLOR:ResScienceLabelCS] 魔鬼暴风雪[ENDCOLOR] 和 [COLOR_FLOAT_GOLD]邪恶沙尘暴 [ENDCOLOR]：召唤自然界的伟大力量摧毁他们所经过的一切，持续时间比一般的暴风雪和沙尘暴要长得多。警告:请注意它们那极度不可控的运动轨迹。[NEWLINE][ICON_Bullet] [COLOR:ResMilitaryLabelCS] 熔岩爆裂 [ENDCOLOR]: 牵引出炽热岩浆摧毁以一个火山为中心的2格范围内的一切。[NEWLINE][ICON_Bullet] [COLOR_LIGHTBLUE] 惊涛骇浪 [ENDCOLOR]: 释放狂怒的巨浪吞噬一条河流旁的所有建筑和生命。 [NEWLINE][ICON_Bullet] [COLOR:ResMilitaryLabelCS] 地狱火 [ENDCOLOR]: 在森林中召唤地狱之火，燃烧和恢复的时间都很长。火灾将迅速蔓延到附近的单元格，造成附近城市居民的损失![NEWLINE]c) 随机彗星打击造成了陨石坑减少为1(原来是4)。[NEWLINE]d) 撞击区使相邻单元格的地形产出翻倍。[NEWLINE]e) 在气候达到7级之前，依然可能会发生随机的彗星撞击(频率较低)。[NEWLINE]c) 一般自然灾害会在气候达到7级之后发生(频率更高)。 [NEWLINE]g) 减少随机彗星和以市中心为目标的彗星撞击的总体频率。 [NEWLINE]h) 太阳耀斑不再对区域和建筑造成影响。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_APOCALYPSE_PARA_1" Language="en_US">
+          <Text>a) Soothsayer triggered disasters no longer provide additional plot yields. [NEWLINE]b) Soothsayer now serves as a magic unit like wizard/witch! It can trigger ultra-devastating disasters to destroy your enemies. [NEWLINE][ICON_Bullet] [COLOR:ResScienceLabelCS]Devil Blizzard[ENDCOLOR] and [COLOR_FLOAT_GOLD]Evil Sandstorm[ENDCOLOR]: Much longer duration than regular Blizzard and Sandstorm, destroy everything they pass through. Warning: The track of storm is always tricky. [NEWLINE][ICON_Bullet] [COLOR:ResMilitaryLabelCS] Burst of Lava [ENDCOLOR]: Destroy everything within two tiles of a volcano. [NEWLINE][ICON_Bullet] [COLOR_LIGHTBLUE] Terrifying Waves [ENDCOLOR]: Destroy everything besides a river. [NEWLINE][ICON_Bullet] [COLOR:ResMilitaryLabelCS] Hells Fire [ENDCOLOR]: Trigger an inferno fire on woods that has a long duration of burning and recovery. The fire will rapidly spread to nearby tiles and cause citizen loss in nearby city! [NEWLINE]c) Hex of random comet strike is reduced to 1 (was 4). [NEWLINE]d) Meteor crater doubles terrain yields for adjacent plots. [NEWLINE]e) Random comet strike may occur (at a lower frequency) before climate reaches level 7. [NEWLINE]f) General natural disasters may occur (at a higher frequency) after climate reaches level 7. [NEWLINE]g) Reduces the overall frequency of both random and targeted comet strikes.[NEWLINE]h) Solar flare no longer causes demage to districts and buildings.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_SOCIETY_TITLE" Language="zh_Hans_CN">
+          <Text>秘密结社模式</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_SOCIETY_TITLE" Language="en_US">
+          <Text>Secret Societies Mode</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_SOCIETY_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 秘密总督晋升均提前一个时代解锁。[NEWLINE]b)炼金术会所和镀金宝库的基础属性调至与大学和银行相同，且无需前置科技。[NEWLINE]c) 黄金黎明协会的地脉只会在山脉地形上生成。[NEWLINE]d) 提高吸血鬼的移动力。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_SOCIETY_PARA_1" Language="en_US">
+          <Text>a) Promotions of secret governor unlock one era earlier. [NEWLINE]b) Match Alchemical Sciety and Gilded Vault to University and Bank, remove pre-required tech for these buildings. [NEWLINE]c) Leyline of Hermetic order society can only spawn on Mountains terrains. [NEWLINE]d) Increase Vampire movement.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_DYNAMIC_TITLE" Language="zh_Hans_CN">
+          <Text>动荡时代模式</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_DYNAMIC_TITLE" Language="en_US">
+          <Text>Dramatic Ages Mode</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_DYNAMIC_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 无论在什么难度下，玩家和AI因黑暗时代失去的城市数量均相同（损失约20%的城市）。[NEWLINE]b) 自由城市自身不会释放 [ICON_PressureDown] 忠诚度压力，会倒向 [ICON_PressureUp] 忠诚度压力更高的文明。[NEWLINE]c) 黄金时代和黑暗时代政策大修。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_DYNAMIC_PARA_1" Language="en_US">
+          <Text>a) No matter what difficulty setting is, player and AI lose an equal amount (about 20%) of cities in Dark Ages.[NEWLINE]b) Free Cities will not exert [ICON_PressureDown] pressure on other cities, whereas they will join nearby civilization that has higher [ICON_PressureUp] pressure.[NEWLINE]c) Overhaul Goldenage and Darkage policies.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_HEROES_TITLE" Language="zh_Hans_CN">
+          <Text>英雄与传奇模式</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_HEROES_TITLE" Language="en_US">
+          <Text>Heroes and Legends Mode</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_MONOPOLIES_TITLE" Language="zh_Hans_CN">
+          <Text>垄断与公司模式</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_MONOPOLIES_TITLE" Language="en_US">
+          <Text>Monopolies and Corporations Mode</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_MONOPOLIES_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 控制一种奢侈品资源的80%才能实现垄断。[NEWLINE]b) 新增专门用于创建行业和公司的投资人单位，只能用 [ICON_Gold] 金币购买。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_MONOPOLIES_PARA_1" Language="en_US">
+          <Text>a) Require 80% control of one luxury resource to achieve Monopoly bonuses.[NEWLINE]b) Add new Investor unit that can create Industry and Corporation. This unit can only be purchased by [ICON_Gold] gold.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_BARBARIAN_TITLE" Language="zh_Hans_CN">
+          <Text>蛮族氏族</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_BARBARIAN_TITLE" Language="en_US">
+          <Text>Barbarian Clans Mode</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_ZOMBIE_TITLE" Language="zh_Hans_CN">
+          <Text>丧尸之围模式</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_ZOMBIE_TITLE" Language="en_US">
+          <Text>Zombie Defense Mode</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_ZOMBIE_PARA_1" Language="zh_Hans_CN">
+          <Text>通过开启对应偏好开关，无需开启丧尸围城模式也可以修建防御性改良设施。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_MODE_CHAPTER_ZOMBIE_PARA_1" Language="en_US">
+          <Text>Add a game preferrence setting that allow you to play defensive improvements without Zombie mode.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_OTHER_CHAPTER_BASE_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]其它改动[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_OTHER_CHAPTER_BASE_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]Other Changes[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_OTHER_CHAPTER_BASE_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 巨作可以立刻转移；[NEWLINE]b) 增加世界奇观与巨作带来的旅游业绩。[NEWLINE]c) 更多的且奖励更好的部落村庄，流星雨相当于加强版的天降部落村庄。[NEWLINE]d) 时代着力点优化。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_OTHER_CHAPTER_BASE_PARA_1" Language="en_US">
+          <Text>a) Great works can be transferred immediately.[NEWLINE]b) More tourism from world wonders and great works.[NEWLINE]c) More and better Goody huts. Meteors give random bonuses like Goody Huts!. [NEWLINE]d) Optimize the points of strength in the new era.</Text>
+        </Replace>		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_OTHER_CHAPTER_PACE_TITLE" Language="zh_Hans_CN">
+          <Text>游戏节奏</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_OTHER_CHAPTER_PACE_TITLE" Language="en_US">
+          <Text>Pace of the game</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_OTHER_CHAPTER_PACE_PARA_1" Language="zh_Hans_CN">
+          <Text>a) 研究超前于当前时代的科技和市政时所需花费+66%，研究落后于当前时代的科技和市政时所需花费-33%。[NEWLINE]b) [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞的效果下调至30%，调整部分[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞。[NEWLINE]c) 科技与市政需要花费更多的科技值与文化值，倍率随着时代发展增加。[NEWLINE]d) 调整部分科技和市政的解锁顺序以实现更加合理的科技树与市政树，调整了部分单位/建筑/改良设施等解锁的科技或市政。[NEWLINE]e) 上调外交胜利所需点数。[NEWLINE]f) 优化游戏时间线（日历）与时代进程。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_OTHER_CHAPTER_PACE_PARA_1" Language="en_US">
+          <Text>a) +66% Science/Culture cost when the Tech/Civic under research is exceed current game era, -33% Science/Culture cost when the Tech/Civic under research is fall behind current era.[NEWLINE]b) [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration is decreased into 30%. Tweak some [ICON_TechBoosted] Eureka and [ICON_CivicBoosted] Inspiration.  [NEWLINE]c) More reasonable and smoother Technology tree and Civic tree. Tweak the tech or civic where some units/districts/buildings/improvements unlock. [NEWLINE]d) Multiply the cost of techs and civics per era due to the higher science and culture yields. [NEWLINE]e) Increase required diplomatic points for diplomatic victory. [NEWLINE]f) More accurate game time (calendar) and world eras.</Text>
+        </Replace>
+		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]环境保护模式[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]Environmental Conservation Mode[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
+          <Text>[NEWLINE]“魅力”是一种特殊的相邻加成，单元格的魅力值取决于其周围6个单元格的魅力影响，使用左下角的“魅力”滤镜即可查看魅力值。[NEWLINE]魅力值不仅仅影响社区的 [ICON_Housing] 住房加成，同时会通过国家公园，海滨度假区和滑雪场来影响 [ICON_Tourism] 旅游业绩系统。[NEWLINE]在黄金时代mod中，区域所在单元格的魅力值会影响城市的 [ICON_Housing] 住房和 [ICON_Amenities] 宜居度，这一项改动将让我们更加注重城市规划和环境保护。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_1" Language="en_US">
+          <Text>[NEWLINE]The term “Appeal” is used to describe a special form of adjacency bonus. [NEWLINE]Appeal will affect the [ICON_Housing] housing from Neighborhoods, and will affect the Culture Victory’s [ICON_Tourism] Tourism system through National Parks, Seaside Resorts, and Ski Resorts.[NEWLINE]In GoldenAge, appeal will also affect the [ICON_Housing] Housing and [ICON_Amenities] Amenities from districts, which will let us pay more attention on city planning and envrionmental conservation.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
+          <Text>[NEWLINE]区域的所在单元格的魅力值：[NEWLINE]惊艳的：+1 [ICON_Amenities] 宜居度（也+1 [ICON_Housing] 住房）[NEWLINE]迷人的：+1 [ICON_Housing] 住房[NEWLINE]无吸引力的：-1 [ICON_Housing] 住房[NEWLINE]令人厌恶的：-1 [ICON_Amenities] 宜居度（也-1 [ICON_Housing] 住房）</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_2" Language="en_US">
+          <Text>[NEWLINE]A district provides [ICON_Housing] Housing and [ICON_Amenities] Amenities based on the Appeal of the tile:[NEWLINE]Breathtaking: +1 [ICON_Amenities] Amenity (also +1 [ICON_Housing] Hosing).[NEWLINE]Charming: +1 [ICON_Housing] Hosing.[NEWLINE]Uninviting: -1 [ICON_Housing] Hosing.[NEWLINE]Disgusting: -1 [ICON_Amenities] Amenity (also -1 [ICON_Housing] Hosing).</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN">
+          <Text>[NEWLINE]单元格的魅力值：[NEWLINE]+2：每个相邻自然奇观[NEWLINE]+1：每个相邻世界奇观、圣地、剧院广场、娱乐中心、水上乐园、水渠、堤坝、运河[NEWLINE]+1：每个相邻山脉、树林、绿洲、地热裂缝、礁石、海岸、河流、湖泊、冰[NEWLINE]+1：每个相邻市立公园、海滨度假区和滑雪场</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_3" Language="en_US">
+          <Text>[NEWLINE]Appeal of a tile: [NEWLINE]+2: Each adjacent Natural Wonder.[NEWLINE]+1: Each adjacent World Wonder, Holy Site, Theater Square, (Water) Entertainment Complex, Aqueduct, Canal, and Dam.[NEWLINE]+1: Each adjacent Mountain, Coast, River, Lake, Woods, Oasis, Reef, Ice, and Geothermal Fissure.[NEWLINE]+1: Each adjacent City Park, Seaside Resorts, and Ski Resorts.  </Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_4" Language="zh_Hans_CN">
+          <Text>[NEWLINE]单元格的魅力值：[NEWLINE]-2：每个相邻航空港、宇航中心[NEWLINE]-2：每个相邻飞机跑道、导弹发射井、穿山隧道[NEWLINE]-1：每个相邻工业区、港口、军营、被掠夺的单元格[NEWLINE]-1：每个相邻雨林、沼泽、泛滥平原[NEWLINE]-1：每个相邻矿山、采石场、伐木场、堡垒、油井、海上石油钻机</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_4" Language="en_US">
+          <Text>[NEWLINE]Appeal of a tile: [NEWLINE]-2: Each adjacent Airport and Spaceport.[NEWLINE]-2: Each adjacent Airstrip, Missile Silo, and Mountain Tunnel.[NEWLINE]-1: Each adjacent Industrial Zone, Encampment, Harbor, and Pillaged tile.[NEWLINE]-1: Each adjacent Jungle, Marsh, Floodplain.[NEWLINE]-1: Each adjacent Mine, Quarry, Lumber mill, Fort, Oil Well, and Offshore Oil Rig.</Text>
+        </Replace>	
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
+          <Text>[NEWLINE]其它影响：[NEWLINE][ICON_Bullet]环境污染：工业区第三级建筑中的燃煤发电厂和燃油发电厂会带来环境污染，使本城所有单元格-1魅力值，核电站与可再生能源发电厂则不会带来环境污染。[NEWLINE][ICON_Bullet]解锁市政“保护地球”后，境内的雨林+1魅力，沼泽+2魅力。[NEWLINE][ICON_Bullet]国家奇观区域的魅力影响与其对应区域一致。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_APPEAL_CHAPTER_CONTENT_PARA_5" Language="en_US">
+          <Text>[NEWLINE]Others:[NEWLINE][ICON_Bullet]Environmental pollution: Coal Power Plant and Fossil Fuel Power Plant will cause environmental pollution, -1 appeal for all tiles in its city.[NEWLINE][ICON_Bullet]After unlocking civic 'Conservation', +1 appeal for jungles and +2 appeal for marshes that are on your territory.[NEWLINE][ICON_Bullet]The appeal effect of National Wonder districts is consistent with their corresponding district.</Text>
+        </Replace>		
+		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_RISE_FALL_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]史实时代模式[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_RISE_FALL_CHAPTER_CONTENT_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]Historical Era Mode[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_RISE_FALL_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
+          <Text>[NEWLINE]不同的文明将根据自己真实的历史，获得一个 [ICON_GLORY_GOLDEN_AGE] 辉煌时代和一个 [ICON_GLORY_DARK_AGE] 至暗时代。[NEWLINE][NEWLINE]与游戏时代的概念不同，[ICON_GLORY_GOLDEN_AGE] 辉煌时代使所有产出+15%，[ICON_GLORY_DARK_AGE] 至暗时代使所有产出-15%。这个特殊的时代特性是根据自己的科技树和市政树所在时代，而不是世界所处时代来判定的。开启 [ICON_GLORY_GOLDEN_AGE] 辉煌时代和 [ICON_GLORY_DARK_AGE] 至暗时代的条件为：同时拥有至少一个该时代的科技和市政。脱离该时代的条件则为：同时拥有至少一个下个时代的科技和市政。[NEWLINE][NEWLINE]这个系统可以让不同文明在玩法上出现很大的不同，举个例子，对 [ICON_GLORY_GOLDEN_AGE] 辉煌时代是中世纪的文明来说，游戏前期快速把科技和市政冲到中世纪是较好的策略。相反的，[ICON_GLORY_GOLDEN_AGE] 辉煌时代是远古时代的文明会考虑把所有远古时代的科技和市政点满，再进入古典时期。[NEWLINE][NEWLINE]玩家可以通过巧妙地调整科技和市政解锁的先后顺序，来更久地享受 [ICON_GLORY_GOLDEN_AGE] 辉煌时代加成，和更快地脱离 [ICON_GLORY_DARK_AGE] 至暗时代。这个新系统既可以让玩家深刻体会文明在真实历史上的迭起兴衰，又提高游戏了乐趣和玩法多样性！</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_RISE_FALL_CHAPTER_CONTENT_PARA_1" Language="en_US">
+          <Text>[NEWLINE]In this mod, each civilization has one [ICON_GLORY_GOLDEN_AGE] glorious era and [ICON_GLORY_DARK_AGE] dark era according to its true history. [NEWLINE][NEWLINE]Unlike game era in the base game, [ICON_GLORY_GOLDEN_AGE] glorious era provides +15% for all types of yields, while [ICON_GLORY_DARK_AGE] dark era -15% for all types of yields.[NEWLINE][NEWLINE]This special era is judged by your techs and civics on the technology and civic tree. The requirement for entering a [ICON_GLORY_GOLDEN_AGE] glorious era or [ICON_GLORY_DARK_AGE] dark era is to have at least one of the technologies and civics from that specific era. And the requirement for leaving such an Era is to have at least one of the technologies and civics from the next era. [NEWLINE][NEWLINE]For example, England has a [ICON_GLORY_GOLDEN_AGE] glorious industrial era and a [ICON_GLORY_DARK_AGE] dark medieval era. To get rid of the [ICON_GLORY_DARK_AGE] dark era earlier you can rush both your techs and civics to the renaissance era without finishing all of them. On the other hand, to enjoy the yields benefit longer from the [ICON_GLORY_GOLDEN_AGE] glorious industrial era, you can research all industrial techs and civics before unlocking any modern tech and civic. You can even research modern era techs while leaving the modern era civics untouched if your science yield is much higher than culture.[NEWLINE][NEWLINE]This new system will change the gameplay mode of each civilization. You can plan your tech and civic development to get longer bonuses in the [ICON_GLORY_GOLDEN_AGE] Glorious Era and also to shorten the terrible [ICON_GLORY_DARK_AGE] Dark Era, which is very interesting.</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_RISE_FALL_CHAPTER_CONTENT_PARA_2" Language="en_US">
+          <Text></Text>
+        </Replace>
+		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_REGION_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]地域人文风俗模式[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_REGION_CHAPTER_CONTENT_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]Regional Humanities and Customs Mode[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_REGION_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
+          <Text>[NEWLINE]除了文化炸弹、额外 [ICON_Housing] 住房与 [ICON_Faith] 信仰值购买外，地域人文特性还对单位人口忠诚度压力有一定影响：</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_REGION_CHAPTER_CONTENT_PARA_1" Language="en_US">
+          <Text>[NEWLINE]Not only culture bomb, extra [ICON_Housing] housing, and [ICON_Faith] faith purchase, Regional and Cultural traits also effect loyalty per citizen:</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_REGION_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
+          <Text>北美洲：有驻军的城市每个 [ICON_Citizen] 公民+0.2 [ICON_PressureUp] 忠诚度压力；无驻军的城市每个 [ICON_Citizen] 公民-0.2 [ICON_PressureDown] 忠诚度压力。[NEWLINE][NEWLINE]西亚：与其他文明交战时，您城市中每个 [ICON_Citizen] 公民+0.2 [ICON_PressureUp] 忠诚度压力；否则，您城市中每个 [ICON_Citizen] 公民-0.2 [ICON_PressureDown] 忠诚度压力。[NEWLINE][NEWLINE]拉丁美洲：没有驻军的城市每个 [ICON_Citizen] 公民+0.2 [ICON_PressureUp] 忠诚度压力；有驻军的城市每个 [ICON_Citizen] 公民-0.2 [ICON_PressureDown] 忠诚度压力。[NEWLINE][NEWLINE]东亚：位于原始 [ICON_Capital] 首都所在大陆的城市每个 [ICON_Citizen] 公民+0.2 [ICON_PressureUp] 忠诚度压力；海外城市每个 [ICON_Citizen] 公民-0.2 [ICON_PressureDown] 忠诚度压力。[NEWLINE][NEWLINE]东南亚与大洋洲：不与其他文明交战时，您城市中每个 [ICON_Citizen] 公民+0.2 [ICON_PressureUp] 忠诚度压力；否则，您城市中每个 [ICON_Citizen] 公民-0.2 [ICON_PressureDown] 忠诚度压力。[NEWLINE][NEWLINE]西欧北欧：不在原始 [ICON_Capital] 首都所在大陆的该城市每个 [ICON_Citizen] 公民+0.2 [ICON_PressureUp] 忠诚度压力；位于原始 [ICON_Capital] 首都所在大陆的城市每个 [ICON_Citizen] 公民-0.2 [ICON_PressureDown] 忠诚度压力。[NEWLINE][NEWLINE]中欧东欧：若您创立过 [ICON_Religion] 宗教，则您城市中每个 [ICON_Citizen] 公民+0.2 [ICON_PressureUp] 忠诚度压力；否则，您城市中每个 [ICON_Citizen] 公民-0.2 [ICON_PressureDown] 忠诚度压力。[NEWLINE][NEWLINE]地中海：有 [ICON_Governor] 总督就职的城市每个 [ICON_Citizen] 公民+0.2 [ICON_PressureUp] 忠诚度压力；而无 [ICON_Governor] 总督的城市每个 [ICON_Citizen] 公民-0.2 [ICON_PressureDown] 忠诚度压力。[NEWLINE][NEWLINE]非洲：文明处于 [ICON_Glory_Golden_Age] 黄金时代时，您城市中每个 [ICON_Citizen] 公民+0.2 [ICON_PressureUp] 忠诚度压力；而当文明处于 [ICON_Glory_Dark_Age]黑暗时代时，您城市中每个 [ICON_Citizen] 公民-0.2 [ICON_PressureDown] 忠诚度压力。</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_REGION_CHAPTER_CONTENT_PARA_2" Language="en_US">
+          <Text>North America: +0.2 [ICON_PressureUp] Loyalty pressure for each [ICON_Citizen] Citizen if this city has a garrison; Otherwise, -0.2 [ICON_PressureDown] Loyalty pressure for each [ICON_Citizen] Citizen in this city.[NEWLINE][NEWLINE]West Asia: +0.2 [ICON_PressureUp] Loyalty pressure for each [ICON_Citizen] Citizen in your cities if you are at war with other civilizations; Otherwise, -0.2 [ICON_PressureDown] Loyalty pressure for each [ICON_Citizen] Citizen in your cities.[NEWLINE][NEWLINE]Latin America: +0.2 [ICON_PressureUp] Loyalty pressure for each [ICON_Citizen] Citizen if this city has no garrison Otherwise, -0.2 [ICON_PressureDown] Loyalty pressure for each [ICON_Citizen] Citizen in this city.[NEWLINE][NEWLINE]East Asia：+0.2 [ICON_PressureUp] Loyalty pressure for each [ICON_Citizen] Citizen if this city is on your original [ICON_Capital] Capital's continent; Otherwise, -0.2 [ICON_PressureDown] Loyalty pressure for each [ICON_Citizen] Citizen in this city.[NEWLINE][NEWLINE]Southeast Asia and Oceania：+0.2 [ICON_PressureUp] Loyalty pressure for each [ICON_Citizen] Citizen in your cities if you are not at war with other civilizations; Otherwise, -0.2 [ICON_PressureDown] Loyalty pressure for each [ICON_Citizen] Citizen in your cities.[NEWLINE][NEWLINE]Western and Northern Europe: +0.2 [ICON_PressureUp] Loyalty pressure for each [ICON_Citizen] Citizen if this city is not on your original [ICON_Capital] Capital's continent; Otherwise, -0.2 [ICON_PressureDown] Loyalty pressure for each [ICON_Citizen] Citizen in this city.[NEWLINE][NEWLINE]Central and Eastern Europe: +0.2 [ICON_PressureUp] Loyalty pressure for each [ICON_Citizen] Citizen in your cities if you have found a [ICON_Religion] Religion; Otherwise, -0.2 [ICON_PressureDown] Loyalty pressure for each [ICON_Citizen] Citizen in your cities.[NEWLINE][NEWLINE]Mediterranean: +0.2 [ICON_PressureUp] Loyalty pressure for each [ICON_Citizen] Citizen in cities with an established [ICON_Governor] Governor; -0.2 [ICON_PressureDown] Loyalty pressure for each [ICON_Citizen] Citizen in cities without [ICON_Governor] Governor.[NEWLINE][NEWLINE]Africa: +0.2 [ICON_PressureUp] Loyalty pressure for each [ICON_Citizen] Citizen in your cities if your civilization is in a [ICON_Glory_Golden_Age] Golden Age; Or, -0.2 [ICON_PressureDown] Loyalty pressure for each [ICON_Citizen] Citizen in your cities if your civilization is in a [ICON_Glory_Dark_Age] Dark Age.</Text>
+        </Replace>	
+		
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+          <Text>[COLOR_FLOAT_GOLD]城邦[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_TITLE" Language="en_US">
+          <Text>[COLOR_FLOAT_GOLD]City State[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN">
+          <Text>[NEWLINE]a)城邦拥有跟AI文明相同的作弊加成。[NEWLINE]b)城邦开局便拥有城墙。[NEWLINE]c)增加第四级使者（10名 [ICON_Envoy] 使者）奖励：[NEWLINE]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_1" Language="en_US">
+          <Text>[NEWLINE]a) City-States receive cheat that mataches difficulty level. [NEWLINE]b) City-States have free wall in the beginning of the game.[NEWLINE]c) Add Tier 4 (10 [ICON_Envoy] envoys) Envoy bonus:[NEWLINE]</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
+          <Text>{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_2" Language="en_US">
+          <Text>{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_SCIENTIFIC_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN">
+          <Text>{LOC_MINOR_CIV_CULTURAL_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_3" Language="en_US">
+          <Text>{LOC_MINOR_CIV_CULTURAL_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_CULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_4" Language="zh_Hans_CN">
+          <Text>{LOC_MINOR_CIV_MILITARISTIC_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_4" Language="en_US">
+          <Text>{LOC_MINOR_CIV_MILITARISTIC_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_MILITARISTIC_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
+          <Text>{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_5" Language="en_US">
+          <Text>{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_INDUSTRIAL_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_6" Language="zh_Hans_CN">
+          <Text>{LOC_MINOR_CIV_TRADE_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_6" Language="en_US">
+          <Text>{LOC_MINOR_CIV_TRADE_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_TRADE_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_7" Language="zh_Hans_CN">
+          <Text>{LOC_MINOR_CIV_RELIGIOUS_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_7" Language="en_US">
+          <Text>{LOC_MINOR_CIV_RELIGIOUS_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_MINOR_CIV_RELIGIOUS_TRAIT_LARGEST_INFLUENCE_BONUS}</Text>
+        </Replace>
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_1" Language="zh_Hans_CN"> -->
+          <!-- <Text>[NEWLINE]以下内容需要额外订阅Mod-CIVITAS City-States Expanded支持。若没有订阅CSE，以下部分文本将无法显示。</Text> -->
+        <!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_1" Language="en_US"> -->
+          <!-- <Text>[NEWLINE]Note: Subscription of Mod-CIVITAS City-States Expanded is required to apply the following changes. Some instructions below may not be able to reveal without CSE.</Text> -->
+        <!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN"> -->
+          <!-- <Text>{LOC_CSE_AGRICULTURAL_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_CSE_AGRICULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_CSE_AGRICULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_CSE_AGRICULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS}</Text> -->
+        <!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_2" Language="en_US"> -->
+          <!-- <Text>{LOC_CSE_AGRICULTURAL_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_CSE_AGRICULTURAL_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_CSE_AGRICULTURAL_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_CSE_AGRICULTURAL_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_CSE_AGRICULTURAL_TRAIT_LARGEST_INFLUENCE_BONUS}</Text> -->
+        <!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN"> -->
+          <!-- <Text>{LOC_CSE_MARITIME_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_CSE_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_CSE_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_CSE_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_CSE_MARITIME_TRAIT_LARGEST_INFLUENCE_BONUS}</Text> -->
+        <!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_3" Language="en_US"> -->
+          <!-- <Text>{LOC_CSE_MARITIME_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_CSE_MARITIME_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_CSE_MARITIME_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_CSE_MARITIME_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_CSE_MARITIME_TRAIT_LARGEST_INFLUENCE_BONUS}</Text> -->
+        <!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_4" Language="zh_Hans_CN"> -->
+          <!-- <Text>{LOC_CSE_CONSULAR_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_CSE_CONSULAR_TRAIT_SMALL_INFLUENCE_BONUS_XP2}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_CSE_CONSULAR_TRAIT_MEDIUM_INFLUENCE_BONUS_XP2}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_CSE_CONSULAR_TRAIT_LARGE_INFLUENCE_BONUS_XP2}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_CSE_CONSULAR_TRAIT_LARGEST_INFLUENCE_BONUS_XP2}</Text> -->
+        <!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_4" Language="en_US"> -->
+          <!-- <Text>{LOC_CSE_CONSULAR_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_CSE_CONSULAR_TRAIT_SMALL_INFLUENCE_BONUS_XP2}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_CSE_CONSULAR_TRAIT_MEDIUM_INFLUENCE_BONUS_XP2}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_CSE_CONSULAR_TRAIT_LARGE_INFLUENCE_BONUS_XP2}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_CSE_CONSULAR_TRAIT_LARGEST_INFLUENCE_BONUS_XP2}</Text> -->
+        <!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN"> -->
+          <!-- <Text>{LOC_CSE_ENTERTAINMENT_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_CSE_ENTERTAINMENT_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_CSE_ENTERTAINMENT_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_CSE_ENTERTAINMENT_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_CSE_ENTERTAINMENT_TRAIT_LARGEST_INFLUENCE_BONUS}</Text> -->
+        <!-- </Replace> -->
+		<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_GOLDENAGE_CITYSTATE_CHAPTER_CONTENT_PARA_5" Language="en_US"> -->
+          <!-- <Text>{LOC_CSE_ENTERTAINMENT_TRAIT_NAME}[NEWLINE]{LOC_MINOR_CIV_SMALL_INFLUENCE_ENVOYS}{LOC_CSE_ENTERTAINMENT_TRAIT_SMALL_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_MEDIUM_INFLUENCE_ENVOYS}{LOC_CSE_ENTERTAINMENT_TRAIT_MEDIUM_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGE_INFLUENCE_ENVOYS}{LOC_CSE_ENTERTAINMENT_TRAIT_LARGE_INFLUENCE_BONUS}[NEWLINE]{LOC_MINOR_CIV_LARGEST_INFLUENCE_ENVOYS}{LOC_CSE_ENTERTAINMENT_TRAIT_LARGEST_INFLUENCE_BONUS}</Text> -->
+        <!-- </Replace> -->
+		
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
+      <Text>“雄伟壮丽”：每修建1座新特色区域则+1时代得分。在黄金时代开始时选择此着力点后，所有建造者+2 [ICON_Movement] 移动力。可用 [ICON_Faith] 信仰值购买平民单位。建造者使用次数+1。可在古典时代到文艺复兴时代之间选择。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_5" Language="en_US">
+      <Text>Monumentality: Gain +1 Era Score each time you construct a new specialty District. If chosen at the start of a Golden Age, +2 [ICON_Movement] Movement for all Builders. May purchase civilian units with [ICON_Faith] Faith. +1 builder charge. Classical through Renaissance Era.</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_8" Language="zh_Hans_CN">
+      <Text>“滚滚蒸汽”：每建造1座后工业时代的建筑+2时代得分。在黄金时代开始时选择此着力点后，工厂和发电厂对周围城市辐射的 [ICON_PRODUCTION] 生产力加成没有次数限制。可在工业时代到原子能时代之间选择。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_8" Language="en_US">
+      <Text>Heartbeat of Steam: Gain +2 Era Score  for each Industrial or later building constructed. If chosen at the start of a Golden Age, The bonus [ICON_Production] Production from fractory and power plant has no limit toward all cities. Industrial through Atomic Era.</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2" Language="zh_Hans_CN">
+      <Text>“自由探索”：每次触发 [ICON_TechBoosted] 尤里卡+1时代得分。建造以科技值为基础产出的建筑+1时代得分。在黄金时代开始时选择此着力点后，[ICON_TechBoosted]尤里卡额外提供10%科技开销。城市每拥有1处特色区域，则+1 [ICON_Science] 科技值。可在古典和中世纪时代中选择。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_2" Language="en_US">
+      <Text>Free Inquiry: Gain +1 Era Score each time you trigger a [ICON_TechBoosted] Eureka. +1 Era Score for constructing a building that provides Science as a base yield. If chosen at the start of a Golden Age, [ICON_TechBoosted] Eurekas provide an additional 10% of technology costs. Each city receives +1 [ICON_Science] Science for each specialty district. Classical and Medieval Era.</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_4" Language="zh_Hans_CN">
+      <Text>“布道者的远行”：首次使一座城市信奉您创立的宗教+2时代得分。在黄金时代开始时选择此着力点后，所有传教士、使徒和审判官+2 [ICON_Movement] 移动力。此外，新生产的这些单位则+2使用次数。购买传教士和使徒的费用减少20%。可在古典时代到文艺复兴时代之间选择。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_4" Language="en_US">
+      <Text>Exodus of the Evangelists: Gain +2 Era Score each time you convert a city to your founded Religion for the first time. If chosen at the start of a Golden Age, +2 [ICON_Movement] Movement for all Missionaries, Apostles, and Inquisitors. Additionally, newly trained ones get +2 Charges. Missionaries and Apostlesare 20% cheaper to purchase with [ICON_FAITH] Faith. Classical through Renaissance Era.</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_11" Language="zh_Hans_CN">
+      <Text>“愿你在此”：每发掘1件文物+1时代得分。在黄金时代开始时选择此着力点后，世界奇观产出的 [ICON_Tourism] 旅游业绩+100%。国家公园产出的 [ICON_Tourism] 旅游业绩+100%。可在原子能及之后的时代中选择。</Text>
+    </Replace>
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DEDICATIONS_CHAPTER_CONTENT_PARA_11" Language="en_US">
+      <Text>Wish You Were Here:  Gain +1 Era Score for each Artifact extracted. If chosen at the start of a Golden Age, +100% [ICON_Tourism] Tourism from World Wonders. +100% [ICON_Tourism] Tourism to all National Parks. Atomic and later eras.</Text>
+    </Replace>
+	
+	<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_4" Language="zh_Hans_CN"> -->
+      <!-- <Text>突袭战争：文明几乎可以随时发动突袭战争，但此举将导致大量不满。通常情况下会额外导致本时代正式战争100%的不满。在突袭战争中将敌方城市夷为平地将导致极高的不满。</Text> -->
+    <!-- </Replace> -->
+	<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_3" Language="zh_Hans_CN">
+      <Text>正式战争：谴责敌方并等待3回合后即可宣布正式战争，之后您与目标的外交画面中则会出现“正式战争”选项。发动正式战争将导致本时代标准的不满。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_5" Language="zh_Hans_CN">
+      <Text>圣战：研究“外交部门”市政后，如您的宗教与目标不同，则可宣布圣战。宣战之前必须先对目标进行谴责，然后等待3回合。圣战期间导致的不满为本时代标准的50%。如果希望将敌方城市夷为平地，圣战是一种外交代价较低的方式。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_7" Language="zh_Hans_CN">
+      <Text>收复战争：研究“外交部门”市政后，如某文明占领了您建立的城市，则可宣布收复战争。宣战之前必须先对目标进行谴责，然后等待3回合。该战争借口较为特殊，以此宣战不会导致不满。成功收复城市后，即使选择将城市夷为平地也不会导致不满。也许你不忍目睹这座满目疮痍的城市，那就做个无情的暴君，一把火烧掉它吧。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_8" Language="zh_Hans_CN">
+      <Text>保卫城邦战争：研究“外交部门”市政后，如果结盟城邦成为主要文明的战争目标，则可宣布卫国战争。宣战之前必须先对目标进行谴责，然后等待3回合。以此对目标宣战不会导致不满。但如果占领敌方城市，则会导致本时代正式战争的不满。在卫国战争期间将敌方城市夷为平地将使国际社会不再承认卫国战争的合法性，从而导致额外的不满。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_9" Language="zh_Hans_CN">
+      <Text>解放战争：研究“外交部门”市政后，如果友邦或同盟的城市被占领，则可宣布解放战争。宣战之前必须先对目标进行谴责，然后等待3回合。以此对目标宣战不会导致不满。但如果占领其他的敌方城市，则会导致等于本时代正式战争的不满；而如果将敌方城市夷为平地，则会导致即为严重的不满！以自由的名义焚毁城市会在世界其他文明中产生极其恶劣的外交影响，所以导致的不满也会极其高昂。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_10" Language="zh_Hans_CN">
+      <Text>殖民战争：研究完“民族主义”市政后，即可对落后2个科技的文明发动殖民战争。宣战之前必须先对目标进行谴责，然后等待3回合。使用此战争借口宣战和占领城市在本时代导致的不满将降低。但如若将敌方城市夷为平地，世界将不再相信“启蒙开化”这个所谓的理由，文明会获得本时代正式战争的全额不满。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_11" Language="zh_Hans_CN">
+      <Text>领土扩张战争：研究“动员”市政后，即可对文明宣布领土扩张战争。前提是目标文明在您2座城市的10个单元格范围内拥有2座城市。宣战之前必须先对目标进行谴责，然后等待3回合。用该战争借口宣战并占领城市所导致的正式战争不满将稍微降低。在此战争借口中将敌方城市夷为平地所导致的不满将降低。如果希望摧毁阻碍扩张路线的敌方城市，此战争借口将十分实用。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_13" Language="zh_Hans_CN">
+      <Text>报复战争：研究“帝国初期”市政后，如另一文明在过去30回合内曾背弃对您的承诺，则可宣布报复战争。宣战之前必须先对目标进行谴责，然后等待3回合。报复战争期间仅会导致当前时代50%的不满。因为即使敌人曾违背对您的承诺，也不能焚毁城市来泄愤。</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_14" Language="zh_Hans_CN">
+      <Text>意识形态战争：研究“意识形态”市政后，如目标拥有不同的第3级政体，则可宣布意识形态战争。宣战之前必须先对目标进行谴责，然后等待3回合。意识形态战争期间仅会导致当前时代50%的不满。</Text>
+    </Replace>
+	<!-- <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_4" Language="en_US"> -->
+      <!-- <Text>Surprise War: You can declare a Surprise War at almost any time, but doing so carries severe Grievance penalties, typically an additional 100% of the Grievance generated by actions during a Formal War. Razing cities during a Surprise War carries an especially grievous Grievance penalty.</Text> -->
+    <!-- </Replace> -->
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_3" Language="en_US">
+      <Text>Formal War: You may declare a Formal War after Denouncing an enemy and waiting for 3 turns, after which the Formal War option will be available to you in the diplomacy screen with your target. Formal War carries the current era's standard Grievance penalties.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_5" Language="en_US">
+      <Text>Holy War: You may declare a Holy War if your religion differs from that of your target, you've researched the Diplomatic Service Civic, and you've denounced your target and waited 3 turns. During a Holy War, only 50% of the current era's Grievance penalty applies. If you wish to raze enemy cities, Holy War is one of the least diplomatically costly ways to do so.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_7" Language="en_US">
+      <Text>Reconquest War: You may declare a Reconquest War if another civilization has captured a city that you founded, and have researched the Diplomatic Service Civic. You must Denounce your target and wait 3 turns before declaring war. This Casus Belli is unique in that it generates no additional Grievances against you. You may also choose to raze your reconquest city without penalty if you successfully capture it. Perhaps you cannot bear the sight of your retaken city? You're the implacable tyrant; do what you want.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_8" Language="en_US">
+      <Text>Protectorate War: You may declare a Protectorate War if one of your allied city-states is targeted for war by a major civilization, and if you have researched the Diplomatic Service Civic. You must denounce your target and wait 3 turns before declaring war. There is no Grievance penalty for declaring war on your target, but you will suffer the era's Grievance penalty equal to a Formal War if you capture an enemy city. Razing an enemy city during a Protectorate War carries an additional Grievance penalty, as the world does not recognize your Protectorate War as legitimating your land grab.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_9" Language="en_US">
+      <Text>Liberation War: You may declare a Liberation War if a friend or ally had cities conquered, and if you have researched the Diplomatic Service Civic. You must denounce your target and wait 3 turns before declaring war. There is no Grievance penalty for declaring war on your target. You will suffer the era's Grievance penalty equal to a Formal War if you capture another, different enemy city. If you raze an enemy city, you will suffer a very severe Grievance penalty! This is the most Grievance-costly action in the game, as burning cities in the name of freedom is particularly awful to the other civilizations in the world.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_10" Language="en_US">
+      <Text>Colonial War: You may declare a Colonial War against a civilization which is lagging behind you by 2 technologies, and you have researched the Nationalism Civic. You must denounce your target and wait 3 turns before declaring war. This Casus Belli has a reduced Grievance penalty for the era, both for declaring war and capturing cities. If you raze an enemy city, you will receive the full Grievance penalty for a Formal War of the era, as the world no longer buys your excuses about "bringing enlightenment" to your target.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_11" Language="en_US">
+      <Text>Territorial War: You may declare Territorial War against a civilization if you have researched the Mobilization Civic. The target must have 2 cities within 10 tiles of 2 of your cities. You must denounce your target and wait 3 turns. This Casus Belli reduces the era's Formal War Grievance penalty by a bit, both for the actions of declaring war and capturing cities. Razing cities carries a reduced penalty under this Casus Belli, making it useful if you wish to eliminate enemy cities in regions where you wish to expand.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_13" Language="en_US">
+      <Text>War of Retribution: You may declare a War of Retribution if you have researched the Early Empire Civic, and another civilization has broken a promise they made to you within the last 30 turns. You must denounce your target and wait 3 turns before declaring war. During a War of Retribution only 50% of the current era's Grievance penalty applies. Although an enemy may have broken his promise to you, this does not entitle you to burn his cities to the ground in revenge.</Text>
+    </Replace>
+    <Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_DIPLO_3_CHAPTER_CONTENT_PARA_14" Language="en_US">
+      <Text>Ideological War: You may declare an Ideological War if you research the Ideology Civic, and have a different Tier 3 government from your target. You must denounce your target and wait 3 turns. During an Ideological War only 50% of the current era's Grievance penalty applies.</Text>
+    </Replace>
+	</LocalizedText>	
+</GameData>

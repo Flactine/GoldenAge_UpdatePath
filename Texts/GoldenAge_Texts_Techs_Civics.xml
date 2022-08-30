@@ -1,0 +1,355 @@
+<GameData>
+    <LocalizedText>	
+	<!-- BOOST -->
+	<Replace Tag="LOC_BOOST_TRIGGER_BANKING" Language="zh_Hans_CN">
+      <Text>建造每种商业中心一级建筑各一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_BANKING" Language="en_US">
+      <Text>Build every type of Commercial Hub tier 1 building once.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_ECONOMICS" Language="zh_Hans_CN">
+      <Text>建造每种商业中心二级建筑各一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_ECONOMICS" Language="en_US">
+      <Text>Build every type of Commercial Hub tier 2 building once.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_PRINTING" Language="zh_Hans_CN">
+      <Text>建造每种剧院广场一级建筑各一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_PRINTING" Language="en_US">
+      <Text>Build every type of Theater tier 1 building once.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_RADIO" Language="zh_Hans_CN">
+      <Text>建造每种剧院广场二级建筑各一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_RADIO" Language="en_US">
+      <Text>Build every type of Theater tier 2 building once.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_SATELLITES" Language="zh_Hans_CN">
+      <Text>建造每种剧院广场三级建筑各一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_SATELLITES" Language="en_US">
+      <Text>Build every type of Theater tier 3 building once.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_EDUCATION" Language="zh_Hans_CN">
+      <Text>建造每种学院一级建筑各一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_EDUCATION" Language="en_US">
+      <Text>Build every type of Campus tier 1 building once.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_SANITATION" Language="zh_Hans_CN">
+      <Text>建造每种学院二级建筑各一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_SANITATION" Language="en_US">
+      <Text>Build every type of Campus tier 2 building once.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_ROCKETRY" Language="zh_Hans_CN">
+      <Text>建造每种学院三级建筑各一个。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_ROCKETRY" Language="en_US">
+      <Text>Build every type of Campus tier 3 building once.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_CAPITALISM" Language="zh_Hans_CN">
+      <Text>建造5个商业中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_CAPITALISM" Language="en_US">
+      <Text>Build 5 Commercial Hub Districts.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_MASS_MEDIA" Language="zh_Hans_CN">
+      <Text>获得1位大音乐家。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_MASS_MEDIA" Language="en_US">
+      <Text>Get a Great Musician.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_HUMANISM" Language="zh_Hans_CN">
+      <Text>获得1位大作家。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_HUMANISM" Language="en_US">
+      <Text>Get a Great Writer.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_OPERA_BALLET" Language="zh_Hans_CN">
+      <Text>获得1位大艺术家。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_OPERA_BALLET" Language="en_US">
+      <Text>Get a Great Artist.</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_SCIENTIFIC_THEORY" Language="zh_Hans_CN">
+      <Text>获得1位大科学家。</Text>
+    </Replace>
+	<Replace Tag="LOC_BOOST_TRIGGER_SCIENTIFIC_THEORY" Language="en_US">
+      <Text>Get a Great Scientist.</Text>
+    </Replace>
+	<!-- TECH & CIVIC -->
+    <Replace Tag="LOC_CIVIC_SCORCHED_EARTH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>与森林相邻的森林+1 [ICON_Production] 生产力，与雨林相邻的雨林+1 [ICON_Food] 食物。</Text>
+    </Replace>
+	<Replace Tag="LOC_CIVIC_SCORCHED_EARTH_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Forest that is adjacent to other forest. +1 [ICON_Food] Food for Jungle that is adjacent to other Jungle. </Text>
+    </Replace>
+	<Replace Tag="LOC_CIVIC_URBANIZATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>相同类型的区域相邻时额外+1相邻加成产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_CIVIC_URBANIZATION_DESCRIPTION" Language="en_US">
+      <Text>Extra +1 corresponding yield from adjacency of the same type of districts.</Text>
+    </Replace>
+	<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>允许结盟。相同类型的区域相邻时额外+1相邻加成产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_CIVIC_CIVIL_SERVICE_DESCRIPTION" Language="en_US">
+      <Text>Allows Alliances. Extra +1 corresponding yield from adjacency of the same type of districts.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_SEASTEADS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>解锁航空母舰升级：超级航空母舰[NEWLINE]在友军领土之外恢复。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_SEASTEADS_DESCRIPTION" Language="en_US">
+      <Text>Unlocks aircraft carrier upgrade: SUPER CARRIER.</Text>
+    </Replace>
+	<Replace Tag="LOC_CIVIC_GLOBAL_WARMING_MITIGATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text></Text>
+    </Replace>
+	<Replace Tag="LOC_CIVIC_GLOBAL_WARMING_MITIGATION_DESCRIPTION" Language="en_US">
+      <Text></Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_ADVANCED_FLIGHT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text></Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_ADVANCED_FLIGHT_DESCRIPTION" Language="en_US">
+      <Text></Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_SQUARE_RIGGING_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>水运单位+1 [ICON_Movement] 移动力。[NEWLINE][NEWLINE]每2个相邻的渔场改良设施使渔场+1 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_SQUARE_RIGGING_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Movement] Movement for embarked units.[NEWLINE][NEWLINE]Fishery receives +1 [ICON_Gold] from each two adjacent Fisheries.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>渔船改良设施+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]每个相邻的渔场改良设施使渔场+1 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_ELECTRICITY_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Fishing boats. [NEWLINE][NEWLINE]Fishery receives +1 [ICON_Gold] from each adjacent Fishery.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_IRON_WORKING_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>矿山改良设施+1 [ICON_Science] 科技值。[NEWLINE][NEWLINE]在地图上显示并允许开采 [ICON_RESOURCE_IRON] 铁资源。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_IRON_WORKING_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Science] Science for Mines. [NEWLINE][NEWLINE]Reveals and allows harvesting of [ICON_RESOURCE_IRON] Iron. </Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_COMPOSITES_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>矿山改良设施+1 [ICON_Science] 科技值。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_COMPOSITES_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Science] Science for Mines.</Text>
+    </Replace>	
+	<Replace Tag="LOC_TECH_METAL_CASTING_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>矿山改良设施+1 [ICON_Science] 科技值。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_METAL_CASTING_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Science] Science Production for Mines.</Text>
+    </Replace>		
+	<Replace Tag="LOC_TECH_CONSTRUCTION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>采石场改良设施+1 [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_CONSTRUCTION_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Culture] Culture for Quarries.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_LASERS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>采石场改良设施+1 [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_LASERS_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Culture] Culture for Quarries.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_GUNPOWDER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>采石场改良设施+1 [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_GUNPOWDER_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Culture] Culture for Quarries.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_REFINING_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>矿山和采石场改良设施+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]在地图上显示并允许收获 [ICON_RESOURCE_OIL] 石油资源。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_REFINING_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Mines and Quarries. [NEWLINE][NEWLINE]Reveals and allows harvesting of [ICON_RESOURCE_OIL] Oil.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_APPRENTICESHIP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每2个相邻的矿山改良设施使矿山+1 [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_APPRENTICESHIP_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Mine from every 2 adjacent Mines.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每个相邻的矿山改良设施使矿山+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]在地图上显示并允许收获 [ICON_RESOURCE_COAL] 煤资源。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Mine from every adjacent Mine. [NEWLINE][NEWLINE]Reveals and allows harvesting of [ICON_RESOURCE_COAL] Coal.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_CASTLES_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每2个相邻的采石场改良设施使采石场+1 [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_CASTLES_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Quarry from every 2 adjacent Quarries.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_MILITARY_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每个相邻的采石场改良设施使采石场+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]建造者使用次数+1。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_MILITARY_SCIENCE_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Quarry from every adjacent Quarry.[NEWLINE][NEWLINE]+1 charges for Builders.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_STIRRUPS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每与一个牧场、种植园、营地相邻时，农场+1 [ICON_Food] 食物。[NEWLINE][NEWLINE]每2个相邻的牧场改良设施使牧场+1 [ICON_Food] 食物。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_STIRRUPS_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Food] for Farm from each Camp, Pasture, or Plantation it is adjacent to. [NEWLINE][NEWLINE]+1 [ICON_Food] Food for Pasture from every 2 adjacent Pastures.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_RIFLING_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每个相邻的牧场改良设施使牧场+1 [ICON_Food] 食物。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_RIFLING_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Food] Food for Pasture from every adjacent Pasture.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_EDUCATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每2个相邻的营地改良设施使营地+1 [ICON_Gold] 金币。[NEWLINE][NEWLINE]每2个相邻的种植园改良设施使种植园+1 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_EDUCATION_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Gold] Gold for Camp from every 2 adjacent Camps.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold for Plantation from every 2 adjacent Plantations.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_SANITATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每个相邻的营地改良设施使营地+1 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_SANITATION_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Gold] Gold for Camp from every adjacent Camp.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_ECONOMICS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每与1个资源相邻，商业中心区和港口区可获得+1 [ICON_Gold] 金币加成。[NEWLINE][NEWLINE]每个相邻的种植园改良设施使种植园+1 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_ECONOMICS_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Gold] gold for Commercial hub and Harbor when it is adjacent to each resource.[NEWLINE][NEWLINE]+1 [ICON_Gold] Gold for Plantation from every adjacent Plantation.</Text>
+    </Replace>	
+	<Replace Tag="LOC_TECH_HORSEBACK_RIDING_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>牧场改良设施+1 [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_HORSEBACK_RIDING_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Pastures.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_RADIO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>牧场改良设施+1 [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_RADIO_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Pastures.</Text>
+    </Replace>	
+	<Replace Tag="LOC_TECH_ROBOTICS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>牧场改良设施+1 [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_ROBOTICS_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Pastures.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_CHEMISTRY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>种植园改良设施+1 [ICON_Gold] 金币。[NEWLINE][NEWLINE]在地图上显示并允许收获 [ICON_RESOURCE_ALUMINUM] 铝资源。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_CHEMISTRY_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Gold] Gold for Plantations. [NEWLINE][NEWLINE]Reveals and allows harvesting of [ICON_RESOURCE_ALUMINUM] Aluminum.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>渔船改良设施+1 [ICON_Food] 食物。所有海军和水运单位可在海洋单元格上航行。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_CARTOGRAPHY_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Food] Food for Fishing boats. All naval and embarked units can navigate Ocean tiles.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_TELECOMMUNICATIONS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>渔船改良设施+1 [ICON_Food] 食物。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_TELECOMMUNICATIONS_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Food] Food for Fishing boats. </Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_BUTTRESS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每2个相邻的渔船改良设施使渔船+1 [ICON_Food] 食物。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_BUTTRESS_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Food] Food for Fishing Boat from every 2 adjacent Fishing Boats.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>水运单位+2 [ICON_Movement] 移动力。[NEWLINE][NEWLINE]每个相邻的渔船改良设施使渔船+1 [ICON_Food] 食物。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_STEAM_POWER_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Movement] Movement for embarked units. [NEWLINE][NEWLINE]+1 [ICON_Food] Food for Fishing Boat from every adjacent Fishing Boat.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_SIEGE_TACTICS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每2个相邻的伐木场改良设施使伐木场+1 [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_SIEGE_TACTICS_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production for Lumber Mill from every 2 adjacent Lumber Mills.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每个相邻的伐木场改良设施使伐木场+1 [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_REPLACEABLE_PARTS_DESCRIPTION" Language="en_US">
+      <Text>>+1 [ICON_Production] Production for Lumber Mill from every adjacent Lumber Mill.</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>与地热裂缝，火山土，火山，礁石相邻时，学院获得 [ICON_Science] 科技值加成。[NEWLINE][NEWLINE]每个相邻的农场改良设施使农场+1 [ICON_Food] 食物。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_SCIENTIFIC_THEORY_DESCRIPTION" Language="en_US">
+      <Text>Campus gets [ICON_Science] Science bonus when it is adjacent to Geothermal, Reef, Volcanic soil, and Volcano.[NEWLINE][NEWLINE]+1 [ICON_Food] Food for Farm from every adjacent Farm.</Text>
+    </Replace>
+	<!-- MILESTONE -->
+	<Replace Tag="LOC_ANCIENT_MILESTONE_NAME" Language="zh_Hans_CN">
+      <Text>远古时代里程碑</Text>
+    </Replace>
+	<Replace Tag="LOC_ANCIENT_MILESTONE_NAME" Language="en_US">
+      <Text>Ancient Era Milestone</Text>
+    </Replace>
+	<Replace Tag="LOC_CLASSICAL_MILESTONE_NAME" Language="zh_Hans_CN">
+      <Text>古典时期里程碑</Text>
+    </Replace>
+	<Replace Tag="LOC_CLASSICAL_MILESTONE_NAME" Language="en_US">
+      <Text>Classical Era Milestone</Text>
+    </Replace>
+	<Replace Tag="LOC_MEDIEVAL_MILESTONE_NAME" Language="zh_Hans_CN">
+      <Text>中世纪里程碑</Text>
+    </Replace>
+	<Replace Tag="LOC_MEDIEVAL_MILESTONE_NAME" Language="en_US">
+      <Text>Medieval Era Milestone</Text>
+    </Replace>
+	<Replace Tag="LOC_RENAISSANCE_MILESTONE_NAME" Language="zh_Hans_CN">
+      <Text>文艺复兴时期里程碑</Text>
+    </Replace>
+	<Replace Tag="LOC_RENAISSANCE_MILESTONE_NAME" Language="en_US">
+      <Text>Renaissance Era Milestone</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_MILESTONE_NAME" Language="zh_Hans_CN">
+      <Text>工业时代里程碑</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_MILESTONE_NAME" Language="en_US">
+      <Text>Industrial Era Milestone</Text>
+    </Replace>
+	<Replace Tag="LOC_MODERN_MILESTONE_NAME" Language="zh_Hans_CN">
+      <Text>电气时代里程碑</Text>
+    </Replace>
+	<Replace Tag="LOC_MODERN_MILESTONE_NAME" Language="en_US">
+      <Text>Modern Era Milestone</Text>
+    </Replace>
+	<Replace Tag="LOC_ATOMIC_MILESTONE_NAME" Language="zh_Hans_CN">
+      <Text>原子能时代里程碑</Text>
+    </Replace>
+	<Replace Tag="LOC_ATOMIC_MILESTONE_NAME" Language="en_US">
+      <Text>Atomic Era Milestone</Text>
+    </Replace>
+	<Replace Tag="LOC_INFORMATION_MILESTONE_NAME" Language="zh_Hans_CN">
+      <Text>信息时代里程碑</Text>
+    </Replace>
+	<Replace Tag="LOC_INFORMATION_MILESTONE_NAME" Language="en_US">
+      <Text>Information Era Milestone</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_MILESTONE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>完成后，获得等同于其花费的 [ICON_Science] 科技值。</Text>
+    </Replace>
+	<Replace Tag="LOC_TECH_MILESTONE_DESCRIPTION" Language="en_US">
+      <Text>Grant [ICON_Science] Science equal to its cost upon completion.</Text>
+    </Replace>
+	<Replace Tag="LOC_CIVIC_MILESTONE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>完成后，获得等同于其花费的 [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_CIVIC_MILESTONE_DESCRIPTION" Language="en_US">
+      <Text>Grant [ICON_Culture] Culture equal to its cost upon completion.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>	

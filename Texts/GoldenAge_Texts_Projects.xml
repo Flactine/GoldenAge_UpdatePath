@@ -1,0 +1,89 @@
+<GameData>
+    <LocalizedText>	
+	<!--项目-->	
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>马转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_NAME" Language="en_US">
+			<Text>Convert Horses to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费100 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_HORSES] 马转化为200 [ICON_GOLD] 金币。 由商业中心区的第一级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_HORSES_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 100 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_HORSES] Horses into 200 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 1 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>铁转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_NAME" Language="en_US">
+			<Text>Convert Iron to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费200 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_IRON] 铁转化为400 [ICON_GOLD] 金币。由商业中心区的第一级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_IRON_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 200 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_IRON] Iron into 400 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 1 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>硝石转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_NAME" Language="en_US">
+			<Text>Convert Niter to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费300 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_NITER] 硝石转化为600 [ICON_GOLD] 金币。由商业中心区的第二级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_NITER_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 300 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_NITER] Niter into 600 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 2 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>煤转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_NAME" Language="en_US">
+			<Text>Convert Coal to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费400 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_COAL] 煤转化为800 [ICON_GOLD] 金币。由商业中心区的第二级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_COAL_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 400 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_COAL] Coal into 800 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 2 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>石油转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_NAME" Language="en_US">
+			<Text>Convert Oil to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费500 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_OIL] 石油转化为1000 [ICON_GOLD] 金币。由商业中心区的第三级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_OIL_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 500 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_OIL] Oil into 1000 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 3 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>铝转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_NAME" Language="en_US">
+			<Text>Convert Aluminum to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费600 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_ALUMINUM] 铝转化为1200 [ICON_GOLD] 金币。由商业中心区的第三级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ALUMINUM_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 600 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_ALUMINUM] Aluminum into 1200 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 3 building to unlock.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_NAME" Language="zh_Hans_CN">
+			<Text>铀转化为金币</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_NAME" Language="en_US">
+			<Text>Convert Uranium to Gold</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>花费700 [ICON_PRODUCTION] 生产力将30个 [ICON_RESOURCE_URANIUM] 铀转化为1400 [ICON_GOLD] 金币。由商业中心区的第四级建筑解锁。</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_URANIUM_GOLD_DESCRIPTION" Language="en_US">
+			<Text>Spends 700 [ICON_PRODUCTION] Production and converts 30 [ICON_RESOURCE_URANIUM] Uranium into 1400 [ICON_GOLD] Gold. Requires Commercial Hubs District Tier 4 building to unlock.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,40 @@
+<GameData>
+    <LocalizedText>	
+	<Replace Tag="LOC_POLICY_HEARTBEAT_OF_STEAM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有城市可获得的来自建筑延伸至周围城市的 [ICON_PRODUCTION] 生产力加成没有次数限制。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_HEARTBEAT_OF_STEAM_DESCRIPTION" Language="en_US">
+      <Text>The regional bonus [ICON_Production] Production from buildings has no limit toward all cities. </Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_FREE_ENQUIRY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有城市可获得的来自建筑延伸至周围城市的 [ICON_Science] 科技值加成没有次数限制。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_FREE_ENQUIRY_DESCRIPTION" Language="en_US">
+      <Text>The regional bonus [ICON_Science] Science from buildings has no limit toward all cities. </Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_CULTURE_INDUSTRY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有城市可获得的来自建筑延伸至周围城市的 [ICON_Culture] 文化值加成没有次数限制。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_CULTURE_INDUSTRY_DESCRIPTION" Language="en_US">
+      <Text>The regional bonus [ICON_Culture] Culture from buildings has no limit toward all cities. </Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_MILITARY_INDUSTRIAL_COMPLEX_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有改良后的战略资源每回合额外产出2点。所有战斗单位+5 [ICON_Strength] 战斗力。若单位拥有远程攻击能力，则+1射程。工业区区域的 [ICON_PRODUCTION] 生产力相邻加成也能提供 [ICON_GOLD] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_MILITARY_INDUSTRIAL_COMPLEX_DESCRIPTION" Language="en_US">
+      <Text>All improved Strategic resources yield 2 additional resource per turn. All combat units receive +5 [ICON_Strength] Combat Strength and if the unit has a range attack +1 Range. Industrial zone district's [ICON_PRODUCTION] Production adjacency bonus provides [ICON_GOLD] Gold as well.</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_SKY_AND_STARS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>进行太空竞赛项目时+50% [ICON_PRODUCTION] 生产力。拥有宇航中心或航空港的城市+15% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。学院区域提供等于其 [ICON_SCIENCE] 科技值加成的 [ICON_GOLD] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_SKY_AND_STARS_DESCRIPTION" Language="en_US">
+      <Text>+50% [ICON_PRODUCTION] Production towards Space race projects. +15% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production to Cities with either a Spaceport or Aerodrome. Campus districts provide [ICON_GOLD] Gold equal to their [ICON_SCIENCE] Science bonus.</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_MANDALA_STATE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每拥有1座奇观，则+4 [ICON_CULTURE] 文化值。城市中的每座奇观使9单元格内的外国城市每回合损失2点忠诚度。剧院广场区域提供等于其 [ICON_Culture] 文化值加成的 [ICON_GOLD] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_MANDALA_STATE_DESCRIPTION" Language="en_US">
+      <Text>+4 [ICON_CULTURE] Culture for every Wonder. Each Wonder in your cities cause foreign cities within 9 tiles to lose 2 Loyalty per turn. Theater districts provide [ICON_GOLD] Gold equal to their [ICON_Culture] Culture bonus.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

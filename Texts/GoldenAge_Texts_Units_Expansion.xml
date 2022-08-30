@@ -1,0 +1,359 @@
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_1_NAME" Language="zh_Hans_CN">
+			<Text>女巫</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_1_NAME" Language="en_US">
+			<Text>Sorceress</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_2_NAME" Language="zh_Hans_CN">
+			<Text>雷达干扰器</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_2_NAME" Language="en_US">
+			<Text>Radar Jammers</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>支援单位。使1个单元格范围内的己方单位获得隐身能力（不包括自身和其他隐身单位）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_1_DESCRIPTION" Language="en_US">
+			<Text>Support unit. Gives stealth ability to all your units within 1 tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>支援单位。使2个单元格范围内的己方单位获得隐身能力（不包括自身和其他隐身单位）。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GA_STEALTH_2_DESCRIPTION" Language="en_US">
+			<Text>Support unit. Gives stealth ability to all your units within 2 tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_1_NAME" Language="zh_Hans_CN">
+			<Text>隐形药水</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_1_NAME" Language="en_US">
+			<Text>Invisibility potion</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_2_NAME" Language="zh_Hans_CN">
+			<Text>信号屏蔽</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_2_NAME" Language="en_US">
+			<Text>Signal shielding</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTHED_NAME" Language="zh_Hans_CN">
+			<Text>获得隐身效果</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTHED_NAME" Language="en_US">
+			<Text>Gain invisibility.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使1个单元格范围内的己方单位获得隐身能力（不包括自身和其他隐身单位）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_1_DESCRIPTION" Language="en_US">
+			<Text>Gives stealth ability to all your units within 1 tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使2个单元格范围内的己方单位获得隐身能力（不包括自身和其他隐身单位）。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTH_2_DESCRIPTION" Language="en_US">
+			<Text>Gives stealth ability to all your units within 2 tile.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTHED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从支援单位获得了隐身能力。（女巫或雷达干扰器）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GA_STEALTHED_DESCRIPTION" Language="en_US">
+			<Text>Gain invisibility from support unit.(Sorceress or Radar Jammers)</Text>
+		</Replace>
+	<!--Firesupport units-->		
+		<Replace Tag="LOC_PROMOTION_CLASS_FIRESUPPORT_NAME" Language="zh_Hans_CN">
+			<Text>火力支援</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_FIRESUPPORT_NAME" Language="en_US">
+			<Text>Fire Support</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT2_NAME" Language="zh_Hans_CN">
+			<Text>骑射手</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT2_NAME" Language="en_US">
+			<Text>Horse archer</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT3_NAME" Language="zh_Hans_CN">
+			<Text>弓骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT3_NAME" Language="en_US">
+			<Text>Mounted archer</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT4_NAME" Language="zh_Hans_CN">
+			<Text>弩骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT4_NAME" Language="en_US">
+			<Text>Crossbow cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT5_NAME" Language="zh_Hans_CN">
+			<Text>火绳枪骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT5_NAME" Language="en_US">
+			<Text>Harquebus Rider</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT6_NAME" Language="zh_Hans_CN">
+			<Text>重炮骑兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT6_NAME" Language="en_US">
+			<Text>Gun cavalry</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT7_NAME" Language="zh_Hans_CN">
+			<Text>自行榴弹炮</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT7_NAME" Language="en_US">
+			<Text>Self-Propelled howitzer</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT8_NAME" Language="zh_Hans_CN">
+			<Text>自行火炮</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT8_NAME" Language="en_US">
+			<Text>Self-propelled artillery</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>古典时期火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT2_DESCRIPTION" Language="en_US">
+			<Text>Classical era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中世纪火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT3_DESCRIPTION" Language="en_US">
+			<Text>Medieval era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>文艺复兴时期火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT4_DESCRIPTION" Language="en_US">
+			<Text>Renaissance era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT5_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>工业时代火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT5_DESCRIPTION" Language="en_US">
+			<Text>Industrial era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT6_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>电气时代火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT6_DESCRIPTION" Language="en_US">
+			<Text>Modern era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT7_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>原子能时代火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT7_DESCRIPTION" Language="en_US">
+			<Text>Atomic era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT8_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>信息时代火力支援单位，克制近战单位。视野为2。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_FIRESUPPORT8_DESCRIPTION" Language="en_US">
+			<Text>Information era Melee unit, counters Anti-Cavalry units well. Sight: 2</Text>
+		</Replace>
+	<!--Firesupport units promotion-->	
+	<Replace Tag="LOC_PROMOTION_FS_1_1_NAME" Language="zh_Hans_CN">
+      <Text>马衣</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_1_1_NAME" Language="en_US">
+	  <Text>Caparison</Text>
+	</Replace>	
+	<Replace Tag="LOC_PROMOTION_FS_1_1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Movement] 移动力。无视区域控制。</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_1_1_DESCRIPTION" Language="en_US">
+	  <Text>+1 [ICON_Movement] Movement. Ignore zone of control.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_FS_1_3_NAME" Language="zh_Hans_CN">
+      <Text>入侵</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_1_3_NAME" Language="en_US">
+	  <Text>Invasion</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_FS_1_3_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>当在敌方领土内作战时+5 [ICON_Strength] 战斗力。</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_1_3_DESCRIPTION" Language="en_US">
+	  <Text>+5 [ICON_Strength] Combat Strength when in enemy territory. </Text>
+	</Replace>
+	<Replace Tag="LOC_MODIFIER_GA_PROMOTION_FS_1_3_TEXT" Language="zh_Hans_CN">
+		<Text>+{1_num} {LOC_PROMOTION_FS_1_3_NAME}</Text>
+    </Replace>
+	<Replace Tag="LOC_MODIFIER_GA_PROMOTION_FS_1_3_TEXT" Language="en_US">
+		<Text>+{1_num} {LOC_PROMOTION_FS_1_3_NAME}</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_2_1_NAME" Language="zh_Hans_CN">
+      <Text>机动火力</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_2_1_NAME" Language="en_US">
+	  <Text>Fire and maneuver</Text>
+	</Replace>
+	 <Replace Tag="LOC_PROMOTION_FS_2_1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+1 [ICON_Movement] 移动力。可在攻击后移动。</Text>
+    </Replace>	
+	<Replace Tag="LOC_PROMOTION_FS_2_1_DESCRIPTION" Language="en_US">
+	  <Text>+1 [ICON_Movement] Movement. Can move after attacking.</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_FS_3_1_NAME" Language="zh_Hans_CN">
+      <Text>区域控制</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_3_1_NAME" Language="en_US">
+	  <Text>Zone of control</Text>
+	</Replace>
+    <Replace Tag="LOC_PROMOTION_FS_3_1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>学会区域控制。防御近战攻击时+5 [ICON_Strength] 战斗力。</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_3_1_DESCRIPTION" Language="en_US">
+	  <Text>Exercise zone of control. +5 [ICON_Strength] Combat Strength when defending against melee attacks. </Text>
+	</Replace>
+	<Replace Tag="LOC_MODIFIER_GA_PROMOTION_FS_3_1_TEXT" Language="zh_Hans_CN">
+		<Text>+{1_num} {LOC_PROMOTION_FS_3_1_NAME}</Text>
+    </Replace>
+	<Replace Tag="LOC_MODIFIER_GA_PROMOTION_FS_3_1_TEXT" Language="en_US">
+		<Text>+{1_num} {LOC_PROMOTION_FS_3_1_NAME}</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_2_3_NAME" Language="zh_Hans_CN">
+      <Text>列阵</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_2_3_NAME" Language="en_US">
+	  <Text>Embattled</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_FS_2_3_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为其他相邻的火力支援单位+7 [ICON_Ranged] 远程攻击力。</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_2_3_DESCRIPTION" Language="en_US">
+	  <Text>+7 [ICON_Ranged] Ranged Strength for adjacent automatic gun units. </Text>
+	</Replace>
+	<Replace Tag="LOC_MODIFIER_GA_PROMOTION_FS_2_3_TEXT" Language="zh_Hans_CN">
+		<Text>+{1_num} {LOC_PROMOTION_FS_2_3_NAME}</Text>
+    </Replace>
+	<Replace Tag="LOC_MODIFIER_GA_PROMOTION_FS_2_3_TEXT" Language="en_US">
+		<Text>+{1_num} {LOC_PROMOTION_FS_2_3_NAME}</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_3_3_NAME" Language="zh_Hans_CN">
+      <Text>燃烧弹</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_3_3_NAME" Language="en_US">
+	  <Text>Incendiaries</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_FS_3_3_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>对城市和区域防御的远程攻击效率为100%。</Text>
+    </Replace>	
+	<Replace Tag="LOC_PROMOTION_FS_3_3_DESCRIPTION" Language="en_US">
+	  <Text>100% efficiency against cities and district defense. </Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_FS_4_2_NAME" Language="zh_Hans_CN">
+      <Text>神枪手</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_4_2_NAME" Language="en_US">
+	  <Text>Expert marksman</Text>
+	</Replace>
+	<Replace Tag="LOC_PROMOTION_FS_4_2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>如果单位没有移动，每回合+1额外攻击。</Text>
+    </Replace>
+	<Replace Tag="LOC_PROMOTION_FS_4_2_DESCRIPTION" Language="en_US">
+	  <Text>+1 additional attack per turn if unit has not moved.</Text>
+	</Replace>
+	<!--Ranged units-->
+		<Replace Tag="LOC_UNIT_SLINGER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>远古时代远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_SLINGER_DESCRIPTION" Language="en_US">
+          <Text>Ancient era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_ARCHER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>古典时期远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_ARCHER_DESCRIPTION" Language="en_US">
+          <Text>Classical era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>中世纪远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_CROSSBOWMAN_DESCRIPTION" Language="en_US">
+          <Text>Medieval era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>		
+		<Replace Tag="LOC_UNIT_CULVERIN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>文艺复兴时期远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_CULVERIN_DESCRIPTION" Language="en_US">
+          <Text>Renaissance era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>		
+		<Replace Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>工业时代远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_FIELD_CANNON_DESCRIPTION" Language="en_US">
+          <Text>Industrial era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>	
+		<Replace Tag="LOC_UNIT_HOWITZER_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>电气时代远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_HOWITZER_DESCRIPTION" Language="en_US">
+          <Text>Modern era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>原子能时代远程单位，克制火力支援单位。视野为1。</Text>
+       </Replace>
+	      <Replace Tag="LOC_UNIT_MACHINE_GUN_DESCRIPTION" Language="en_US">
+          <Text>Atomic era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+       </Replace>
+		<Replace Tag="LOC_UNIT_MISSILE_VEHICLE_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>信息时代远程单位，克制火力支援单位。视野为1。</Text>
+        </Replace>
+	     <Replace Tag="LOC_UNIT_MISSILE_VEHICLE_DESCRIPTION" Language="en_US">
+          <Text>Information era Ranged unit, counters Firesupport units well. Sight: 1</Text>
+        </Replace>
+		
+	<!--Recon units-->
+	   <Replace Tag="LOC_UNIT_SCOUT_DESCRIPTION" Language="zh_Hans_CN">
+          <Text>远古时代侦察单位。视野为3。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_SCOUT_DESCRIPTION" Language="en_US">
+            <Text>Ancient era Recon unit. Sight: 3</Text>
+        </Replace>
+		<Replace Tag="LOC_UNIT_SKIRMISHER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>中世纪侦察单位。视野为4。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_SKIRMISHER_DESCRIPTION" Language="en_US">
+			<Text>Medieval Era recon unit. Sight: 4</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>工业时代侦察单位。视野为5。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_RANGER_DESCRIPTION" Language="en_US">
+			<Text>Industrial era Recon unit. Sight: 5</Text>
+		</Replace>						
+	    <Replace Tag="LOC_UNIT_SPEC_OPS_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>原子能时代侦察单位。视野为6。[NEWLINE][NEWLINE]拥有“空投”能力，可移动到离友方单元格7个单元格的位置上（如果从航空港或飞机跑道上执行空投则距离上升为12个单元格）。无需先消灭地面战斗单位即可直接攻击支援单位。</Text>
+        </Replace>
+	    <Replace Tag="LOC_UNIT_SPEC_OPS_DESCRIPTION" Language="en_US">
+            <Text>Atomic Era reconnaissance unit. Sight: 6 [NEWLINE][NEWLINE]Paradrop ability allows movement from friendly tile to location 7 tiles away (12 if starting from Aerodrome or Airstrip). Can attack support units directly without having to eliminate the combat unit first.</Text>
+        </Replace>
+		
+	<!--克制-->	
+	<Replace Tag="LOC_ABILITY_RANGE_MELEE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>对抗火力支援单位时+15 [ICON_Strength] 战斗力。（克制关系）</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_RANGE_MELEE_DESCRIPTION" Language="en_US">
+      <Text>+15 [ICON_Strength] Combat Strength vs. Firesupport units.</Text>
+    </Replace>		
+	<Replace Tag="LOC_ABILITY_RANGE_MELEE_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+{1_Amount} 对抗火力支援单位。</Text>
+    </Replace>	
+	<Replace Tag="LOC_ABILITY_RANGE_MELEE_MODIFIER_DESCRIPTION" Language="en_US">
+		<Text>+{1_Amount} strength vs Firesupport Units.</Text>
+	</Replace>   
+	<Replace Tag="LOC_ABILITY_FIRESUPPORT_MELEE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>对抗近战单位时+15 [ICON_Strength] 战斗力。（克制关系）</Text>
+    </Replace>
+    <Replace Tag="LOC_ABILITY_FIRESUPPORT_MELEE_DESCRIPTION" Language="en_US">
+      <Text>+15 [ICON_Strength] Combat Strength vs. Melee units.</Text>
+    </Replace>	
+	<Replace Tag="LOC_ABILITY_FIRESUPPORT_MELEE_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+{1_Amount} 对抗近战单位。</Text>
+    </Replace>	
+	<Replace Tag="LOC_ABILITY_FIRESUPPORT_MELEE_MODIFIER_DESCRIPTION" Language="en_US">
+		<Text>+{1_Amount} strength vs Melee Units.</Text>
+	</Replace>   
+	</LocalizedText>
+</GameData>

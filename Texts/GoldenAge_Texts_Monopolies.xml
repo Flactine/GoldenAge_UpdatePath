@@ -1,0 +1,146 @@
+<GameData>
+    <LocalizedText>	
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_INDUSTRIES_PARA_2" Language="zh_Hans_CN">
+			<Text>除提供大商人点数外，行业还将根据其改良的资源为所在的城市提供特殊加成：[NEWLINE][ICON_BULLET] 琥珀：[ICON_Faith] 信仰值产量+10%。[NEWLINE][ICON_BULLET] 柑橘：生产军事单位时+20% [ICON_Production] 生产力。[NEWLINE][ICON_BULLET] 可可豆：城市发展+20%、+2 [ICON_Housing] 住房。[NEWLINE][ICON_BULLET] 咖啡：文化值 [ICON_Culture] 产量+10%。[NEWLINE][ICON_BULLET] 棉花：生产军事单位时+20% [ICON_Production] 生产力。[NEWLINE][ICON_BULLET] 钻石：金币 [ICON_Gold] 产量+10%。[NEWLINE][ICON_BULLET] 染料：[ICON_Faith] 信仰值产量+10%。[NEWLINE][ICON_BULLET] 皮草：生产平民单位时+20% [ICON_Production] 生产力。[NEWLINE][ICON_BULLET] 石膏：建造建筑时时+20% [ICON_Production] 生产力。[NEWLINE][ICON_BULLET] 蜂蜜：城市发展+20%、+2 [ICON_Housing] 住房。[NEWLINE][ICON_BULLET] 熏香：[ICON_Faith] 信仰值产量+10%。[NEWLINE][ICON_BULLET] 象牙：生产军事单位时+20% [ICON_Production] 生产力。[NEWLINE][ICON_BULLET] 玉：[ICON_Gold] 金币产量+10%。[NEWLINE][ICON_BULLET] 大理石：建造建筑时+20% [ICON_Production] 生产力。[NEWLINE][ICON_BULLET] 水银：[ICON_Science] 科技值产量+10%。[NEWLINE][ICON_BULLET] 橄榄：建造建筑时+20% [ICON_Production] 生产力。[NEWLINE][ICON_BULLET] 珍珠：[ICON_Faith] 信仰值产量+10%。[NEWLINE][ICON_BULLET] 盐：城市发展+20%、+2 [ICON_Housing] 住房。[NEWLINE][ICON_BULLET] 丝绸：[ICON_Culture] 文化值产量+10%。[NEWLINE][ICON_BULLET] 白银：[ICON_Gold] 金币产量+10%。[NEWLINE][ICON_BULLET] 香料：[ICON_Culture] 文化值产量+10%。[NEWLINE][ICON_BULLET] 糖：城市发展+20%、+2 [ICON_Housing] 住房。[NEWLINE][ICON_BULLET] 茶叶：[ICON_Science] 科技值产量+10%。[NEWLINE][ICON_BULLET] 烟草：生产军事单位时+20% [ICON_Production] 生产力。[NEWLINE][ICON_BULLET] 松露：[ICON_Gold] 金币产量+10%。[NEWLINE][ICON_BULLET] 海龟：[ICON_Science] 科技值产量+10%。[NEWLINE][ICON_BULLET] 鲸鱼：[ICON_Science] 科技值产量+10%。[NEWLINE][ICON_BULLET] 葡萄酒：[ICON_Culture] 文化值产量+10%。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_INDUSTRIES_PARA_2" Language="en_US">
+			<Text>In addition to providing Great Merchant points, Industries grant particular bonuses to their city based on the type of resource they improve:[NEWLINE][ICON_BULLET] Amber: +10% [ICON_Faith] Faith yield.[NEWLINE][ICON_BULLET] Citrus: +20% [ICON_Production] Production toward military units.[NEWLINE][ICON_BULLET] Cocoa: +20% Growth and +2 [ICON_Housing] Housing.[NEWLINE][ICON_BULLET] Coffee: +10% [ICON_Culture] Culture yield.[NEWLINE][ICON_BULLET] Cotton: +20% [ICON_Production] Production toward military units.[NEWLINE][ICON_BULLET] Diamonds: +10% [ICON_Gold] Gold yield.[NEWLINE][ICON_BULLET] Dyes: +10% [ICON_Faith] Faith yield.[NEWLINE][ICON_BULLET] Furs: +20% [ICON_Production] Production toward buildings.[NEWLINE][ICON_BULLET] Gypsum: +20% [ICON_Production] Production toward buildings.[NEWLINE][ICON_BULLET] Honey: +20% Growth and +2 [ICON_Housing] Housing.[NEWLINE][ICON_BULLET] Incense: +10% [ICON_Faith] Faith yield.[NEWLINE][ICON_BULLET] Ivory: +20% [ICON_Production] Production toward military units.[NEWLINE][ICON_BULLET] Jade: +10% [ICON_Gold] Gold yield.[NEWLINE][ICON_BULLET] Marble: +20% [ICON_Production] Production toward buildings.[NEWLINE][ICON_BULLET] Mercury: +10% [ICON_Science] Science yield.[NEWLINE][ICON_BULLET] Olives: +20% [ICON_Production] Production toward buildings.[NEWLINE][ICON_BULLET] Pearls: +10% [ICON_Faith] Faith yield.[NEWLINE][ICON_BULLET] Salt: +20% Growth and +2 [ICON_Housing] Housing.[NEWLINE][ICON_BULLET] Silk: +10% [ICON_Culture] Culture yield.[NEWLINE][ICON_BULLET] Silver: +10% [ICON_Gold] Gold yield.[NEWLINE][ICON_BULLET] Spices: +10% [ICON_Culture] Culture yield.[NEWLINE][ICON_BULLET] Sugar: +20% Growth and +2 [ICON_Housing] Housing.[NEWLINE][ICON_BULLET] Tea: +10% [ICON_Science] Science yield.[NEWLINE][ICON_BULLET] Tobacco: +20% [ICON_Production] Production toward military units.[NEWLINE][ICON_BULLET] Truffles: +10% [ICON_Gold] Gold yield.[NEWLINE][ICON_BULLET] Turtles: +10% [ICON_Science] Science yield.[NEWLINE][ICON_BULLET] Whales: +10% [ICON_Science] Science yield.[NEWLINE][ICON_BULLET] Wine: +10% [ICON_Culture] Culture yield.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_MONOPOLIES_PARA_1" Language="zh_Hans_CN">
+			<Text>资本主义会让自由贸易走向繁荣，而聪明的商人则知晓如何对付竞争者。对一种奢侈品资源的拥有量占世界总量的80%或以上后，即对此资源形成垄断。每种垄断皆能为垄断者带来 [ICON_Tourism] 旅游业绩，具体依照已控制资源的数量和未控制已垄断资源的外国文明数量而定。形成垄断后，每回合将获得 [ICON_Gold] 金币：最初控制少量资源时每回合+5金币；控制90%资源时提升为每回合+10金币；而控制所有资源时每回合+25金币。垄断者当前每与一个主要文明之间存在贸易路线，则每回合+5 [ICON_Gold] 金币。研究“重商主义”之后，就能看到奢侈品资源的世界总量，以及每位玩家当前的控制量。你当然可以实现多个垄断，但那未免太过贪婪，不是吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_MONOPOLIES_PARA_1" Language="en_US">
+			<Text>Capitalism might thrive on free trade, but savvy merchants know how to squeeze out their competitors. Controlling 80% or more of the world instances of a Luxury resource grants you a Monopoly on that Luxury. Each monopoly gives [ICON_Tourism] Tourism to the owning player, based on the number of resources controlled, multiplied by the number of foreign civilizations that do not control an instance of the monopolized resource. Monopolies also provide a [ICON_Gold] Gold yield per turn, beginning at +5 for controlling the bare minimum but rising to +10 at 90%, and +25 for controlling all instances. Additional +5 [ICON_GOld] Gold per turn is awarded for each major civilization the Monopoly holder is currently trading with. Once you research Mercantilism, you will be able to see the total number of Luxury resources in the world, as well as what percentage each player currently controls. You can control multiple Monopolies, but that seems a little cruel, doesn’t it?</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_CONTENT_TITLE" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_GOLD]行业、垄断与公司++[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CONCEPTS_PAGE_MONOPOLIES_CHAPTER_CONTENT_TITLE" Language="en_US">
+			<Text>[COLOR_FLOAT_GOLD]Industries, Monopolies &amp; Corporations++[ENDCOLOR]</Text>
+		</Replace>
+	
+	<Replace Tag="LOC_INDUSTRY_CITY_GROWTH_DISCOUNT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]所处城市发展速度+20%、+2 [ICON_Housing] 住房。</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_MILITARY_UNIT_DISCOUNT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]在所处城市生产军事单位时+20% [ICON_Production] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_CIVILIAN_UNIT_DISCOUNT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]在所处城市生产平民单位时+20% [ICON_Production] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_BUILDING_DISCOUNT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]在所处城市建造建筑时+20% [ICON_Production] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]所处城市的 [ICON_Gold] 金币产量+10%。</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_FAITH_YIELD_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]所处城市的 [ICON_Faith] 信仰值产量+10%。</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_SCIENCE_YIELD_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]所处城市的 [ICON_Science] 科技值产量+10%。</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_CULTURE_YIELD_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]所处城市的 [ICON_Culture] 文化值产量+10%。</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_CITY_GROWTH_DISCOUNT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]所处城市发展速度+40%、+4 [ICON_Housing] 住房。</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_MILITARY_UNIT_DISCOUNT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]在所处城市生产军事单位时+40% [ICON_Production] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_CIVILIAN_UNIT_DISCOUNT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]在所处城市生产平民单位时+40% [ICON_Production] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_BUILDING_DISCOUNT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]在所处城市建造建筑时+40% [ICON_Production] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_GOLD_YIELD_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]城市的 [ICON_Gold] 金币产量+20%。</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_FAITH_YIELD_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]城市的 [ICON_Faith] 信仰值产量+20%。</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_SCIENCE_YIELD_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]城市的 [ICON_Science] 科技值产量+20%。</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_CULTURE_YIELD_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[NEWLINE]城市的 [ICON_Culture] 文化值产量+20%。</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_INDUSTRY_CITY_GROWTH_DISCOUNT_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+20% Growth, +2 [ICON_Housing] Housing in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_MILITARY_UNIT_DISCOUNT_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+20% [ICON_Production] Production toward military units in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_CIVILIAN_UNIT_DISCOUNT_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+20% [ICON_Production] Production toward civilian units in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_BUILDING_DISCOUNT_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+20% [ICON_Production] Production toward Buildings in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_GOLD_YIELD_BONUS_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+10% [ICON_Gold] Gold yield in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_FAITH_YIELD_BONUS_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+10% [ICON_Faith] Faith yield in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_SCIENCE_YIELD_BONUS_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+10% [ICON_Science] Science yield in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_INDUSTRY_CULTURE_YIELD_BONUS_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+10% [ICON_Culture] Culture yield in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_CITY_GROWTH_DISCOUNT_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+40% Growth, +4 [ICON_Housing] Housing in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_MILITARY_UNIT_DISCOUNT_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+40% [ICON_Production] Production toward military units in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_CIVILIAN_UNIT_DISCOUNT_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+40% [ICON_Production] Production toward civilian units in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_BUILDING_DISCOUNT_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+40% [ICON_Production] Production toward Buildings in host city.</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_GOLD_YIELD_BONUS_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+20% [ICON_Gold] Gold yield in city.</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_FAITH_YIELD_BONUS_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+20% [ICON_Faith] Faith yield in city.</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_SCIENCE_YIELD_BONUS_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+20% [ICON_Science] Science yield in city.</Text>
+    </Replace>
+    <Replace Tag="LOC_CORPORATION_CULTURE_YIELD_BONUS_DESCRIPTION" Language="en_US">
+      <Text>[NEWLINE]+20% [ICON_Culture] Culture yield in city.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_UNIT_INVESTOR_NAME" Language="zh_Hans_CN">
+      <Text>投资人</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_INVESTOR_NAME" Language="en_US">
+      <Text>Investor</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_INVESTOR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可以在奢侈品资源上创立行业和企业。只能用 [ICON_GOLD] 金币购买。</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_INVESTOR_DESCRIPTION" Language="en_US">
+      <Text>Can establish Industry and Corporation on luxury resources. Can only be purchased by [ICON_GOLD] gold.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_COMMERCIAL_HUB_INDUSTRY" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻行业。</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_INDUSTRY" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Industry.</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_CORPORATION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自相邻公司。</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_CORPORATION" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from the adjacent Corporation.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

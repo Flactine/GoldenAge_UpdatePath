@@ -1,0 +1,163 @@
+<GameData>
+    <LocalizedText>		
+	<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>进入黄金时代后将额外获得一个通配符政策槽位，并能使用黑暗时代政策。建造防御性建筑时+50% [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_TRAIT_CIVILIZATION_GOLDEN_AGE_QUESTS_DESCRIPTION" Language="en_US">
+      <Text>While in a Golden Age, gains an extra Wildcard Policy Slot, and may use Dark Age Policies. +50% [ICON_Production] Production towards defensive buildings.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_POLICY_FREE_ENQUIRY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>商业中心和港口区域的 [ICON_GOLD] 金币也提供 [ICON_Science] 科技值。学院区域提供等于其 [ICON_SCIENCE] 科技值加成的 [ICON_GOLD] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_FREE_ENQUIRY_DESCRIPTION" Language="en_US">
+      <Text>Commercial Hub and Harbor district's [ICON_GOLD] Gold provides [ICON_Science] Science as well. Campus districts provide [ICON_GOLD] Gold equal to their [ICON_SCIENCE] Science bonus.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_PRAETORIAN_GUARD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>受伤单位每回合回复的生命值+10。建造军营区域和建筑时+2 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_PRAETORIAN_GUARD_DESCRIPTION" Language="en_US">
+      <Text>Wounded units can heal +10 HP per turn. +2 [ICON_PRODUCTION] Production to Encampment districts and buildings.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_EXODUS_OF_THE_EVANGELISTS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有宗教单位+2 [ICON_Movement] 移动力。此外，新生产单位的使用次数+2。每回合产生的 [ICON_GreatProphet] 大预言家点数+4。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_EXODUS_OF_THE_EVANGELISTS_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Movement] Movement for all Religious units. Additionally, newly trained ones get +2 Charges. +4 [ICON_GreatProphet] Great Prophet points per turn.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_MONUMENTALITY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有建造者和开拓者+2 [ICON_Movement] 移动力。可以用 [ICON_Faith] 信仰值购买平民单位。用 [ICON_FAITH] 信仰值和 [ICON_GOLD] 黄金购买建造者的费用降低30%。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_MONUMENTALITY_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Movement] Movement for all Builders and Settlers. May purchase civilian units with [ICON_Faith] Faith. Builders are 30% cheaper to purchase with [ICON_FAITH] Faith and [ICON_GOLD] Gold.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_REFORM_THE_COINAGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>您的商人无法被掠夺。外国城市中每拥有一个特色区域，国际 [ICON_TradeRoute] 贸易路线提供的 [ICON_Gold] 金币则+3。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_REFORM_THE_COINAGE_DESCRIPTION" Language="en_US">
+      <Text>Your Traders cannot be plundered. International [ICON_TradeRoute] Trade Routes provide +3 [ICON_Gold] Gold per specialty district in the foreign city.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_CULTURE_INDUSTRY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市每拥有1处特色区域，则+1 [ICON_CULTURE] 文化值。建造非特色区域时+25% [ICON_PRODUCTION] 生产力。可使用 [ICON_Faith] 信仰值购买娱乐设施和水上乐园区域建筑。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_CULTURE_INDUSTRY_DESCRIPTION" Language="en_US">
+      <Text>Cities receive +1 [ICON_CULTURE] Culture for every specialty district. +25% [ICON_PRODUCTION] Production towards non specialty districts. Entertainment Complex and Water Park district buildings can be bought with [ICON_Faith] Faith.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_HEARTBEAT_OF_STEAM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建造工业时代之后的奇观时+10% [ICON_Production] 生产力。学院区域的 [ICON_SCIENCE] 科技值相邻加成也能提供 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_HEARTBEAT_OF_STEAM_DESCRIPTION" Language="en_US">
+      <Text>+10% [ICON_Production] Production toward Industrial era and later wonders. Campus district's [ICON_SCIENCE] Science adjacency bonus provides [ICON_PRODUCTION] Production as well.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_TO_ARMS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有单位获得的经验值+50%；生产军事单位时+15% [ICON_Production] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_TO_ARMS_DESCRIPTION" Language="en_US">
+      <Text>+50% XP earned for all units and +15% [ICON_Production] Production towards military units.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_WISH_YOU_WERE_HERE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有国家公园提供的 [ICON_TOURISM] 旅游业绩+100%；世界奇观提供的 [ICON_TOURISM] 旅游业绩+50%。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_WISH_YOU_WERE_HERE_DESCRIPTION" Language="en_US">
+      <Text>+100% [ICON_TOURISM] Tourism to all National Parks and +50% [ICON_TOURISM] Tourism from World Wonders.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_SKY_AND_STARS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建造宇航中心和航空港区域时+30% [ICON_PRODUCTION] 生产力。拥有宇航中心或航空港的城市+15% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_SKY_AND_STARS_DESCRIPTION" Language="en_US">
+      <Text>+30% [ICON_PRODUCTION] Production towards Spaceport and Aerodrome districts. +15% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production to Cities with either a Spaceport or Aerodrome.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_MILITARY_INDUSTRIAL_COMPLEX_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有改良后的铝、石油和铀资源每回合额外产出2点。所有战斗单位+5 [ICON_Strength] 战斗力。若单位拥有远程攻击能力，则+1射程。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_MILITARY_INDUSTRIAL_COMPLEX_DESCRIPTION" Language="en_US">
+      <Text>All improved Aluminum, Oil, and Uranium resources yield 2 additional resource per turn. All combat units receive +5 [ICON_Strength] Combat Strength and if the unit has a range attack +1 Range.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_MANDALA_STATE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每拥有1座奇观，则+4 [ICON_CULTURE] 文化值。城市中的每座奇观使9单元格内的外国城市每回合损失2点忠诚度。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_MANDALA_STATE_DESCRIPTION" Language="en_US">
+      <Text>+4 [ICON_CULTURE] Culture for every Wonder. Each Wonder in your cities cause foreign cities within 9 tiles to lose 2 Loyalty per turn.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_SAKDINA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>项目进行时，每位公民将为其所在城市+0.5点忠诚度。项目完成时，该项目区域每拥有1座建筑，便额外+10% [ICON_GreatPerson] 伟人点数。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_SAKDINA_DESCRIPTION" Language="en_US">
+      <Text>While your projects are active each of your Citizens exerts +0.5 Loyalty pressure to their city. When your projects complete receive +10% additional [ICON_GreatPerson] Great People points for every Building in that project’s district.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_SOLIDARITY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有 [ICON_Governor] 总督额外释放2点外国忠诚度压力。所有拥有总督的城市+25% [ICON_GOLD] 金币、+25% [ICON_FAITH] 信仰值。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_SOLIDARITY_DESCRIPTION" Language="en_US">
+      <Text>All [ICON_Governor] Governors exert 2 additional foreign Loyalty pressure. All your cities with governors receive +25% [ICON_GOLD] Gold and +25% [ICON_FAITH] Faith.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_POPULAR_FRONT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>来自城邦宗主国和同盟等级的外交支持+100%。通往城邦的贸易路线的所有产出+4。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_POPULAR_FRONT_DESCRIPTION" Language="en_US">
+      <Text>+100% Favor from Suzerainty of City-States and Alliance Level. Your Trade Routes to City-States provide +4 to all yields.</Text>
+    </Replace>
+	
+	
+    <Replace Tag="LOC_POLICY_MONASTICISM_DA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>拥有圣地的城市 [ICON_Science] 科技值+75%。[NEWLINE]减益：没有圣地的城市 [ICON_Culture] 文化值-25%。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_MONASTICISM_DA_DESCRIPTION" Language="en_US">
+      <Text>+75% [ICON_Science] Science in cities with a Holy Site.[NEWLINE]BUT: -25% [ICON_Culture] Culture in cities without a Holy Site.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_ELITE_FORCES_DA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有单位的战斗经验值+100%。[NEWLINE]减益：每个战斗和间谍单位的维护费用+1 [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_ELITE_FORCES_DA_DESCRIPTION" Language="en_US">
+      <Text>+100% combat experience for all units.[NEWLINE]BUT: +1 [ICON_Gold] Gold to maintain each combat and spy unit.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_INQUISITION_DA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>消耗1次使徒使用次数开始宗教审讯。友方领土中的所有宗教单位+15 [ICON_Religion] 宗教战斗力。[NEWLINE]减益：所有城市的 [ICON_Science] 科技值-15%。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_INQUISITION_DA_DESCRIPTION" Language="en_US">
+      <Text>Start Inquisition with 1 Apostle charge. All Religious units +15 [ICON_Religion] Religious Combat Strength in friendly territory.[NEWLINE]BUT: -15% [ICON_Science] Science in all cities.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_ISOLATIONISM_DA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>国内贸易路线提供+3 [ICON_Food] 食物、+3 [ICON_Production] 生产力、+3 [ICON_Gold] 金币。[NEWLINE]减益：无法生产或购买开拓者，也无法建立新城市。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_ISOLATIONISM_DA_DESCRIPTION" Language="en_US">
+      <Text>Domestic routes provide +3 [ICON_Food] Food, +3 [ICON_Production] Production, and +3 [ICON_Gold] Gold.[NEWLINE]BUT: Can't train or buy Settlers nor settle new cities.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_ROBBER_BARONS_DA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>拥有银行或造船厂的城市+50% [ICON_Gold] 金币、+25% [ICON_Production] 生产力。[NEWLINE]减益：所有城市-2 [ICON_Amenities] 宜居度。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_ROBBER_BARONS_DA_DESCRIPTION" Language="en_US">
+      <Text>+50% [ICON_Gold] Gold and +25% [ICON_Production] Production in cities with a Bank or a Shipyard.[NEWLINE]BUT: -2 [ICON_Amenities] Amenities in all cities.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_COLLECTIVISM_DA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>农场+1 [ICON_Production] 生产力。所有城市+2 [ICON_Housing] 住房。工业区提供等同于其相邻加成的 [ICON_FOOD] 食物。[NEWLINE]减益：伟人点数的获取速度减缓50%。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_COLLECTIVISM_DA_DESCRIPTION" Language="en_US">
+      <Text>Farms provide +1 [ICON_Production] Production. All cities +2 [ICON_Housing] Housing. Industrial Zones provide [ICON_FOOD] Food equal to their adjacency bonus.[NEWLINE]BUT: [ICON_GreatPerson] Great People Points earned 50% slower.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_DECENTRALIZATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>拥有6点或更少 [ICON_CITIZEN] 人口的城市每回合忠诚度+4。[NEWLINE]减益：[ICON_CITIZEN] 人口超过6点的城市-15% [ICON_Gold] 金币。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_DECENTRALIZATION_DESCRIPTION" Language="en_US">
+      <Text>Cities with 6 or less [ICON_CITIZEN] population receive +4 Loyalty per turn. BUT: Cities with more than 6 [ICON_CITIZEN] population receive -15% [ICON_Gold] Gold.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_SOFT_TARGETS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>进攻城市和区域时+10 [ICON_Strength] 战斗力。[NEWLINE]减益：与单位作战时-3 [ICON_Strength] 战斗力。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_SOFT_TARGETS_DESCRIPTION" Language="en_US">
+      <Text>+10 [ICON_Strength] Combat Strength vs. city attacks and district defenses. BUT: -3 [ICON_Strength] Combat Strength against units.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_DESPOTIC_PATERNALISM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>拥有 [ICON_Governor] 总督的城市每回合忠诚度+4。[NEWLINE]减益：没有就职 [ICON_Governor] 总督的城市-15% [ICON_Science] 科技值、-15% [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_DESPOTIC_PATERNALISM_DESCRIPTION" Language="en_US">
+      <Text>+4 Loyalty per turn in cities with [ICON_Governor] Governors. BUT: -15% [ICON_Science] Science and -15% [ICON_Culture] Culture in all cities without an established [ICON_Governor] Governor.</Text>
+    </Replace>
+    <Replace Tag="LOC_POLICY_SAMODERZHAVIYE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[ICON_CAPITAL] 首都+50% [ICON_PRODUCTION] 生产力。[NEWLINE]减益：所有 [ICON_Governor] 总督都会遭到陷害，且无法调职。</Text>
+    </Replace>
+	<Replace Tag="LOC_POLICY_SAMODERZHAVIYE_DESCRIPTION" Language="en_US">
+      <Text>+50% [ICON_PRODUCTION] Production in your [ICON_CAPITAL] Capital. BUT: All [ICON_Governor] Governors are neutralized and cannot be reestablished.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

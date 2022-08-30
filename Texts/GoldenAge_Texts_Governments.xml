@@ -1,0 +1,11 @@
+<GameData>
+    <LocalizedText>	
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP2" Language="zh_Hans_CN">
+      <Text>拥有商业中心三级建筑的城市+5所有类型产出。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP2" Language="en_US">
+      <Text>+5 for all types of yields for Cities with a Commercial Hub Tier 3 building.</Text>
+    </Replace>
+
+	</LocalizedText>
+</GameData>

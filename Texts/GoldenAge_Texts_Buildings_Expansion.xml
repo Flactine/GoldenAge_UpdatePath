@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+<LocalizedText>
+	<Replace Tag="LOC_BUILDING_WORKSHOP_NAME" Language="zh_Hans_CN">
+      <Text>造纸坊</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_WORKSHOP_NAME" Language="en_US">
+      <Text>Lumbering Workshop</Text>
+    </Replace>	
+    <Replace Tag="LOC_BUILDING_STONEMASON_NAME" Language="zh_Hans_CN">
+      <Text>石匠坊</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_STONEMASON_NAME" Language="en_US">
+      <Text>Stonemason Workshop</Text>
+    </Replace>	
+    <Replace Tag="LOC_BUILDING_SMELTERY_NAME" Language="zh_Hans_CN">
+      <Text>冶炼坊</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_SMELTERY_NAME" Language="en_US">
+      <Text>Smeltery Workshop</Text>
+    </Replace>	
+    <Replace Tag="LOC_BUILDING_FACTORY_NAME" Language="zh_Hans_CN">
+      <Text>轻工业厂</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_FACTORY_NAME" Language="en_US">
+      <Text>Light Factory</Text>
+    </Replace>	
+    <Replace Tag="LOC_BUILDING_RAWMATERIAL_NAME" Language="zh_Hans_CN">
+      <Text>原料工厂</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_RAWMATERIAL_NAME" Language="en_US">
+      <Text>Raw Material Factory</Text>
+    </Replace>	
+    <Replace Tag="LOC_BUILDING_FABRICATION_NAME" Language="zh_Hans_CN">
+      <Text>军事工厂</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_FABRICATION_NAME" Language="en_US">
+      <Text>Military Factory</Text>
+    </Replace>	
+     <Replace Tag="LOC_BUILDING_ASSEMBLYLINE_NAME" Language="zh_Hans_CN">
+      <Text>流水线工厂</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ASSEMBLYLINE_NAME" Language="en_US">
+      <Text>Assembly Line Factory</Text>
+    </Replace>  
+     <Replace Tag="LOC_BUILDING_AUTOMATED_NAME" Language="zh_Hans_CN">
+      <Text>自动化工厂</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_AUTOMATED_NAME" Language="en_US">
+      <Text>Automated Factory</Text>
+    </Replace>  
+
+    <Replace Tag="LOC_BUILDING_WORKSHOP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市内的每处伐木场为该建筑+1 [ICON_Production] 生产力，若伐木场与造纸坊相邻，则额外+2 [ICON_Production] 生产力。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_WORKSHOP_DESCRIPTION" Language="en_US">
+      <Text>Each Lumber Mill improvement in the city provides +1 [ICON_Production] Production to this building. Gains an additional +2 [ICON_Production] Production if the Lumber Mill is adjacent to this building.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Industrial Zone Tier 1 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_STONEMASON_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市内的每处采石场为该建筑+1 [ICON_Production] 生产力，若采石场与石匠坊相邻，则额外+2 [ICON_Production] 生产力。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_STONEMASON_DESCRIPTION" Language="en_US">
+      <Text>Each Quarry improvement in the city provides +1 [ICON_Production] Production to this building. Gains an additional +2 [ICON_Production] Production if the Quarry is adjacent to this building.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Industrial Zone Tier 1 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_SMELTERY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市内的每处矿山为该建筑+1 [ICON_Production] 生产力，若矿山与冶炼坊相邻，则额外+2 [ICON_Production] 生产力。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_SMELTERY_DESCRIPTION" Language="en_US">
+      <Text>Each Mine improvement in the city provides +1 [ICON_Production] Production to this building. Gains an additional +2 [ICON_Production] Production if the Mine is adjacent to this building.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Industrial Zone Tier 1 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_GAEXP_BUILDING_FACTORY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国境内的每处改良过且位于工业区两个单元格范围内的奢侈品资源为所有轻工业厂+1 [ICON_Production] 生产力。[NEWLINE][COLOR_FLOAT_MILITARY]内卷化：每个轻工业厂使所有轻工业厂-1 [ICON_Gold] 金币。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_GAEXP_BUILDING_FACTORY_DESCRIPTION" Language="en_US">
+      <Text>Each improved Luxury resource within 2 tiles of an Industrial Zone provides +1 [ICON_Production] Production for all Light Factories in the empire.[NEWLINE][COLOR_FLOAT_MILITARY]Industry competition: Each Light Factory -1 [ICON_Gold] Gold for all Light Factories.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Factory building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_RAWMATERIAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国境内的每处改良过且位于工业区两个单元格范围内的战略资源为所有原料工厂+2 [ICON_Production] 生产力。[NEWLINE][COLOR_FLOAT_MILITARY]内卷化：每个原料工厂使所有原料工厂-1 [ICON_Gold] 金币。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_RAWMATERIAL_DESCRIPTION" Language="en_US">
+      <Text>Each improved Strategic resource within 2 tiles of an Industrial Zone provides +2 [ICON_Production] Production for all Raw Material Factories in the empire.[NEWLINE][COLOR_FLOAT_MILITARY]Industry competition: Each Raw Material Factory -1 [ICON_Gold] Gold for all Raw Material Factories.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Factory building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_FABRICATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国境内每个位于工业区两个单元格范围内的军营、港口和航空港为所有军事工厂+1 [ICON_Production] 生产力。[NEWLINE][COLOR_FLOAT_MILITARY]内卷化：每个军事工厂使所有军事工厂-1 [ICON_Gold] 金币。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_FABRICATION_DESCRIPTION" Language="en_US">
+      <Text>Each Encampment, Harbor, and Aerodrome within 2 tiles of an Industrial Zone provides +1 [ICON_Production] Production for all Military Factories in the empire.[NEWLINE][COLOR_FLOAT_MILITARY]Industry competition: Each Military Factory -1 [ICON_Gold] Gold for all Military Factories.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Factory building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将任意数额的 [ICON_RESOURCE_COAL] 煤自动转换为 [ICON_Power] 电力，每回合可为周围5个单元格内的城市提供其所需电力：[NEWLINE][ICON_Bullet]1点 [ICON_RESOURCE_COAL] 煤 [ICON_PowerRight] 6点 [ICON_Power] 电力[NEWLINE][ICON_Bullet]会向大气层排放大量二氧化碳[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的“发电厂”建筑获得加成）。[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]环境保护模式下，由于环境污染，本城市的所有单元格-1魅力。[ENDCOLOR]</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION" Language="en_US">
+      <Text>Automatically converts any amount of [ICON_RESOURCE_COAL] Coal into [ICON_Power] Power for cities within 5 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_COAL] Coal [ICON_PowerRight] 6 [ICON_Power] Power[NEWLINE][ICON_Bullet]Heavy CO2 into the atmosphere.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Power Plant building.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Under Environmental Conservation mode, -1 appeal for all tiles in this city due to environmental pollution.[ENDCOLOR] </Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将任意数额的 [ICON_RESOURCE_OIL] 石油自动转换为 [ICON_Power] 电力，每回合可为周围5个单元格内的城市提供其所需电力：[NEWLINE][ICON_Bullet]1点 [ICON_RESOURCE_OIL] 石油 [ICON_PowerRight] 9点 [ICON_Power] 电力[NEWLINE][ICON_Bullet]会向大气层排放中量二氧化碳[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的“发电厂”建筑获得加成）。[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]环境保护模式下，由于环境污染，本城市的所有单元格-1魅力。[ENDCOLOR]</Text>
+    </Replace>  
+	<Replace Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION" Language="en_US">
+      <Text>Automatically converts any amount of [ICON_RESOURCE_OIL] Oil into [ICON_Power] Power for cities within 5 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_OIL] Oil [ICON_PowerRight] 9 [ICON_Power] Power[NEWLINE][ICON_Bullet]Moderate CO2 into the atmosphere[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Power Plant building.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Under Environmental Conservation mode, -1 appeal for all tiles in this city due to environmental pollution.[ENDCOLOR]</Text>
+    </Replace>  
+	<Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将任意数额的 [ICON_RESOURCE_URANIUM] 铀自动转换为 [ICON_Power] 电力，每回合可为周围5个单元格内的城市提供其所需电力：[NEWLINE][ICON_Bullet]1点 [ICON_RESOURCE_URANIUM] 铀 [ICON_PowerRight] 12点 [ICON_Power] 电力[NEWLINE][ICON_Bullet]会向大气层排放少量二氧化碳[NEWLINE]建成后发生核事故的概率会随着核电站老化而增加。[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的“发电厂”建筑获得加成）。[NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]环境保护模式下，不会造成环境污染。[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>Automatically converts any amount of [ICON_RESOURCE_URANIUM] Uranium into [ICON_Power] Power for cities within 5 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_URANIUM] Uranium [ICON_PowerRight] 12 [ICON_Power] Power[NEWLINE][ICON_Bullet]Miniscule CO2 into the atmosphere[NEWLINE]Once built, as a Nuclear Power Plant ages, there is an increased chance for a Nuclear Accident to occur. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Power Plant building.[NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]Under Environmental Conservation mode, this building will not cause environmental pollution.[ENDCOLOR]</Text>
+	</Replace> 
+	<Replace Tag="LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>将任意数额的 [ICON_RESOURCE_JNR_BATTERY_CHARGE] 可再生能源自动转换为 [ICON_Power] 电力，每回合可为周围5个单元格内的城市提供其所需电力：[NEWLINE][ICON_Bullet]1点 [ICON_RESOURCE_JNR_BATTERY_CHARGE] 可再生能源 [ICON_PowerRight] 9点 [ICON_Power] 电力。[NEWLINE][ICON_Bullet]不会向大气排放二氧化碳。[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的“发电厂”建筑获得加成）。[NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]环境保护模式下，不会造成环境污染。[ENDCOLOR]</Text>
+	</Replace>  	 
+	<Replace Tag="LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_DESCRIPTION" Language="en_US">
+		<Text>Automatically converts any amount of [ICON_RESOURCE_JNR_BATTERY_CHARGE] Renewable energy into [ICON_Power] Power for cities within 5 tiles that need it each turn, at the rate of:[NEWLINE][ICON_Bullet]1 [ICON_RESOURCE_JNR_BATTERY_CHARGE] Renewable energy [ICON_PowerRight] 9 [ICON_Power] Power[NEWLINE][ICON_Bullet]No CO2 into the atmosphere.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Power Plant building.[NEWLINE][NEWLINE][COLOR_FLOAT_CULTURE]Under Environmental Conservation mode, this building will not cause environmental pollution.[ENDCOLOR]</Text>
+	</Replace> 	
+    <Replace Tag="LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_NAME" Language="zh_Hans_CN">
+      <Text>可再生能源发电厂</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_NAME" Language="en_US">
+      <Text>Renewable Energy Power Plant</Text>
+    </Replace>  	
+	<Replace Tag="LOC_BUILDING_ASSEMBLYLINE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市中每个 [ICON_Citizen] 公民提供+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]其基础产出延伸到6个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ASSEMBLYLINE_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Production] Production per [ICON_Citizen] Citizen in the city.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from an Industrial Zone Tier 4 building.</Text>
+    </Replace>  
+     <Replace Tag="LOC_BUILDING_AUTOMATED_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每个 [ICON_Citizen] 专家提供的 [ICON_Production] 生产力是平时的两倍。[NEWLINE][NEWLINE]其基础产出延伸到6个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_AUTOMATED_DESCRIPTION" Language="en_US">
+      <Text>Specialists provide double [ICON_Production] Production.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from an Industrial Zone Tier 4 building.</Text>
+    </Replace>  
+	<Replace Tag="LOC_BUILDING_JNR_RENEWABLE_COLLECTION_NAME" Language="zh_Hans_CN">
+      <Text>可再生能源提取厂</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_JNR_RENEWABLE_COLLECTION_NAME" Language="en_US">
+      <Text>Renewable energy collection center</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_JNR_RENEWABLE_COLLECTION_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>本城的每处可再生资源改良设施可提供+1 [ICON_RESOURCE_JNR_BATTERY_CHARGE] 可再生能源，但这些改良设施产出的 [ICON_Power] 电力-2。[NEWLINE][NEWLINE]其基础产出延伸到6个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+	</Replace>  	 
+	<Replace Tag="LOC_BUILDING_JNR_RENEWABLE_COLLECTION_DESCRIPTION" Language="en_US">
+		<Text>All renewable energy improvements in this city provide +1 [ICON_RESOURCE_JNR_BATTERY_CHARGE] Renewable energy, but -2 [ICON_Power] power for these improvements. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from an Industrial Zone Tier 4 building.</Text>
+	</Replace> 
+		<Replace Tag="LOC_RESOURCE_JNR_BATTERY_CHARGE_NAME" Language="zh_Hans_CN">
+			<Text>可再生能源</Text>
+		</Replace>
+		<Replace Tag="LOC_RESOURCE_JNR_BATTERY_CHARGE_NAME" Language="en_US">
+			<Text>Renewable energy</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_CONVERT_REACTOR_TO_BATTERY" Language="zh_Hans_CN">
+			<Text>转换为可再生能源</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_CONVERT_REACTOR_TO_BATTERY_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>转换为可再生能源</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_CONVERT_REACTOR_TO_BATTERY" Language="en_US">
+			<Text>Convert reactor to Renewable</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_CONVERT_REACTOR_TO_BATTERY_SHORT_NAME" Language="en_US">
+			<Text>Convert reactor to Renewable</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_CONVERT_REACTOR_TO_BATTERY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>将城市中的发电站更换为{LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_NAME}。[NEWLINE][NEWLINE]{LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_NAME}：[NEWLINE]{LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_DESCRIPTION}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_JNR_CONVERT_REACTOR_TO_BATTERY_DESCRIPTION" Language="en_US">
+			<Text>Convert reactor to {LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_NAME}.[NEWLINE][NEWLINE]{LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_NAME}:[NEWLINE]{LOC_BUILDING_JNR_RENEWABLE_DISTRIBUTION_DESCRIPTION}</Text>
+		</Replace>
+		
+	<Replace Tag="LOC_BUILDING_ALCHEMY_HOUSE_NAME" Language="zh_Hans_CN">
+      <Text>勘测站</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ALCHEMY_HOUSE_NAME" Language="en_US">
+      <Text>Survey station</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_OBSERVATORY_NAME" Language="zh_Hans_CN">
+      <Text>观星台</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_OBSERVATORY_NAME" Language="en_US">
+      <Text>Observatory</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Language="zh_Hans_CN">
+      <Text>公立学校</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_PUBLIC_SCHOOL_NAME" Language="en_US">
+      <Text>Public School</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_ACADEMIC_EXCHANGE_NAME" Language="zh_Hans_CN">
+      <Text>学术交流中心</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ACADEMIC_EXCHANGE_NAME" Language="en_US">
+      <Text>Academic Exchange</Text>
+    </Replace> 
+	<Replace Tag="LOC_BUILDING_RESEARCH_LAB_NAME" Language="zh_Hans_CN">
+      <Text>海洋实验室</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_RESEARCH_LAB_NAME" Language="en_US">
+      <Text>Marine Lab</Text>
+    </Replace> 
+    <Replace Tag="LOC_BUILDING_BIOLOGY_LAB_NAME" Language="zh_Hans_CN">
+      <Text>植物实验室</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_BIOLOGY_LAB_NAME" Language="en_US">
+      <Text>Plant Lab</Text>
+    </Replace> 
+	<Replace Tag="LOC_BUILDING_ANIMAL_LAB_NAME" Language="zh_Hans_CN">
+      <Text>动物实验室</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ANIMAL_LAB_NAME" Language="en_US">
+      <Text>Animal Lab</Text>
+    </Replace>	
+    <Replace Tag="LOC_BUILDING_CHEMISTRY_LAB_NAME" Language="zh_Hans_CN">
+      <Text>化学实验室</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_CHEMISTRY_LAB_NAME" Language="en_US">
+      <Text>Chemistry Lab</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_GIANT_TELESCOPE_NAME" Language="zh_Hans_CN">
+      <Text>巨型望远镜</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GIANT_TELESCOPE_NAME" Language="en_US">
+      <Text>Giant Telescope</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_HADRON_COLLIDER_NAME" Language="zh_Hans_CN">
+      <Text>大型对撞机</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_HADRON_COLLIDER_NAME" Language="en_US">
+      <Text>Hadron Collider</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_SUPER_COMPUTER_NAME" Language="zh_Hans_CN">
+      <Text>超级计算机</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_SUPER_COMPUTER_NAME" Language="en_US">
+      <Text>Super Computer</Text>
+    </Replace>  
+	
+	<Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>从建造或最后被修复开始每个时代额外+2 [ICON_Science] 科技值。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_LIBRARY_DESCRIPTION" Language="en_US">
+      <Text>+2 additional [ICON_Science] Science for each era since constructed or last repaired.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Campus Tier 1 building.</Text>
+    </Replace>  
+	<Replace Tag="LOC_BUILDING_ALCHEMY_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市内的每种地貌为本建筑+1 [ICON_Science] 科技值。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ALCHEMY_HOUSE_DESCRIPTION" Language="en_US">
+      <Text>Each feature within this city provides +1 [ICON_Science] Science for this building.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Campus Tier 1 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_OBSERVATORY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市内的每个山脉单元格为本建筑+2 [ICON_Science] 科技值。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_OBSERVATORY_DESCRIPTION" Language="en_US">
+      <Text>Mountains tile within this city provides +2 [ICON_Science] Science for this building.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Campus Tier 1 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>城市内每位 [ICON_Citizen] 公民+0.5 [ICON_Science] 科技值。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_PUBLIC_SCHOOL_DESCRIPTION" Language="en_US">
+      <Text>+0.5 [ICON_Science] Science per [ICON_Citizen] Citizen in the city.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Campus Tier 2 building.</Text>
+    </Replace>  
+	<Replace Tag="LOC_BUILDING_UNIVERSITY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本建筑额外获得与学院区的基础 [ICON_Science] 科技值相等的 [ICON_Science] 科技值。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_UNIVERSITY_DESCRIPTION" Language="en_US">
+      <Text>This building gains bonus [ICON_Science] Science equal to the base [ICON_Science] Science adjacency bonus of the Campus district.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Campus Tier 2 building.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ACADEMIC_EXCHANGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有贸易路线+1 [ICON_Science] 科技值，-1 [ICON_Gold] 金币（可叠加）。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ACADEMIC_EXCHANGE_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Science] Science and -1 [ICON_Gold] Gold for all trade routes. (Stackable)[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Campus Tier 2 building.</Text>
+    </Replace>  
+	<Replace Tag="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国内的每处改良过且位于学院三个单元格范围内的海洋资源（渔船与海上石油钻机）为所有海洋实验室+1科技值。[NEWLINE][COLOR_FLOAT_MILITARY]内卷化：每个海洋实验室使所有海洋实验室-1 [ICON_Gold] 金币。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到5个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_RESEARCH_LAB_DESCRIPTION" Language="en_US">
+      <Text>Each improved marine resource (fishing boats and offshore oil rig) within 3 tiles of a Campus provides +1 [ICON_Science] Science for all Marine Lab in the empire. [NEWLINE][COLOR_FLOAT_MILITARY]Industry competition: Each Marine Lab -1 [ICON_Gold] Gold for all Marine Labs.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Campus Tier 3 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_BIOLOGY_LAB_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国内的每处改良过且位于学院两个单元格范围内的陆地植物类资源（农场与种植园）为所有植物实验室+1科技值。[NEWLINE][COLOR_FLOAT_MILITARY]内卷化：每个植物实验室使所有植物实验室-1 [ICON_Gold] 金币。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到5个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_BIOLOGY_LAB_DESCRIPTION" Language="en_US">
+      <Text>Each improved terrestrial plant resource (farm and plantation) within 2 tiles of a Campus provides +1 [ICON_Science] Science for all Plant Lab in the empire. [NEWLINE][COLOR_FLOAT_MILITARY]Industry competition: Each Plant Lab -1 [ICON_Gold] Gold for all Plant Lab.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Campus Tier 3 building.</Text>
+    </Replace>  
+	<Replace Tag="LOC_BUILDING_ANIMAL_LAB_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国内的每处改良过且位于学院两个单元格范围内的陆地动物类资源（牧场与营地）为所有动物实验室+1科技值。[NEWLINE][COLOR_FLOAT_MILITARY]内卷化：每个动物实验室使所有动物实验室-1 [ICON_Gold] 金币。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到5个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ANIMAL_LAB_DESCRIPTION" Language="en_US">
+      <Text>Each improved terrestrial animal resource (farm, pasture, plantation, and camp) within 2 tiles of a Campus provides +1 [ICON_Science] Science for all Animal Lab in the empire. [NEWLINE][COLOR_FLOAT_MILITARY]Industry competition: Each Animal Lab -1 [ICON_Gold] Gold for all Animal Lab.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Campus Tier 3 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_CHEMISTRY_LAB_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国内的每处改良过且位于学院两个单元格范围内的陆地非生物类资源（矿山、采石场、油井）为所有化学实验室+1科技值。[NEWLINE][COLOR_FLOAT_MILITARY]内卷化：每个化学实验室使所有化学实验室-1 [ICON_Gold] 金币。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到5个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_CHEMISTRY_LAB_DESCRIPTION" Language="en_US">
+      <Text>Each improved terrestrial nonliving resource (mine, quarry, and oil rig) within 2 tiles of a Campus provides +1 [ICON_Science] Science for all Chemistry Lab in the empire. [NEWLINE][COLOR_FLOAT_MILITARY]Industry competition: Each Chemistry Lab -1 [ICON_Gold] Gold for all Chemistry Lab.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Campus Tier 3 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_GIANT_TELESCOPE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为全国范围内进行的航天项目+50% [ICON_Production] 生产力。[NEWLINE][NEWLINE]其基础产出延伸到6个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GIANT_TELESCOPE_DESCRIPTION" Language="en_US">
+      <Text>+50% [ICON_Production] Production for all space projects in your empire. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from a Campus Tier 4 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_HADRON_COLLIDER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为全国范围内进行的大规模杀伤性武器项目+50% [ICON_Production] 生产力。[NEWLINE][NEWLINE]其基础产出延伸到6个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_HADRON_COLLIDER_DESCRIPTION" Language="en_US">
+      <Text>+50% [ICON_Production] Production for all WMD projects in your empire. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from a Campus Tier 4 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_SUPER_COMPUTER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>为全国范围内进行的所有项目+15% [ICON_Production] 生产力。[NEWLINE][NEWLINE]其基础产出延伸到6个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_SUPER_COMPUTER_DESCRIPTION" Language="en_US">
+      <Text>+15% [ICON_Production] Production for all projects in your empire. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from a Campus Tier 4 building.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>黄金黎明协会专属，替代大学。本建筑额外获得与学院区的基础 [ICON_Science] 科技值相等的 [ICON_Science] 科技值。此学院区域将生成等同于其 [ICON_Science] 科技值相邻加成的 [ICON_Gold] 金币。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ALCHEMICAL_SOCIETY_DESCRIPTION" Language="en_US">
+      <Text>Unique to the Hermetic Order, replaces the University. This building gains bonus [ICON_Science] Science equal to the base [ICON_Science] Science adjacency bonus of the Campus district. This Campus district gains bonus [ICON_Gold] Gold equal to its [ICON_Science] Science adjacency bonus.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Campus Tier 2 building </Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>阿拉伯特色建筑。本建筑额外获得与学院区的基础 [ICON_Science] 科技值相等的 [ICON_Science] 科技值，额外获得与学院区的 [ICON_Science] 科技值相等的 [ICON_Faith] 信仰值。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_MADRASA_DESCRIPTION" Language="en_US">
+     <Text>A building unique to Arabia. This building gains bonus [ICON_Science] Science equal to the base [ICON_Science] Science adjacency bonus of the Campus district. This building gains bonus [ICON_Faith] Faith equal to the adjacency bonus of the Campus district.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Campus Tier 2 building.</Text>
+    </Replace>  
+    <Replace Tag="LOC_BUILDING_NAVIGATION_SCHOOL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>葡萄牙特色建筑。城市内每位 [ICON_Citizen] 公民+0.5 [ICON_Science] 科技值。在此城中生产海军单位时+25%生产力。此城中每拥有2个海岸或湖泊单元格，则+1 [ICON_SCiENCE] 科技值。每回合+1 [ICON_GreatAdmiral] 海军统帅点数、+1 [ICON_GreatScientist] 大科学家点数。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_NAVIGATION_SCHOOL_DESCRIPTION" Language="en_US">
+     <Text>A building unique to Portugal. +0.5 [ICON_Science] Science per [ICON_Citizen] Citizen in the city. +25% [ICON_PRODUCTION] Production towards naval units in this city. +1 [ICON_SCiENCE] Science for every two coast or lake tiles in this city. +1 [ICON_GreatAdmiral] Great Admiral and +1 [ICON_GreatScientist] Great Scientist point per turn. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Campus Tier 2 building</Text>
+    </Replace> 
+	
+<!-- 商业中心		 -->
+<Replace Tag="LOC_BUILDING_MARKET_NAME" Language="zh_Hans_CN">
+      <Text>市场</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MARKET_NAME" Language="en_US">
+      <Text>Market</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MINT_NAME" Language="zh_Hans_CN">
+      <Text>铸币厂</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MINT_NAME" Language="en_US">
+      <Text>Mint</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_POST_STATION_NAME" Language="zh_Hans_CN">
+      <Text>驿站</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_POST_STATION_NAME" Language="en_US">
+      <Text>Post Station</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_BANK_NAME" Language="zh_Hans_CN">
+      <Text>银行</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_BANK_NAME" Language="en_US">
+      <Text>Bank</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_TAX_BUREAU_NAME" Language="zh_Hans_CN">
+      <Text>税务厅</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_TAX_BUREAU_NAME" Language="en_US">
+      <Text>Tax Bureau</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_COMMERCIAL_NAME" Language="zh_Hans_CN">
+      <Text>商业街</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_COMMERCIAL_NAME" Language="en_US">
+      <Text>Commercial Street</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_NAME" Language="zh_Hans_CN">
+      <Text>地产开发公司</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_NAME" Language="en_US">
+      <Text>Real Estate Corporation</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_URBAN_CONSTRUCTION_NAME" Language="zh_Hans_CN">
+      <Text>城市建设公司</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_URBAN_CONSTRUCTION_NAME" Language="en_US">
+      <Text>Urban Construction Corporation</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MILITARY_CORP_NAME" Language="zh_Hans_CN">
+      <Text>安全承包商</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MILITARY_CORP_NAME" Language="en_US">
+      <Text>Military Corporation</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_LUXURY_GOODS_NAME" Language="zh_Hans_CN">
+      <Text>全球百货连锁</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_LUXURY_GOODS_NAME" Language="en_US">
+      <Text>Global Department Store Chain</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_DIGITAL_CURRENCY_NAME" Language="zh_Hans_CN">
+      <Text>科技概念企业</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_DIGITAL_CURRENCY_NAME" Language="en_US">
+      <Text>High Tech Company</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_FINANCIAL_TOWER_NAME" Language="zh_Hans_CN">
+      <Text>国际金融公司</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_FINANCIAL_TOWER_NAME" Language="en_US">
+      <Text>International Finance Corporation</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MINING_GROUP_NAME" Language="zh_Hans_CN">
+      <Text>世界矿业集团</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MINING_GROUP_NAME" Language="en_US">
+      <Text>World Mining Group</Text>
+    </Replace>
+
+<Replace Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城的奢侈品资源单元格+2 [ICON_Gold] 金币。[NEWLINE]如此城尚未建有灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION" Language="en_US">
+      <Text>+2 [ICON_Gold] Gold for Luxury resources in this city. [NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Lighthouse building.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Commercial Hub Tier 1 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MINT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本建筑2个单元格范围内的所有单元格+1 [ICON_Gold] 金币。[NEWLINE]如此城尚未建有灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MINT_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Gold] Gold for all tiles within 2 tiles of this building. [NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Lighthouse building.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Commercial Hub Tier 1 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_POST_STATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>如此城有改良的 [ICON_RESOURCE_HORSES] 马资源，则+1 [ICON_TradeRoute] 贸易路线容量，每回合-1 [ICON_RESOURCE_HORSES] 马。[NEWLINE]如此城尚未建有灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_POST_STATION_DESCRIPTION" Language="en_US">
+      <Text>If this city has improved [ICON_RESOURCE_HORSES] Horses resource, +1 [ICON_TradeRoute] Trade Route capacity and -1 [ICON_RESOURCE_HORSES] Horses per turn. [NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Lighthouse building.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Commercial Hub Tier 1 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_BANK_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>此商业中心额外+2 [ICON_Citizen] 专家槽位，专家额外产出+2 [ICON_Gold] 金币。[NEWLINE]如此城有至少24人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_BANK_DESCRIPTION" Language="en_US">
+      <Text>This Commercial Hub provides 2 more [ICON_Citizen] citizen slots and its Specialists provide 2 more [ICON_Gold] Gold. [NEWLINE]+1 [ICON_TradeRoute] if city has no less than 24 [ICON_Citizen] citizens.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Commercial Hub Tier 2 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_TAX_BUREAU_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城市每人口+1 [ICON_Gold] 金币。[NEWLINE]如此城有至少24人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_TAX_BUREAU_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Gold] Gold per [ICON_Citizen] Citizen in the city. [NEWLINE]+1 [ICON_TradeRoute] if city has no less than 24 [ICON_Citizen] citizens.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Commercial Hub Tier 2 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_COMMERCIAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>获得等同于商业中心域相邻的 [ICON_Gold] 金币。[NEWLINE]如此城有至少24人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_COMMERCIAL_DESCRIPTION" Language="en_US">
+      <Text>This building gains bonus [ICON_Gold] Gold equal to the base [ICON_Gold] Gold adjacency bonus of the Commercial Hub district. [NEWLINE]+1 [ICON_TradeRoute] if city has no less than 24 [ICON_Citizen] citizens.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Commercial Hub Tier 2 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国内用 [ICON_Gold] 金币或 [ICON_Faith] 信仰购买单元格和区域时打折5%费用（可叠加，至多30%）。[NEWLINE]本城允许购买区域。[NEWLINE]如此城有至少36人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][COLOR_FLOAT_MILITARY]商业竞争：每个地产开发公司使所有地产开发公司-1 [ICON_Production] 生产力。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到5个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION" Language="en_US">
+      <Text>Tiles and Districts are 5% cheaper to purchase with [ICON_Faith] Faith and [ICON_Gold] Gold in your civilization. This effect can be stacked up to 6 times, to a maximum of 30%.[NEWLINE]May purchase Districts in this city.[NEWLINE]+1 [ICON_TradeRoute] if city has no less than 36 [ICON_Citizen] citizens.[NEWLINE][COLOR_FLOAT_MILITARY]Commercial competition: Each Real Estate Corporation -1 [ICON_Production] Production for all Real Estate Corporation.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Commercial Hub Tier 3 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_URBAN_CONSTRUCTION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国内用 [ICON_Gold] 金币或 [ICON_Faith] 信仰购买建筑时打折5%费用（可叠加，至多30%）。[NEWLINE]本城市生产建筑后获得其  [ICON_Production] 生产力消耗25%的 [ICON_Gold] 金币。[NEWLINE]如此城有至少36人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][COLOR_FLOAT_MILITARY]商业竞争：每个城市建设公司使所有城市建设公司-1 [ICON_Production] 生产力。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到5个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_URBAN_CONSTRUCTION_DESCRIPTION" Language="en_US">
+      <Text>Buildings are 5% cheaper to purchase with [ICON_Faith] Faith and [ICON_Gold] Gold in your civilization. This effect can be stacked up to 6 times, to a maximum of 30%. Upon completion of a building, receive 25% [ICON_Gold] gold of its [ICON_Production] production cost.[NEWLINE]+1 [ICON_TradeRoute] if city has no less than 36 [ICON_Citizen] citizens.[NEWLINE][COLOR_FLOAT_MILITARY]Commercial competition: Each Urban Construction Corporation -1 [ICON_Production] Production for all Urban Construction Corporation.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Commercial Hub Tier 3 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MILITARY_CORP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国内用 [ICON_Gold] 金币或 [ICON_Faith] 信仰购买单位时打折5%费用（可叠加，至多30%）。[NEWLINE]本城市生产单位后获得其 [ICON_Production] 生产力消耗25%的 [ICON_Gold] 金币。[NEWLINE]如此城有至少36人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][COLOR_FLOAT_MILITARY]商业竞争：每个安全承包商使所有安全承包商-1 [ICON_Production] 生产力。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到5个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MILITARY_CORP_DESCRIPTION" Language="en_US">
+      <Text>Units are 5% cheaper to purchase with [ICON_Faith] Faith and [ICON_Gold] Gold in your civilization. This effect can be stacked up to 6 times, to a maximum of 30%. [NEWLINE]Upon completion of a unit, receive 25% [ICON_Gold] gold of its [ICON_Production] production cost.[NEWLINE]+1 [ICON_TradeRoute] if city has no less than 36 [ICON_Citizen] citizens.[NEWLINE][COLOR_FLOAT_MILITARY]Commercial competition: Each Military Corporation -1 [ICON_Production] Production for all Military Corporation.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Commercial Hub Tier 3 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_LUXURY_GOODS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国贸易路线出发城市的每个加成资源为贸易路线+1[ICON_Gold] 金币（可叠加）。[NEWLINE]如此城有至少48人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][COLOR_FLOAT_MILITARY]反垄断法：每个全球百货连锁使所有全球百货连锁-3 [ICON_Production] 生产力。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到6个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_LUXURY_GOODS_DESCRIPTION" Language="en_US">
+      <Text>Your [ICON_TradeRoute] Trade Routes gain +1 [ICON_Gold] Gold for each bonus resource at the origin.[NEWLINE]+1 [ICON_TradeRoute] if city has no less than 48 [ICON_Citizen] citizens.[NEWLINE][COLOR_FLOAT_MILITARY]Antitrust law: Each Global Department Store Chain -3 [ICON_Production] Production for all Global Department Store Chain.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from a Commercial Hub Tier 4 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_DIGITAL_CURRENCY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国贸易路线终点城市的每个区域为贸易路线+1 [ICON_Gold] 金币（可叠加）。[NEWLINE]如此城有至少48人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][COLOR_FLOAT_MILITARY]反垄断法：每个科技概念企业使所有科技概念企业-3 [ICON_Production] 生产力。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到6个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_DIGITAL_CURRENCY_DESCRIPTION" Language="en_US">
+      <Text>Your [ICON_TradeRoute] Trade Routes gain +1 [ICON_Gold] Gold for each specialty district at the destination.[NEWLINE]+1 [ICON_TradeRoute] if city has no less than 48 [ICON_Citizen] citizens.[NEWLINE][COLOR_FLOAT_MILITARY]Antitrust law: Each High Tech Company -3 [ICON_Production] Production for all High Tech Company.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from a Commercial Hub Tier 4 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_FINANCIAL_TOWER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国商路每经过一个贸易站则为贸易路线+1[ICON_Gold] 金币（可叠加）。[NEWLINE]如此城有至少48人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][COLOR_FLOAT_MILITARY]反垄断法：每个国际金融公司使所有国际金融公司-3 [ICON_Production] 生产力。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到6个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_FINANCIAL_TOWER_DESCRIPTION" Language="en_US">
+      <Text>Your [ICON_TradeRoute] Trading Posts in all cities provide +1 [ICON_Gold] Gold to your [ICON_TradeRoute] Trade Routes passing through or going to the city.[NEWLINE]+1 [ICON_TradeRoute] if city has no less than 48 [ICON_Citizen] citizens.[NEWLINE][COLOR_FLOAT_MILITARY]Antitrust law: Each International Finance Corporation -3 [ICON_Production] Production for all International Finance Corporation.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from a Commercial Hub Tier 4 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MINING_GROUP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国贸易路线终点城市的每个战略资源为贸易路线+2[ICON_Gold] 金币（可叠加）。[NEWLINE]如此城有至少48人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][COLOR_FLOAT_MILITARY]反垄断法：每个世界矿业集团使所有世界矿业集团-3 [ICON_Production] 生产力。[ENDCOLOR][NEWLINE][NEWLINE]其基础产出延伸到6个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MINING_GROUP_DESCRIPTION" Language="en_US">
+      <Text>Your [ICON_TradeRoute] Trade Routes gain +2 [ICON_Gold] Gold for each strategic resource at the destination.[NEWLINE]+1 [ICON_TradeRoute] if city has no less than 48 [ICON_Citizen] citizens.[NEWLINE][COLOR_FLOAT_MILITARY]Antitrust law: Each World Mining Group -3 [ICON_Production] Production for all World Mining Group.[ENDCOLOR][NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from a Commercial Hub Tier 4 building.</Text>
+    </Replace>
+<!-- UB	 -->
+<Replace Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>波兰特色建筑。从本城出发的国际贸易路线从目的地的每个奢侈资源获得+3 [ICON_Gold] 金币。[NEWLINE]本城的奢侈品资源单元格+2 [ICON_Gold] 金币。[NEWLINE]如此城尚未建有灯塔，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION" Language="en_US">
+      <Text>A building unique to Poland. International [ICON_TradeRoute] Trade Routes from this city gain +3 [ICON_Gold] Gold per luxury resource in the foreign city. [NEWLINE]+2 [ICON_Gold] Gold for Luxury resources in this city. [NEWLINE]+1 [ICON_TradeRoute] Trade Route capacity, if this city does not yet have a Lighthouse building.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Commercial Hub Tier 1 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>奥斯曼特色建筑。城市中改良的每种不同战略资源均可额外增加1点。城市改良的每个奢侈品资源均可提供1点 [ICON_Amenities] 宜居度。[NEWLINE]此商业中心+2 [ICON_Citizen] 专家槽位，专家额外产出+2 [ICON_Gold] 金币。如此城有至少24人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION" Language="en_US">
+      <Text>A building unique to the Ottomans. Accumulate 1 extra Strategic resource for every different type of Strategic resource this city has improved. Receive 1  Amenity for every Luxury resource this city has improved. [NEWLINE]This Commercial Hub provides 2 more [ICON_Citizen] citizen slots and its Specialists provide 2 more [ICON_Gold] Gold.[NEWLINE]+1 [ICON_TradeRoute] if city has no less than 24 [ICON_Citizen] citizens.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Commercial Hub Tier 2 building.</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_GILDED_VAULT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>获得等同于商业中心域相邻的 [ICON_Gold] 金币和 [ICON_Culture] 文化值。[NEWLINE]如此城有至少24人口，则+1 [ICON_TradeRoute] 贸易路线容量。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格中的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_GILDED_VAULT_DESCRIPTION" Language="en_US">
+      <Text>This building gains bonus [ICON_Gold] Gold and [ICON_Culture] Culture equal to the base [ICON_Gold] Gold adjacency bonus of the Commercial Hub district. [NEWLINE]+1 [ICON_TradeRoute] if city has no less than 24 [ICON_Citizen] citizens.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Commercial Hub Tier 2 building.</Text>
+    </Replace>
+
+<!-- 剧院广场	 -->
+<Replace Tag="LOC_BUILDING_EPIC_THEATRE_NAME" Language="zh_Hans_CN">
+      <Text>史诗剧场</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_EPIC_THEATRE_NAME" Language="en_US">
+      <Text>Epic Theatre</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_TAMPLE_STAGE_NAME" Language="zh_Hans_CN">
+      <Text>神庙戏台</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_TAMPLE_STAGE_NAME" Language="en_US">
+      <Text>Temple Stage</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_THERTERMUSEUM_NAME" Language="zh_Hans_CN">
+      <Text>歌剧博物馆</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_THERTERMUSEUM_NAME" Language="en_US">
+      <Text>Therter Museum</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_LIBRARYMUSEUM_NAME" Language="zh_Hans_CN">
+      <Text>图书博物馆</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_LIBRARYMUSEUM_NAME" Language="en_US">
+      <Text>Library Museum</Text>
+    </Replace>		
+<Replace Tag="LOC_BUILDING_OPERA_HOUSE_NAME" Language="zh_Hans_CN">
+      <Text>歌剧院</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_OPERA_HOUSE_NAME" Language="en_US">
+      <Text>Opera House</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_ART_ASSOCIATION_NAME" Language="zh_Hans_CN">
+      <Text>艺术家协会</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_ART_ASSOCIATION_NAME" Language="en_US">
+      <Text>Art Association</Text>
+    </Replace>	    
+<Replace Tag="LOC_BUILDING_PHOTOSTUDIO_NAME" Language="zh_Hans_CN">
+      <Text>摄影棚</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_PHOTOSTUDIO_NAME" Language="en_US">
+      <Text>Photostudio</Text>
+    </Replace>	   	
+<Replace Tag="LOC_BUILDING_CINEMA_NAME" Language="zh_Hans_CN">
+      <Text>电影城</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_CINEMA_NAME" Language="en_US">
+      <Text>Cinema</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_CONCERT_HALL_NAME" Language="zh_Hans_CN">
+      <Text>多功能音乐厅</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_CONCERT_HALL_NAME" Language="en_US">
+      <Text>Concert Hall</Text>
+    </Replace>	    
+<Replace Tag="LOC_BUILDING_WE_MEDIA_NAME" Language="zh_Hans_CN">
+      <Text>自媒体平台</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_WE_MEDIA_NAME" Language="en_US">
+      <Text>We Media Platform</Text>
+    </Replace>	  		
+<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本城每个 [ICON_Citizen] 公民+0.3 [ICON_Culture] 文化值。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_AMPHITHEATER_DESCRIPTION" Language="en_US">
+      <Text>+0.3 [ICON_Culture] Culture per [ICON_Citizen] citizen in this city.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Theater Tier 1 building.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_EPIC_THEATRE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>额外+2专家槽位，本区域的专家额外提供+2 [ICON_Culture] 文化值。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_EPIC_THEATRE_DESCRIPTION" Language="en_US">
+      <Text>Two more Specialist slots than usual, and +2 [ICON_Culture] Culture to Specialists in this district.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Theater Tier 1 building. </Text>
+    </Replace>		
+<Replace Tag="LOC_BUILDING_TAMPLE_STAGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>与本剧院广场相邻的单元格+1 [ICON_Culture] 文化值、+1 [ICON_Faith]信仰值，若与圣地相邻则翻倍。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_TAMPLE_STAGE_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Culture] Culture and +1 [ICON_Faith] for tiles that are adjacent to this district, double if adhacent to a Holy Site.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Theater Tier 1 building.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每个 [ICON_GreatWork_Landscape] 艺术类巨作+1 [ICON_Culture] 文化值（可与其他城市的相同建筑叠加）。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Culture] Culture for all [ICON_GreatWork_Landscape] Great Works of Art (Stackable with the same building in other cities).[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Theater Tier 2 building.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每个 [ICON_GreatWork_Artifact] 文物类巨作+1 [ICON_Culture] 文化值（可与其他城市的相同建筑叠加）。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Culture] Culture for all [ICON_GreatWork_Artifact] Artifacts (Stackable with the same building in other cities).[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Theater Tier 2 building.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_THERTERMUSEUM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每个 [ICON_GreatWork_MUSIC] 音乐类巨作+1 [ICON_Culture] 文化值（可与其他城市的相同建筑叠加）。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_THERTERMUSEUM_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Culture] Culture for all [ICON_GreatWork_MUSIC] Music Great Works (Stackable with the same building in other cities).[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Theater Tier 2 building.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_LIBRARYMUSEUM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>每个 [ICON_GreatWork_WRITING] 著作类巨作+1 [ICON_Culture] 文化值（可与其他城市的相同建筑叠加）。[NEWLINE][NEWLINE]其基础产出延伸到4个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_LIBRARYMUSEUM_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_Culture] Culture for all [ICON_GreatWork_WRITING] Literature Great Works (Stackable with the same building in other cities).[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 4 tiles that do not already have a bonus from a Theater Tier 2 building.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国内来自 [ICON_GreatWork_WRITING] 著作类和 [ICON_GreatWork_MUSIC] 音乐类巨作的 [ICON_Tourism] 旅游业绩*110%（可与其他城市的相同建筑叠加）。[NEWLINE]本城来自 [ICON_GreatWork_WRITING] 著作类和 [ICON_GreatWork_MUSIC] 音乐类巨作的 [ICON_Tourism] 旅游业绩*110%，每有10 [ICON_Citizen] 人口则再*110%。[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_OPERA_HOUSE_DESCRIPTION" Language="en_US">
+      <Text>*110% [ICON_Tourism] Tourism for all [ICON_GreatWork_WRITING] Literature Great Works and [ICON_GreatWork_MUSIC] Music Great Works in your empire (Stackable with the same building in other cities).[NEWLINE]*110% [ICON_Tourism] Tourism for all [ICON_GreatWork_WRITING] Literature Great Works and [ICON_GreatWork_MUSIC] Music Great Works in this city, repeat for each 10 [ICON_Citizen] citizens in this city.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Theater Tier 3 building.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_ART_ASSOCIATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国内来自 [ICON_GreatWork_Landscape] 艺术类和 [ICON_GreatWork_Artifact] 文物类巨作的 [ICON_Tourism] 旅游业绩*110%（可与其他城市的相同建筑叠加）。[NEWLINE]本城来自 [ICON_GreatWork_Landscape] 艺术类和 [ICON_GreatWork_Artifact] 文物类巨作的 [ICON_Tourism] 旅游业绩*110%，每有10 [ICON_Citizen] 人口则再*110%。[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_ART_ASSOCIATION_DESCRIPTION" Language="en_US">
+      <Text>+20% [ICON_Tourism] Tourism for all [ICON_GreatWork_Landscape] Great Works of Art and [ICON_GreatWork_Artifact] Artifacts in your empire (Stackable with the same building in other cities).[NEWLINE]+20% [ICON_Tourism] Tourism for all [ICON_GreatWork_Landscape] Great Works of Art and [ICON_GreatWork_Artifact] Artifacts per 10 [ICON_Citizen] citizens in this city.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Theater Tier 3 building.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>若目的地为主流文明，贸易路线对该文明的 [ICON_Tourism] 旅游业绩+10%（可与其他城市的相同建筑叠加）。[NEWLINE]本城来自改良设施的 [ICON_Tourism] 旅游业绩+15%；若剧院广场的魅力值为迷人，则+30%；若魅力值为惊艳，则+45%。[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_BROADCAST_CENTER_DESCRIPTION" Language="en_US">
+      <Text>+10% [ICON_Tourism] Tourism for major civilizations of your trade route destination (Stackable with the same building in other cities).[NEWLINE]+15% [ICON_Tourism] Tourism from all Improvements in this city, double if the Theater district has a charming appeal, triple if the Theater district has a breathtaking appeal.  [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Theater Tier 3 building.</Text>
+    </Replace>		
+<Replace Tag="LOC_BUILDING_PHOTOSTUDIO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国内来自世界奇观的 [ICON_Tourism] 旅游业绩和国家公园的 [ICON_Tourism] 旅游业绩+10%（可与其他城市的相同建筑叠加）。[NEWLINE]本城来自世界奇观和国家公园的 [ICON_Tourism] 旅游业绩+10%；若剧院广场的魅力值为迷人，则+20%；若魅力值为惊艳，则+30%。[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_PHOTOSTUDIO_DESCRIPTION" Language="en_US">
+      <Text>+10% [ICON_Tourism] Tourism from all World Wonders and National Parks in your empire (Stackable with the same building in other cities).[NEWLINE]+10% [ICON_Tourism] Tourism from all World Wonders and National Parks in this city, double if the Theater district has a charming appeal, triple if the Theater district has a breathtaking appeal. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Theater Tier 3 building.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_CINEMA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>+20% [ICON_Tourism] 旅游业绩（可与其他城市的相同建筑叠加）。[NEWLINE][NEWLINE]其基础产出延伸到6个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_CINEMA_DESCRIPTION" Language="en_US">
+      <Text>+20% [ICON_Tourism] Tourism (Stackable with the same building in other cities).[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 6 tiles that do not already have a bonus from a Theater Tier 4 building.</Text>
+    </Replace>		
+<Replace Tag="LOC_GA_UNIQUE_AUTHOR_THEMED" Language="zh_Hans_CN">
+			<Text>当展示品来自不同作者时，获得主题化效果（产出加倍）。</Text>
+		</Replace>
+<Replace Tag="LOC_GA_UNIQUE_AUTHOR_THEMED" Language="en_US">
+			<Text>Theming bonus doubling output when displaying objects from different authors.</Text>
+		</Replace>		
+<Replace Tag="LOC_GA_AUTO_THEMED" Language="zh_Hans_CN">
+			<Text>填满展示牌时，自动获得主题化效果（产出加倍）。</Text>
+		</Replace>
+<Replace Tag="LOC_GA_AUTO_THEMED" Language="en_US">
+			<Text>Theming bonus doubling output when museum is full.</Text>
+		</Replace>		
+<Replace Tag="LOC_BUILDING_THEMINGBONUS_ART" Language="zh_Hans_CN">
+      <Text>当展示品来自不同艺术家，且展示品的类型相同时，获得主题化效果（产出加倍）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_THEMINGBONUS_ART" Language="en_US">
+      <Text>Theming bonus doubling output when displaying objects of the same type from different artists.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_THEMINGBONUS_ARCHAEOLOGY" Language="zh_Hans_CN">
+      <Text>当展示品来自不同文明且时代相同时，获得主题化效果（产出加倍）。</Text>
+    </Replace>		
+<Replace Tag="LOC_BUILDING_THEMINGBONUS_ARCHAEOLOGY" Language="en_US">
+      <Text>Theming bonus doubling output when displaying [ICON_GreatWork_Artifact] Artifacts of the same era from different civilizations.</Text>
+    </Replace>		
+	<!-- UB -->
+<Replace Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>美国特色建筑。 在电气时代及之后的时代，为所在城市+100% [ICON_Tourism] 旅游业绩。[NEWLINE]帝国内来自世界奇观的 [ICON_Tourism] 旅游业绩和国家公园的 [ICON_Tourism] 旅游业绩+10%（可与其他城市的相同建筑叠加）。[NEWLINE]本城来自世界奇观和国家公园的 [ICON_Tourism] 旅游业绩+10%；若剧院广场的魅力值为迷人，则+20%；若魅力值为惊艳，则+30%。[NEWLINE][NEWLINE]其基础产出延伸到5个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>
+<Replace Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION" Language="en_US">
+      <Text>A building unique to America. +100% [ICON_Tourism] Tourism pressure from this city towards other civilizations in and after the Modern era.[NEWLINE]+10% [ICON_Tourism] Tourism from all World Wonders and National Parks in your empire (Stackable with the same building in other cities).[NEWLINE]+10% [ICON_Tourism] Tourism from all World Wonders and National Parks in this city, double if the Theater district has a charming appeal, triple if the Theater district has a breathtaking appeal. [NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 5 tiles that do not already have a bonus from a Theater Tier 3 building.</Text>
+    </Replace>	
+<Replace Tag="LOC_BUILDING_MARAE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>毛利特色建筑。城市中所有包含可通行地貌或自然奇观的单元格+1 [ICON_CULTURE] 文化值与 [ICON_FAITH] 信仰值。研究“飞行”科技后，城市中所有包含地貌或自然奇观的单元格+1 [ICON_TOURISM] 旅游业绩。维护免费；无巨作槽位。[NEWLINE]与本剧院广场相邻的单元格+1 [ICON_Culture] 文化值、+1 [ICON_Faith]信仰值，若与圣地相邻则翻倍。[NEWLINE][NEWLINE]其基础产出延伸到3个单元格内的所有城市（前提是其尚未从其他的此等级建筑获得加成）。</Text>
+    </Replace>		
+<Replace Tag="LOC_BUILDING_MARAE_DESCRIPTION" Language="en_US">
+      <Text>A building unique to the Māori. +1 [ICON_CULTURE] Culture and [ICON_FAITH] Faith to all of this city's tiles with a passable feature or natural wonder. After Flight is researched receive +1 [ICON_TOURISM] Tourism to all of this city's tiles with a feature or natural wonder. Costs no maintenance. Has no Great Work slots.[NEWLINE]+1 [ICON_Culture] Culture and +1 [ICON_Faith] for tiles that are adjacent to this district, double if adhacent to a Holy Site.[NEWLINE][NEWLINE]Its base yields are extended to all City Centers within 3 tiles that do not already have a bonus from a Theater Tier 1 building.</Text>
+    </Replace>		
+	</LocalizedText>
+</GameData>

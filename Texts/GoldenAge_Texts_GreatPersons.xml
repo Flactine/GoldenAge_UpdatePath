@@ -1,0 +1,209 @@
+<GameData>
+    <LocalizedText>		
+    <!--大科学家-->	
+	<!--ARYABHATA-->	
+	<Replace Tag="LOC_GREATPERSON_ARYABHATA" Language="zh_Hans_CN">
+      <Text>可在学院上激活，与该区域相邻且当前处于帝国境内的单元格+2 [ICON_SCIENCE] 科技值、+2 [ICON_CULTURE] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_ARYABHATA" Language="en_US">
+      <Text>Can activate on a Campus. +2 [ICON_Science] Science and +2 [ICON_CULTURE] Culture for all adjacent plots that are currently within the territory of your empire.</Text>
+    </Replace>
+	<!--HILDEGARD_OF_BINGEN-->	
+	<Replace Tag="LOC_GREATPERSON_HILDEGARD_OF_BINGEN" Language="zh_Hans_CN">
+      <Text>可在圣地上激活，与该区域相邻且当前处于帝国境内的单元格+2 [ICON_SCIENCE] 科技值、+2 [ICON_CULTURE] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_HILDEGARD_OF_BINGEN" Language="en_US">
+      <Text>Can activate on a Holy Site. +2 [ICON_Science] Science and +2 [ICON_CULTURE] Culture for all adjacent plots that are currently within the territory of your empire.</Text>
+    </Replace>
+	<!--JAMES_YOUNG-->	
+	<Replace Tag="LOC_GREATPERSON_JAMES_YOUNG" Language="zh_Hans_CN">
+      <Text>可在商业中心上激活，与该区域相邻且当前处于帝国境内的单元格+2 [ICON_SCIENCE] 科技值、+2 [ICON_CULTURE] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_JAMES_YOUNG" Language="en_US">
+      <Text>Can activate on a Commercial Hub. +2 [ICON_Science] Science and +2 [ICON_CULTURE] Culture for all adjacent plots that are currently within the territory of your empire.</Text>
+    </Replace>
+	<!--IBN_KHALDUN-->	
+	<Replace Tag="LOC_GREATPERSON_IBN_KHALDUN" Language="zh_Hans_CN">
+      <Text>可在剧院广场上激活，与该区域相邻且当前处于帝国境内的单元格+2 [ICON_SCIENCE] 科技值、+2 [ICON_CULTURE] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_IBN_KHALDUN" Language="en_US">
+      <Text>Can activate on a Theater. +2 [ICON_Science] Science and +2 [ICON_CULTURE] Culture for all adjacent plots that are currently within the territory of your empire.</Text>
+    </Replace>
+	<!--EUCLID-->	
+	<Replace Tag="LOC_GREATPERSON_EUCLID" Language="zh_Hans_CN">
+      <Text>可在学院上激活，该学院的 [ICON_SCIENCE] 科技值相邻加成+50%。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_EUCLID" Language="en_US">
+      <Text>Can activate on a Campus. +50% [ICON_SCIENCE] Science adjacency bonus for this Campus. </Text>
+    </Replace>
+	<!--ERWIN_SCHRODINGER-->	
+	<Replace Tag="LOC_GREATPERSON_ERWIN_SCHRODINGER" Language="zh_Hans_CN">
+      <Text>为原子能时代所有科技启动 [ICON_TechBoosted] 尤里卡时刻。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_ERWIN_SCHRODINGER" Language="en_US">
+      <Text>Triggers the [ICON_TechBoosted] Eureka moment for all Atomic era technologies.</Text>
+    </Replace>
+	<!--CARL_SAGAN-->	
+	<Replace Tag="LOC_GREATPERSON_CARL_SAGAN" Language="zh_Hans_CN">
+      <Text>为未来时代所有科技启动 [ICON_TechBoosted] 尤里卡时刻。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_CARL_SAGAN" Language="en_US">
+      <Text>Triggers the [ICON_TechBoosted] Eureka moment for all Future era technologies.</Text>
+    </Replace>
+	<!--DMITRI_MENDELEEV-->	
+	<Replace Tag="LOC_GREATPERSON_DMITRI_MENDELEEV" Language="zh_Hans_CN">
+      <Text>立即获得精炼和化学科技。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_DMITRI_MENDELEEV" Language="en_US">
+      <Text>Grant Refining and Chemistry technology. </Text>
+    </Replace>
+	<!--EMILIE_DU_CHATELET-->	
+	<Replace Tag="LOC_GREATPERSON_EMILIE_DU_CHATELET" Language="zh_Hans_CN">
+      <Text>获得一个随机科技和一个随机市政。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_EMILIE_DU_CHATELET" Language="en_US">
+      <Text>Grant a random technology and a random civic. </Text>
+    </Replace>
+	<!--MARGARET_MEAD-->	
+	<Replace Tag="LOC_GREATPERSON_MARGARET_MEAD" Language="zh_Hans_CN">
+      <Text>获得两个随机科技和两个随机市政。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_MARGARET_MEAD" Language="en_US">
+      <Text>Grant two random technology and two random civic. </Text>
+    </Replace>
+	<!--GALILEO_GALILEI-->	
+	<Replace Tag="LOC_GREATPERSON_GALILEO_GALILEI" Language="zh_Hans_CN">
+      <Text>在标准速度下，所在单元格每相邻一个山脉单元格获得600 [ICON_Science] 科技值和600 [ICON_CULTURE] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_GALILEO_GALILEI" Language="en_US">
+      <Text>Gain 600 [ICON_Science] Science and 600 [ICON_CULTURE] Culture (on Standard speed) for each adjacent Mountain tile.</Text>
+    </Replace>
+	<!--MARY_LEAKEY-->	
+	<Replace Tag="LOC_GREATPERSON_MARY_LEAKEY" Language="zh_Hans_CN">
+      <Text>该城市每个 [ICON_GreatWork_Artifact] 文物获得1000 [ICON_Science] 科技值和1000 [ICON_CULTURE] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_MARY_LEAKEY" Language="en_US">
+      <Text>Gain 1000 [ICON_Science] Science and 1000 [ICON_CULTURE] Culture (on Standard speed) for every [ICON_GreatWork_Artifact] Artifact in this city.</Text>
+    </Replace>
+	<!--JANAKI_AMMAL-->	
+	<Replace Tag="LOC_GREATPERSON_JANAKI_AMMAL" Language="zh_Hans_CN">
+      <Text>为当前或附近每个雨林单元格获得1000 [ICON_Science] 科技值与1000 [ICON_CULTURE] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_JANAKI_AMMAL" Language="en_US">
+      <Text>Gain 1000 [ICON_Science] Science and 1000 [ICON_CULTURE] Culture for each Rainforest tile here or adjacent.</Text>
+    </Replace>
+	<!--CHARLES_DARWIN-->	
+	<Replace Tag="LOC_GREATPERSON_CHARLES_DARWIN" Language="zh_Hans_CN">
+      <Text>在标准速度下，从此处或相邻的每个自然奇观单元格获得1000 [ICON_Science] 科技值和1000 [ICON_Culture] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_CHARLES_DARWIN" Language="en_US">
+      <Text>Gain 1000 [ICON_Science] Science and 1000 [ICON_Culture] Culture (on Standard speed) for each natural wonder tile here or adjacent.</Text>
+    </Replace>
+	<!--大工程师-->	
+	<!--ST_GEORGE-->	
+	<Replace Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE" Language="zh_Hans_CN">
+      <Text>立即在该城市中建造远古城墙、中世纪城墙、文艺复兴城墙。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_JAMES_OF_ST_GEORGE" Language="en_US">
+      <Text>Instantly builds Ancient, Medieval, and Renaissance Walls in this city.</Text>
+    </Replace>
+	<!--LEONARDO_DA_VINCI-->	
+	<Replace Tag="LOC_GREATPERSON_LEONARDO_DA_VINCI" Language="zh_Hans_CN">
+      <Text>所有工业区一级建筑+3 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_LEONARDO_DA_VINCI" Language="en_US">
+      <Text>+3 [ICON_PRODUCTION] Production for all Industrial Zone tier 1 buildings.</Text>
+    </Replace>
+	<!--JAMES_WATT-->	
+	<Replace Tag="LOC_GREATPERSON_JAMES_WATT" Language="zh_Hans_CN">
+      <Text>所有工业区二级建筑+4 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_JAMES_WATT" Language="en_US">
+      <Text>+4 [ICON_PRODUCTION] Production for all Industrial Zone tier 2 buildings.</Text>
+    </Replace>
+	<!--SERGEI_KOROLEV-->	
+	<Replace Tag="LOC_GREATPERSON_SERGEI_KOROLEV" Language="zh_Hans_CN">
+      <Text>所有工业区三级建筑+5 [ICON_PRODUCTION] 生产力。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_SERGEI_KOROLEV" Language="en_US">
+      <Text>+5 [ICON_PRODUCTION] Production for all Industrial Zone tier 3 buildings.</Text>
+    </Replace>
+	<!--BI_SHENG-->	
+	<!--ADA_LOVELACE-->	
+	<Replace Tag="LOC_GREATPERSON_BI_SHENG" Language="zh_Hans_CN">
+      <Text>该城市可无视 [ICON_Citizen] 人口数量限制再建造一个区域。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_BI_SHENG" Language="en_US">
+      <Text>Lets this city build one more district than the [ICON_Citizen] Population limit allows.</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_ADA_LOVELACE" Language="zh_Hans_CN">
+      <Text>该城市可无视 [ICON_Citizen] 人口数量限制再建造一个区域。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_ADA_LOVELACE" Language="en_US">
+      <Text>Lets this city build one more district than the [ICON_Citizen] Population limit allows.</Text>
+    </Replace>
+	<!--NIKOLA_TESLA-->	
+	<Replace Tag="LOC_GREATPERSON_NIKOLA_TESLA" Language="zh_Hans_CN">
+      <Text>可在工业区上激活，该区域的建筑辐射范围延伸3个单元格。该区域建筑的辐射产出+2 [ICON_Production] 生产力。</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_NIKOLA_TESLA" Language="en_US">
+      <Text>Can activate on a Industrial Zone. This district's regional buildings reach 3 tiles farther. This district's buildings provide +2 [ICON_Production] Production.</Text>
+    </Replace>
+	<!--ROBERT_GODDARD-->	
+	<Replace Tag="LOC_GREATPERSON_ROBERT_GODDARD" Language="zh_Hans_CN">
+      <Text>可在学院上激活，该区域的建筑辐射范围延伸3个单元格。该区域建筑的辐射产出+2 [ICON_Science] 科技值。</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ROBERT_GODDARD" Language="en_US">
+      <Text>Can activate on a Campus. This district's regional buildings reach 3 tiles farther. This district's buildings provide +2 [ICON_Science] Science.</Text>
+    </Replace>	
+	<!--ALVAR_AALTO-->	
+	<Replace Tag="LOC_GREATPERSON_ALVAR_AALTO" Language="zh_Hans_CN">
+      <Text>可在剧院广场上激活，该区域的建筑辐射范围延伸3个单元格。该区域建筑的辐射产出+2 [ICON_Culture] 文化值。</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_ALVAR_AALTO" Language="en_US">
+      <Text>Can activate on a Theater. This district's regional buildings reach 3 tiles farther.This district's buildings provide +2 [ICON_Culture] Culture.</Text>
+    </Replace>	
+	<!--SHAH_JAHAN-->	
+	<Replace Tag="LOC_GREATPERSON_SHAH_JAHAN" Language="zh_Hans_CN">
+      <Text>可在商业中心上激活，该区域的建筑辐射范围延伸3个单元格。该区域建筑的辐射产出+2 [ICON_Gold] 金币。</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_SHAH_JAHAN" Language="en_US">
+      <Text>Can activate on a Commercial Hub. This district's regional buildings reach 3 tiles farther.This district's buildings provide +2 [ICON_Gold] Gold.</Text>
+    </Replace>	
+	<!--JOSEPH_PAXTON-->	
+	<Replace Tag="LOC_GREATPERSON_JOSEPH_PAXTON" Language="zh_Hans_CN">
+      <Text>可在娱乐中心上激活，该区域的建筑辐射范围延伸3个单元格。该区域建筑的辐射产出+1 [ICON_Amenities] 宜居度。</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_JOSEPH_PAXTON" Language="en_US">
+      <Text>Can activate on a Entertainment Complex. This district's regional buildings reach 3 tiles farther. This district's buildings provide +1 [ICON_Amenities] Amenities.</Text>
+    </Replace>	
+	<!--IMHOTEP-->	
+	<Replace Tag="LOC_GREATPERSON_IMHOTEP" Language="zh_Hans_CN">
+      <Text>建造工业区后释放文化炸弹。</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_IMHOTEP" Language="en_US">
+      <Text>Can trigger a culture bomb upon finishing a Industrial Zone.</Text>
+    </Replace>	
+	<!--MIMAR_SINAN-->	
+	<Replace Tag="LOC_GREATPERSON_MIMAR_SINAN" Language="zh_Hans_CN">
+      <Text>可在工业区上激活，与该区域相邻且当前处于帝国境内的单元格+2 [ICON_SCIENCE] 科技值、+2 [ICON_CULTURE] 文化值。</Text>
+    </Replace>
+	<Replace Tag="LOC_GREATPERSON_MIMAR_SINAN" Language="en_US">
+      <Text>Can activate on a Industrial Zone. +2 [ICON_Science] Science and +2 [ICON_CULTURE] Culture for all adjacent plots that are currently within the territory of your empire.</Text>
+    </Replace>
+	<!--JANE_DREW-->	
+	<Replace Tag="LOC_GREATPERSON_JANE_DREW" Language="zh_Hans_CN">
+      <Text>该城市+4 [ICON_Housing] 住房，+2 [ICON_Amenities] 宜居度。</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_JANE_DREW" Language="en_US">
+      <Text>+4 [ICON_Housing] Housing and +2 [ICON_Amenities] Amenities for this city.</Text>
+    </Replace>	
+	<!--JOHN_A_ROEBLING-->	
+	<Replace Tag="LOC_GREATPERSON_JOHN_A_ROEBLING" Language="zh_Hans_CN">
+      <Text>该城市每个有地貌或自然奇观的单元格+1 [ICON_Tourism] 旅游业绩。</Text>
+    </Replace>
+    <Replace Tag="LOC_GREATPERSON_JOHN_A_ROEBLING" Language="en_US">
+      <Text>+1 [ICON_Tourism] Tourism for all tiles with feature or natural wonder for this city..</Text>
+    </Replace>	
+	</LocalizedText>
+</GameData>

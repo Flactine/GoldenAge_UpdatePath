@@ -1,0 +1,54 @@
+<GameData>
+    <LocalizedText>	    	
+	<!--世界奇观-->
+	<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建造奇观（包括阿帕达纳宫）时+1 [ICON_ENVOY] 使者。[NEWLINE][NEWLINE]必须建造在 [ICON_CAPITAL] 首都旁。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="en_US">
+      <Text>+1 [ICON_ENVOY] Envoys when you build a wonder, including Apadana.[NEWLINE][NEWLINE]Must be built adjacent to your [ICON_CAPITAL] Capital.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有城市的发展+20%。所有城市边境拓展速度+20%。（当英雄模式开启时）所有英雄单位的 [ICON_Lifespan] 寿命+20%。必须建在河流旁。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION"  Language="en_US">
+      <Text>Increases growth by 20% in all cities. Acquire new tiles in city 20% faster. (When the Heros Mode is on)All Hero units have 20% longer [ICON_Lifespan] Lifespans. Must be built next to a River.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>此奇观4个单元格内的每个营地、牧场和种植园改良设施+1 [ICON_AMENITIES] 宜居度和+1 [ICON_Housing]住房。必须放置在营地改良设施旁。</Text>
+    </Replace>
+	 <Replace Tag="LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION"  Language="en_US">
+      <Text>Each Camp, Pasture, and Plantation improvement within 4 tiles of this wonder provides +1 [ICON_AMENITIES] Amenity and +1 [ICON_Housing] Housing. Must be placed adjacent to a Camp improvement.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>帝国中的所有沼泽单元格+2 [ICON_Science] 科技值、+2 [ICON_Culture] 文化值。帝国中的所有泛滥平原单元格+1 [ICON_Production] 生产力。[NEWLINE][NEWLINE]必须建在泛滥平原或沼泽上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION"  Language="en_US">
+      <Text>+2 [ICON_Science] Science and +2 [ICON_Culture] Culture to all Marsh tiles in your empire. +1 [ICON_Production] Production to all Floodplains tiles in your empire.[NEWLINE][NEWLINE]Must be built on Floodplains or Marsh.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>建有大浴场的河畔泛滥平原单元格免受洪水侵袭（但来自洪水的 [ICON_Food] 食物和 [ICON_Production] 生产力加成减半）。帝国每次洪水后，泛滥平原单元格所产出的 [ICON_Faith] 信仰值+1。[NEWLINE][NEWLINE]必须建在泛滥平原单元格中。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION"  Language="en_US">
+      <Text>The Floodplains tiles along the river containing the Great Bath are now immune to Flood damage (though [ICON_Food] Food and [ICON_Production] Production bonuses from flooding drop by 50%). Floodplains tiles belonging to your empire gain +1 [ICON_Faith] Faith for each Flood.[NEWLINE][NEWLINE]Must be built on a Floodplains tile.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>所有建造者+1劳动力且+1 [ICON_MOVEMENT] 移动力。（当资源培育模式开启时）所有农夫、渔民、牧人和矿工+1劳动力且+1 [ICON_MOVEMENT] 移动力。必须建在没有丘陵的沙漠上（包括沙漠泛滥平原）。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION"  Language="en_US">
+      <Text>+1 charge and +1 [ICON_MOVEMENT] movement for all Builders. (When Resource Cultivation Mode is on) +1 charge and +1 [ICON_MOVEMENT] movement for all Farmers, Fishers, Herdmen and Miners. Must be built on Desert (including Desert Floodplains) without Hills.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>免费获得1个 [ICON_GreatProphet] 大预言家。 [ICON_GreatProphet] 大预言家可在巨石阵（代替圣地）创立一个宗教。本城宗教传播的压力增加100%，传播距离增加50%。必须建在靠近 [ICON_RESOURCE_STONE] 石材的平原上。</Text>
+    </Replace>
+	<Replace Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION"  Language="en_US">
+      <Text>Grants a free [ICON_GreatProphet] Great Prophet. [ICON_GreatProphet] Great Prophets may found a Religion on Stonehenge instead of a Holy Site. Religious spread from this city pressure is 100% stronger and 50% further away. Must be adjacent to [ICON_RESOURCE_STONE] Stone and on flat land.</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>伟人赞助和召回英雄消耗的 [ICON_Faith] 信仰值-20%。帝国内区域所提供其类型的 [ICON_GreatPerson] 伟人点数+1（例如剧院广场区域提供大作家、大艺术家和大音乐家点数）。必须建在丘陵上</Text>
+    </Replace>
+    <Replace Tag="LOC_BUILDING_ORACLE_DESCRIPTION"  Language="en_US">
+      <Text>Recalling Heroes and Patronage of Great People cost 20% less [ICON_Faith] Faith. Districts in your empire provide +1 [ICON_GreatPerson] Great Person points of their type (for example, Great Writer, Great Artist and Great Musician points from Theater Square). Must be built on Hills.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

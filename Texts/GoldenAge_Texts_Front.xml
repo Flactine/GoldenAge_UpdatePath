@@ -1,0 +1,336 @@
+<GameData>
+    <LocalizedText>		
+    <!--游戏模式-->	
+	<Replace Tag="LOC_GA_CITYLEVEL_NAME" Language="en_US">
+      <Text>[COLOR_FLOAT_GOLD]City Upgrading and Punishment[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_CITYLEVEL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本模式引入了城市扩建升级机制。新城市会获得一个建筑：市政厅（村庄）。[COLOR_FLOAT_CULTURE]当你研究特定的市政之后，可以通过城市扩建项目将市政厅升级至更高级别。市政厅的升级树为：村庄 – 小镇 – 郡县 – 城市 – 大都会。随着城市的升级，其人口红利和向周围城市输出的忠诚度压力也会增加。[ENDCOLOR][NEWLINE][NEWLINE]疆土辽阔的罗马帝国、蒙古帝国和苏联，由于缺乏妥善的国家治理，最终也难免分崩离析。在本模式中，疯狂地铺城扩张不再是唯一的过神玩法，这样反而会受到严重的爆铺惩罚（影响城市产出），专注于发展人口众多的大都会城市才是取胜的关键。[COLOR_FLOAT_CULTURE]城市达到一定的人口数量和城市等级之后，爆铺惩罚将会逐步减轻，直到完全消除。[ENDCOLOR][NEWLINE][NEWLINE]“域民不以封疆之界，固国不以山溪之险，威天下不以兵革之利。得道者多助，失道者寡助。”--孟轲</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_CITYLEVEL_DESCRIPTION" Language="en_US">
+      <Text>This mode introduces city expansion and upgrading mechanics. All cities will receive a building – Guildhall (Village) once they are established. [COLOR_FLOAT_CULTURE]Guildhall can be upgraded to higher level once you complete the new urban expansion projects which unlock at certain civics. The upgrade tree for Guildhall is: Village – Town – County – City – Metropolis. As cities upgrade, their citizen yields and loyalty pressure for surrounding cities are also increased.[ENDCOLOR][NEWLINE][NEWLINE]The vast Roman, Mongol, and Soviet empires eventually fell apart because of a lack of good governance. In this mode, expaning cities wildly is no longer the only way to win deity. Instead, there is a severe Crazy-Expansion Penalty, and the key to win is to focus on developing metropolises with large populations. [COLOR_FLOAT_CULTURE]After a city reaches a certain population size and city level, the penalty will be gradually reduced until it is completely eliminated.[ENDCOLOR]</Text>
+    </Replace>	
+		<Replace Language="en_US" Tag="LOC_GA_TOTALWAR_NAME">
+            <Text>[COLOR_FLOAT_GOLD]Total War[ENDCOLOR]</Text>
+        </Replace>
+	    <Replace Language="zh_Hans_CN" Tag="LOC_GA_TOTALWAR_NAME">
+            <Text>[COLOR_FLOAT_GOLD]全面战争[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_GA_TOTALWAR_DESCRIPTION">
+            <Text>Experiencing the collision and friction between civilizations is one of the most interesting part of this game. However, due to the mechanism of declaring a war, AIs rarely declare war on the player in the base setting, leading to a boring cycle of no-war farming (click next round again and again with no purpose) in the middle and late game.[COLOR_FLOAT_CULTURE]There is no denouncement under this mode, denounce means declare a war! Meanwhile, the minimum turns of war has been increase to 15.[ENDCOLOR][NEWLINE][NEWLINE]"War! War! War!"</Text>
+        </Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_GA_TOTALWAR_DESCRIPTION">
+            <Text>体验文明之间的碰撞和摩擦是这个游戏最有趣的地方之一。然而,由于宣战机制问题，在原有设定下的AI很少对玩家宣战，导致游戏中后期容易进入无战种田（无脑点下一回合）的无聊死循环。[COLOR_FLOAT_CULTURE]本模式不存在谴责，谴责即宣战！同时，战争的最小回合数延长至15回合。[ENDCOLOR][NEWLINE][NEWLINE]“让我们从黑暗中开始新的生活，直到光明出现在尽头，阴险的面孔，滋生的诅咒，这是我最后的战争！”--《进击的巨人》。</Text>
+        </Replace>				
+	<Replace Tag="LOC_GA_MEGALOPOLIS_PRO_NAME" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_GOLD]城市圈++[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MEGALOPOLIS_PRO_NAME" Language="en_US">
+      <Text>[COLOR_FLOAT_GOLD]Megalopolis++[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MEGALOPOLIS_PRO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>受到人类HUMANKIND的启发，本模式[COLOR_FLOAT_CULTURE]取消了专业化区域在每个城市中只能建造一次的限制，但依然会受到城市人口的限制。[ENDCOLOR]像社区建筑一样，城市中即便拥有多个相同的专业化区域，专业化区域的建筑也只能建造一次。而且城市中相同的专业化区域只有一个专家槽位。因此，额外的专业化区域主要用于搭配“城市圈”游戏模式进行更优的区域规划。[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]已知Bug：[NEWLINE][ICON_Bullet]放置区域时不再有显示相邻加成数值的UI，为了弥补这个bug，推荐搭配[COLOR_FLOAT_GOLD]Mod-Detailed Map Tacks[ENDCOLOR]使用。[NEWLINE][ICON_Bullet]受到人口限制时，生产列表中的额外专业区域依旧显示可建造（实际上你造不了）。[NEWLINE][ICON_Bullet]用金币或信仰值购买区域时不受人口限制。[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MEGALOPOLIS_PRO_DESCRIPTION" Language="en_US">
+      <Text>Inspired by HUMANKIND, this mode [COLOR_FLOAT_CULTURE] removes the restriction that the speciality districts can only be built once in each city, but it is still limited by the city population.[ENDCOLOR] Like buildings in Neighbourhood district, even if there are multiple speciality districts in a city, buildings can only be built once. And there is only one specialist slot for additional speciality districts. Therefore, the additional speciality districts are mainly used for better city planning in conjunction with the "Megalopolis" game mode.[NEWLINE][NEWLINE]Known bugs:[NEWLINE][ICON_Bullet]No longer has any UI displaying adjacent bonus values when placing a district. To compensate for this bug, use [COLOR_FLOAT_GOLD]Mod-Detailed Map Tacks[ENDCOLOR]. [NEWLINE][ICON_Bullet]Additional speciality districts in the production list are still buildable when limited by population (but indeed you cannot build).[NEWLINE][ICON_Bullet]Purchasing districts by gold or faith has no population limitation. </Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_WORLDWAR_NAME" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_GOLD]世界大战[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_WORLDWAR_NAME" Language="en_US">
+      <Text>[COLOR_FLOAT_GOLD]World War[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_WORLDWAR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本模式模拟了人类历史上最残酷的战争：世界大战。[COLOR_FLOAT_CULTURE]游戏时代处于电气时代时，所有非宣布友好状态（蓝色的笑脸）或非同盟状态的主流文明会强制相互宣布突袭战争，[ENDCOLOR]进入史诗般悲壮的世界大战。你能否通过权谋与外交手腕，带领您的帝国在世界大战中脱颖而出，成为一个超级大国？[NEWLINE][NEWLINE]“上兵伐谋，其次伐交，其次伐兵，其下攻城。”--《孙子兵法·谋攻》。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_WORLDWAR_DESCRIPTION" Language="en_US">
+      <Text>This mode simulates the most brutal war in human history: World Wars. [COLOR_FLOAT_CULTURE]All major civilizations will declare surprise war to those who haven't declared of friendship (blue smile face) or alliance with when game era enters Modern Era. This will end when game enters Atomic Era.[ENDCOLOR][NEWLINE][NEWLINE]Can you steer your empire through the world wars by diplomacy and tactics to become a superpower?</Text>
+    </Replace>	
+	    <Replace Language="zh_Hans_CN" Tag="LOC_GOLDEN_APPEAL_NAME">
+            <Text>[COLOR_FLOAT_GOLD]环境保护[ENDCOLOR]</Text>
+        </Replace>
+		<Replace Language="en_US" Tag="LOC_GOLDEN_APPEAL_NAME">
+            <Text>[COLOR_FLOAT_GOLD]Environmental Conservation[ENDCOLOR]</Text>
+        </Replace>
+	<Replace Tag="LOC_GOLDEN_APPEAL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本模式添加了新机制：[COLOR_FLOAT_CULTURE]区域所在单元格的魅力值影响城市的 [ICON_Housing] 住房和 [ICON_Amenities] 宜居度。[ENDCOLOR]这一项改动将让我们更加注重城市规划和环境保护。[NEWLINE][NEWLINE]区域的所在单元格的魅力值：[NEWLINE]惊艳的：+1 [ICON_Amenities] 宜居度+1 [ICON_Housing] 住房[NEWLINE]迷人的：+1 [ICON_Housing] 住房[NEWLINE]无吸引力的：-1 [ICON_Housing] 住房[NEWLINE]令人厌恶的：-1 [ICON_Amenities] 宜居度-1 [ICON_Housing] 住房[NEWLINE][NEWLINE]“污染损害着生存系统，而一些技术成就威胁着整个人类生活。漫不经心的搅乱景观环境给我们带来危害，而巧妙地布置基地却美化我们的生活。组织良好、丰富多彩的生活空间是人类的资源，如同能源、空气和水一样。”--凯文·林奇[NEWLINE][NEWLINE]感谢JNR的'Happy Districts - Appeal Rebalanced'。</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_APPEAL_DESCRIPTION" Language="en_US">
+      <Text>This mode adds new mechanics: [COLOR_FLOAT_CULTURE]Appeal of a district will affect city [ICON_Housing] Housings and [ICON_Amenities] Amenities[ENDCOLOR], which will let us pay more attention on city planning and envrionmental conservation.[NEWLINE][NEWLINE]The Appeal of a district tile:[NEWLINE]Breathtaking: +1 [ICON_Amenities] Amenity (also +1 [ICON_Housing] Hosing).[NEWLINE]Charming: +1 [ICON_Housing] Hosing.[NEWLINE]Uninviting: -1 [ICON_Housing] Hosing.[NEWLINE]Disgusting: -1 [ICON_Amenities] Amenity (also -1 [ICON_Housing] Hosing).[NEWLINE][NEWLINE]Credit to 'Happy Districts - Appeal Rebalanced' by JNR. </Text>
+    </Replace>
+	<Replace Tag="LOC_GA_CITYPOLICY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>通常，国家都会根据每个城市不同的地理位置和战略优势，制定相对应的政策法规，以最大化城市给国家带来的长期效益。比如我国以发展高科技为核心的深圳和以发展金融业为主的香港。[NEWLINE][NEWLINE]在这个模式中，你也可以为每个城市制定因地制宜的城市内政[COLOR_FLOAT_CULTURE]（在城市项目中开启或关闭城市内政），让城市的某项优势产出大大增加，但同时也会使其它五种产出略微减少。[ENDCOLOR][NEWLINE][NEWLINE]您能否让帝国内的某个城市成为引领世界尖端的科研前沿，或是绽放璀璨艺术的文化之都，或是把控国际贸易的金融之城，或是整个国家的工业心脏？让我们拭目以待！[NEWLINE][NEWLINE]“田野与树木没有给我一点教益，而城市的人们却赐给我颇多的教益。--苏格拉底”</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_CITYPOLICY_DESCRIPTION" Language="en_US">
+      <Text>Generally, government will formulate corresponding policies and regulations according to different geographical locations and strategic advantages of each city, so as to maximize the long-term benefits that the city can bring to the country. For example, United State's high-tech core Silicon Valley and financial capital New York City. [NEWLINE][NEWLINE]In this mode, you can also execute policy to each city [COLOR_FLOAT_CULTURE](start or end a city policy by running project), which will greatly increase one of the city's preponderant yields, but in the mean time, slightly decrease the other five types of yields.[ENDCOLOR][NEWLINE][NEWLINE]Can you develop one of the cities in your empire into the world's leading scientific research frontier, or the cultural capital of the brilliant arts, or the financial city that controls international trade, or the industrial heart of the country? Let's wait and see!</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MILITARYSERVICE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>该游戏模式引入了全新的战争限制因素。与历史中真实的战争类似，扩充军队来增强帝国的军事实力，需要强大的城市人口作为基础。因此，[COLOR_FLOAT_MILITARY]所有军事单位都需要消耗1 [ICON_Citizen] 人口来训练，且训练时城市不得少于2 [ICON_Citizen] 人口[ENDCOLOR]。这是一支由文明中最为勇敢、爱国之人所组成的无畏军团，为了家国他们曾宣誓“献出心脏”！请一定带领他们走向光明的胜利！[NEWLINE][NEWLINE]历史上的战争总是劳民伤财，每次战后则需要休养生息。无论凯旋也好，败北也罢，这群义无反顾的军人们都值得全国上下为其接风洗尘；因此，[COLOR_FLOAT_MILITARY]所有军事单位可以在市中心执行“退役”，使该城市+1 [ICON_Citizen] 人口[ENDCOLOR]。褪去一身严肃的军装，他们终于也能回家，抱抱恋人、陪陪父母，以公民的身份继续为文明的发展贡献一份力量。[NEWLINE][NEWLINE]“不是部队的数量给军队带来了力量，而是忠诚和豪气给军队增添了斗志。--拿破仑·波拿巴”</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MILITARYSERVICE_DESCRIPTION" Language="en_US">
+      <Text>This game mode adds new limiting factor to the warfare. Just like the real world, large city population is the fundation of armaments expansion. Therefore, [COLOR_FLOAT_MILITARY]all military units will require at least 2 [ICON_Citizen] citizen in a city before training and consume 1 [ICON_Citizen] citizen in that city.[ENDCOLOR] This fearless legion is comprised of the bravest and the most hot-blooded ones in your civilization, please be sure to lead them to a bright victory! [NEWLINE][NEWLINE]All wars in the history were labor-intensive and costly, the loss after which need to be fulfilled with recovering and rebuilding. No matter victory or defeated, these soilders who never to look back for the justice deserve to be greet with the highest courtesy by all people in your civilization. Thus, [COLOR_FLOAT_MILITARY]all military units can do "Retirement" at a City Center, which will +1 [ICON_Citizen] population for that city.[ENDCOLOR] Taking off the solemn military uniform, they eventually have a chance to go back to their hometowns, to give a big hug to their lovers, to reunite with their parents, and to keep on making contribution to the country as citizens.</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_BUILDINGEXPANSION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>推出了全新的[COLOR_FLOAT_MILITARY]工业区、商业中心、学院和剧院广场[ENDCOLOR]建筑。[NEWLINE][NEWLINE]“建筑是“石头的史书”，人类没有任何一种重要的思想不被建筑艺术写在石头上。人类的全部思想，在这本大书和它的纪念碑上都有其光辉的一页。--维克多·雨果”[NEWLINE][NEWLINE]部分美术资源来自JNR可再生资源模组！</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_BUILDINGEXPANSION_DESCRIPTION" Language="en_US">
+      <Text>So far we have added a couple of new buildings in [COLOR_FLOAT_MILITARY]Industrial Zone, Commercial Hub, Theater, and Campus[ENDCOLOR] districts.[NEWLINE][NEWLINE]Credit to JNR for renewable energy art resourece!</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_FRIEND_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>与其他文明宣布[COLOR_LIGHTBLUE]同盟[ENDCOLOR]关系后，您将获得一个该文明特有的新特性，作为你们友谊的见证。[COLOR_FLOAT_CULTURE]每个领袖赠送的新特性可在外交界面中将鼠标指向第一个议程查看，文明百科的领袖标签中也可以查看所有领袖提供的友谊的礼物。[ENDCOLOR][NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]由于部分领袖的隐藏议程与其他领袖的第一个议程一致，外交能见度达到一定水平后会显示多种友谊的礼物，因此只以第一个议程所显示的礼物为准。[ENDCOLOR][NEWLINE][NEWLINE]“芬恩·麦克库尔和高尔·莫纳亲吻对方，就此令两大部族重归于好。因为，就算英雄如文明般存在着永无休止的争吵——但他们同时也深爱着彼此。--《芬尼亚传奇》(爱尔兰英雄史诗)”</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_FRIEND_DESCRIPTION" Language="en_US">
+      <Text>You will receive a new trait as gift as a token of your friendship upon declaration of [COLOR_LIGHTBLUE]Ally[ENDCOLOR] with other civilization. [COLOR_FLOAT_CULTURE]Gift of friendship can be viewed when you point to the first leader agenda on the diplomacy interface. All gifts can be viewed on Civilopedia Leaders-Agenda (highlighted with red color).[ENDCOLOR][NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Please only look at the first leader agenda on the diplomacy interface and ignore the other hidden agendas.[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_HISTORY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>本模式根据文明真实历史而全新定义 [ICON_GLORY_GOLDEN_AGE] 辉煌时代（+15%所有产出）与 [ICON_GLORY_DARK_AGE] 至暗时代（-15%所有产出）。这个特殊的时代特性是根据自己的科技树和市政树所在时代，而不是世界所处时代来判定的。[COLOR_FLOAT_GOLD]开启 [ICON_GLORY_GOLDEN_AGE] 辉煌时代和 [ICON_GLORY_DARK_AGE] 至暗时代的条件为：同时拥有至少一个该时代的科技和市政。脱离该时代的条件则为：同时拥有至少一个下个时代的科技和市政。[ENDCOLOR][NEWLINE][NEWLINE]玩家可以通过巧妙地调整科技和市政解锁的先后顺序，来更久地享受 [ICON_GLORY_GOLDEN_AGE] 辉煌时代加成，和更快地脱离 [ICON_GLORY_DARK_AGE] 至暗时代。这个新系统既可以让玩家深刻体会文明在真实历史上的迭起兴衰，又使得不同文明的玩法多样化！[NEWLINE][NEWLINE]“历史的道路不是涅瓦大街上的人行道，它完全是在田野中前进的，有时穿过尘埃，有时穿过泥泞，有时横渡沼泽，有时行径丛林。--尼古拉·车尔尼雪夫斯基”</Text>
+    </Replace>
+	<Replace Tag="LOC_GOLDEN_HISTORY_DESCRIPTION" Language="en_US">
+      <Text>This mode adds new mechanics: [ICON_GLORY_GOLDEN_AGE] Glorious Era (+15% for all types of yields) and [ICON_GLORY_DARK_AGE] Dark Era (-15% for all types of yields), determined by the true history of each civilization. This special era is judged by your techs and civics on the technology and civic tree. [COLOR_FLOAT_GOLD]The requirement for entering a [ICON_GLORY_GOLDEN_AGE] glorious era or [ICON_GLORY_DARK_AGE] dark era is to have at least one of the technologies and civics from that specific era. And the requirement for leaving such an Era is to have at least one of the technologies and civics from the next era.[ENDCOLOR] [NEWLINE][NEWLINE]This will change the gameplay pace of each civilization. You can plan your tech and civic development to get longer bonuses in the [ICON_GLORY_GOLDEN_AGE] Glorious Era and also to shorten the terrible [ICON_GLORY_DARK_AGE] Dark Era.</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MEGALOPOLIS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>该模式引入了全新的城市圈的元素。[NEWLINE][NEWLINE]硅谷在一个世纪多前还是一片荒芜，随着附近几座城市都选择把综合大学、科学研究基地建立在此，加上许多高科技公司总部的设立，硅谷成为了世界上最尖端的科研城市圈，带动了整片旧金山湾区的繁荣发展。更多的交流能让一个领域或行业获得更快的发展，[COLOR_FLOAT_CULTURE]当您把不同城市间相同的专业区域摆在一起时（摆成一个三角形或菱形），能得到大量区域相邻加成。[ENDCOLOR][NEWLINE][NEWLINE]在这个新的模式里，您能否在自己的文明里建立像美国湾区硅谷那样的高科技城市圈？或是中国粤港澳大湾区那样的金融、科技、旅游综合性城市圈？认真规划您的城市圈，创造一个伟大帝国吧！[NEWLINE][NEWLINE]“由于城市太复杂了，所以你可以设计房子，但永远设计不了城市，而且也不应该去设计城市。城市是巨大的自然现象，超过了我们改变事物的能力，也超过了我们所能了解的关于应该如何去改变城市的知识。--凯文·林奇”</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MEGALOPOLIS_DESCRIPTION" Language="en_US">
+      <Text>Silicon Valley, which was deserted more than a century ago, has become one of the world's most sophisticated research cities, with several nearby cities building universities and research bases there, as well as the headquarters of many high-tech companies. More communication can make a field or industry grow faster, [COLOR_FLOAT_CULTURE]when you place the same type of Specialty districts from different cities together (in a triangle or diamond shape), you get huge district adjacency bonuses.[ENDCOLOR][NEWLINE][NEWLINE]Can you build a high-tech megalopolis in your own civilization like Silicon Valley in the Bay Area? Let’s design cities and districts carefully and create a great empire!</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_CULTIVATION_NAME" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_GOLD]资源培育[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_CULTIVATION_NAME" Language="en_US">
+      <Text>[COLOR_FLOAT_GOLD]Resource Cultivation[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_CULTIVATION_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>新增农民、牧人、矿工三种平民单位，用于[COLOR_FLOAT_CULTURE]培育被你改良过的加成资源和奢侈品资源[ENDCOLOR]，只能用 [ICON_Gold] 金币购买。加成资源的培育没有限制。奢侈品资源只能在已有该资源的城市内培育，若奢侈品资源在一座城市内不少于3处或帝国境内不少于4处时，不得培育新的奢侈品资源。[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]农场和矿山只能在有资源或地貌的单元格上改良。[ENDCOLOR][NEWLINE][NEWLINE]“他种下一棵树,他就已经看见了千百年的结果,已经憧憬到人类的幸福.这种人是少有的，要爱就爱这种人。--安东·巴甫洛维奇·契诃夫”[NEWLINE][NEWLINE]感谢Zegangani的'Resource Cultivation'。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_CULTIVATION_DESCRIPTION" Language="en_US">
+      <Text>Add three new civilian units: Farmer, Herdman, and Miner. These new units can [COLOR_FLOAT_CULTURE]cultivate bonus resources and luxury resources that have been improved in your empire[ENDCOLOR] and can only be purchased by [ICON_Gold] gold. Cultivation of bonus resources has no limitation. However, you will only be able to cultivate luxury resources in a City that have this Resource in its Territory (if the City has less than 3 amounts of this resource and the Total Amount of it in your Territory is less than 4).[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Farms and Mines can only be improved on tiles with resources or features.[ENDCOLOR][NEWLINE][NEWLINE]Credit to 'Resource Cultivation' by Zegangani.</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MILESTONE_NAME" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_GOLD]时代里程碑[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MILESTONE_NAME" Language="en_US">
+      <Text>[COLOR_FLOAT_GOLD]Era Milestone[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MILESTONE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>你是否受够了愚蠢的AI只会朝着科技树的一条线一路冲到底，看够了坦克跟弓箭手的神奇组合？为了解决这个问题，我们引入了时代里程碑机制，[COLOR_FLOAT_CULTURE]你必须解锁一个时代的里程碑之后才能继续研究下一个时代的科技和市政。[ENDCOLOR]解锁里程碑之后，您将获得大量的 [ICON_Science] 科技值和 [ICON_Culture] 文化值比便研究后续的科技和市政。[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]必须开启高级设置中‘科技与市政树’开关。[NEWLINE]本模式下，当你同时研究多个科技或市政时，容易导致游戏崩溃。[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MILESTONE_DESCRIPTION" Language="en_US">
+      <Text>Are you sick of stupid AI running all the way to the end of the tech tree? To solve this problem, we introduced the Era Milestone mechanism. [COLOR_FLOAT_CULTURE]You have to unlock the milestones of one era before you can move on to the next. [ENDCOLOR]After unlocking the milestone, you will get a large amount of [ICON_Science] Science and [ICON_Culture] Culture bonus for faster researching of subsequent technology and civic.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Must play with the enabled 'Tech and Civic Tree' advanced setting.[NEWLINE]Under this mode, game crash has been reported if you research multiple technologies or civics at the same time. </Text>
+    </Replace>
+	<!--高级设置-->	  
+	<Replace Tag="LOC_GAModeHeader_NAME" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_CULTURE]官方游戏模式改动[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GAModeHeader_NAME" Language="en_US">
+      <Text>[COLOR_FLOAT_CULTURE]Base Game Mode Changes[ENDCOLOR]</Text>
+    </Replace>
+    <Replace Tag="LOC_GAModeHeader_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>官方的游戏模式与以下开关共同开启时，则应用本模组的改动内容。不开启以下开关时，则应用原版内容。</Text>
+    </Replace>
+	<Replace Tag="LOC_GAModeHeader_DESCRIPTION" Language="en_US">
+      <Text>When a base game mode is enable together with following switch below, changes that have been made in this mod will be applied. If the following switch is not enabled, the base game content will be applied.</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_SOOTHSAYER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>“天启”模式专属支援单位。可通过“制造灾难”操作在单位附近的格位中制造一次随机灾难。如无剩余次数使用，执行此操作将消灭预言者。</Text>
+    </Replace>
+	<Replace Tag="LOC_UNIT_SOOTHSAYER_DESCRIPTION" Language="en_US">
+		<Text>An Apocalypse-mode-specific support unit.  Can use the Cause Disaster action to begin a random disaster in the hexes near the unit.  Doing so destroys the Soothsayer if it has no more charges.</Text>
+	</Replace>
+	<Replace Tag="LOC_GA_APOCALYPSE_NAME" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_GOLD]天启++[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_APOCALYPSE_NAME" Language="en_US">
+      <Text>[COLOR_FLOAT_GOLD]Apocalypse++[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_APOCALYPSE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>a) 预言家触发的灾难不再提供额外的地块产出。[NEWLINE]b) 预言家现在可以是一个像大法师一样的魔法单位！他们制造的超大型史诗级灾害将彻底毁灭你的敌人！[NEWLINE][ICON_Bullet] [COLOR:ResScienceLabelCS] 魔鬼暴风雪[ENDCOLOR] 和 [COLOR_FLOAT_GOLD]邪恶沙尘暴 [ENDCOLOR]：召唤自然界的伟大力量摧毁他们所经过的一切，持续时间比一般的暴风雪和沙尘暴要长得多。警告:请注意它们那极度不可控的运动轨迹。[NEWLINE][ICON_Bullet] [COLOR:ResMilitaryLabelCS] 熔岩爆裂 [ENDCOLOR]: 牵引出炽热岩浆摧毁以一个火山为中心的2格范围内的一切。[NEWLINE][ICON_Bullet] [COLOR_LIGHTBLUE] 惊涛骇浪 [ENDCOLOR]: 释放狂怒的巨浪吞噬一条河流旁的所有建筑和生命。 [NEWLINE][ICON_Bullet] [COLOR:ResMilitaryLabelCS] 地狱火 [ENDCOLOR]: 在森林中召唤地狱之火，燃烧和恢复的时间都很长。火灾将迅速蔓延到附近的单元格，造成附近城市居民的损失![NEWLINE]c) 随机彗星打击造成了陨石坑减少为1。[NEWLINE]d) 撞击区使相邻单元格的地形产出翻倍。[NEWLINE]e) 在气候达到7级之前，依然可能会发生随机的彗星撞击(频率较低)。[NEWLINE]c) 一般自然灾害会在气候达到7级之后发生(频率更高)。 [NEWLINE]g) 减少随机彗星和以市中心为目标的彗星撞击的总体频率。[NEWLINE]h) 太阳耀斑不再对区域和建筑造成影响。 </Text>
+    </Replace>
+	<Replace Tag="LOC_GA_APOCALYPSE_DESCRIPTION" Language="en_US">
+      <Text>a) Soothsayer triggered disasters no longer provide additional plot yields. [NEWLINE]b) Soothsayer now serves as a magic unit like wizard! It can trigger ultra-devastating disasters to destroy your enemies. [NEWLINE][ICON_Bullet] [COLOR:ResScienceLabelCS]Devil Blizzard[ENDCOLOR] and [COLOR_FLOAT_GOLD]Evil Sandstorm[ENDCOLOR]: Much longer duration than regular Blizzard and Sandstorm, destroy everything they pass through. Warning: The track of storm is always tricky. [NEWLINE][ICON_Bullet] [COLOR:ResMilitaryLabelCS] Burst of Lava [ENDCOLOR]: Destroy everything within two tiles of a volcano. [NEWLINE][ICON_Bullet] [COLOR_LIGHTBLUE] Terrifying Waves [ENDCOLOR]: Destroy everything besides a river. [NEWLINE][ICON_Bullet] [COLOR:ResMilitaryLabelCS] Hells Fire [ENDCOLOR]: Trigger an inferno fire on woods that has a long duration of burning and recovery. The fire will rapidly spread to nearby tiles and cause citizen loss in nearby city! [NEWLINE]c) Hex of random comet strike is reduced to 1. [NEWLINE]d) Meteor crater doubles terrain yields for adjacent plots. [NEWLINE]e) Random comet strike may occur (at a lower frequency) before climate reaches level 7. [NEWLINE]f) General natural disasters may occur (at a higher frequency) after climate reaches level 7. [NEWLINE]g) Reduces the overall frequency of both random and targeted comet strikes.[NEWLINE]h) Solar flare no longer causes demage to districts and buildings.</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MONOPOLIES_NAME" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_GOLD]垄断与公司++[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MONOPOLIES_NAME" Language="en_US">
+      <Text>[COLOR_FLOAT_GOLD]Monopolies and Corporations++[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MONOPOLIES_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[ICON_Bullet]新增投资人单位，用于建造行业和公司。[NEWLINE][ICON_Bullet]削弱过于夸张的行业、公司、产品收益。[NEWLINE][ICON_Bullet]控制一种奢侈品资源的80%才能实现垄断。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MONOPOLIES_DESCRIPTION" Language="en_US">
+      <Text>[ICON_Bullet]Add new Investor unit that can create Industry and Corporation. [NEWLINE][ICON_Bullet]Nerf exaggerated bonus from Industry, Corporation and Products. [NEWLINE][ICON_Bullet]Require 80% control of one luxury resource to achieve Monopoly bonuses.</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_SECRETSOCIETIES_NAME" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_GOLD]秘密结社++[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_SECRETSOCIETIES_NAME" Language="en_US">
+      <Text>[COLOR_FLOAT_GOLD]Secret Societies++[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_SECRETSOCIETIES_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[ICON_Bullet]提前解锁秘密结社晋升。[NEWLINE][ICON_Bullet]对秘密结社进行一系列平衡性调整。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_SECRETSOCIETIES_DESCRIPTION" Language="en_US">
+      <Text>[ICON_Bullet]Secret societie promotions unlock earlier. [NEWLINE][ICON_Bullet]A series of balance adjustments for secret societies.</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_DRAMATICAGES_NAME" Language="zh_Hans_CN">
+      <Text>[COLOR_FLOAT_GOLD]动荡时代++[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_DRAMATICAGES_NAME" Language="en_US">
+      <Text>[COLOR_FLOAT_GOLD]Dramatic Ages++[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_DRAMATICAGES_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>[ICON_Bullet][COLOR_FLOAT_CULTURE]强烈推荐！[ENDCOLOR][NEWLINE][ICON_Bullet]无论在什么难度下，玩家和AI因黑暗时代失去的城市数量均相同（损失至多20%的城市，至少一座非首都城市）。[NEWLINE][ICON_Bullet]自由城市自身不会释放 [ICON_PressureDown] 忠诚度压力，会迅速倒向 [ICON_PressureUp] 忠诚度压力更高的文明。[NEWLINE][ICON_Bullet]对黑暗时代政策和黄金时代政策进行平衡性调整。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_DRAMATICAGES_DESCRIPTION" Language="en_US">
+      <Text>[ICON_Bullet][COLOR_FLOAT_CULTURE]Highly recommended![ENDCOLOR][NEWLINE][ICON_Bullet]No matter what difficulty setting is, player and AI lose an equal amount (about 20%, at least 1 non-capital city) of cities in Dark Ages. [NEWLINE][ICON_Bullet]Free Cities will not exert [ICON_PressureDown] pressure on other cities, whereas they will join nearby civilization that has higher [ICON_PressureUp] pressure.[NEWLINE][ICON_Bullet]Balance changes for dark age policies and golden age policies.</Text>
+    </Replace>
+	<Replace Tag="LOC_GAMEMODE_DRAMATICAGES_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>这个模式让黄金时代和黑暗时代更加强大。英雄时代已被移除，玩家最初只会进入普通时代，随后便会进入黄金时代或黑暗时代。[NEWLINE][NEWLINE]玩家可以根据自己所处的时代选择强大的全新社会政策，不再设定着力点。黑暗政策再度回归，并带来了全新的强大效果。而进入黄金时代后玩家可以选择全新的黄金政策。玩家需要多多解锁科技和市政、升级单位，不断获取时代得分。[NEWLINE][NEWLINE]黑暗时代将变得凶险万分。进入黑暗时代后，玩家帝国的一部分将直接沦为自由城市，而自由城市会对其他城市释放忠诚度压力。在较简单的难度下，AI玩家会失去大量城市；而在较难的难度下，真人玩家会失去大量城市。在“王子”难度下，两者失去的城市数量相同。[NEWLINE][NEWLINE]为匹配此模式的特殊规则，格鲁吉亚的文明特色能力已更新。</Text>
+    </Replace>
+	<Replace Tag="LOC_GAMEMODE_DRAMATICAGES_DESCRIPTION" Language="en_US">
+      <Text>This game mode makes Dark Ages and Golden Ages more potent than ever. Heroic Ages are removed, and players can only be in a Normal Age in the first era. After that, they will either earn a Dark or a Golden Age.[NEWLINE][NEWLINE]Instead of making Dedications, players get access to powerful new Social Policies based on their Age. Dark Policies make a return with refreshed powerful effects. Brand new Golden Policies are available to those who make it to a Golden Age. To keep earning Era Score, complete Techs and Civics and earn military unit promotions.[NEWLINE][NEWLINE]Dark Ages are particularly dangerous. Players in Dark Ages will have a portion of their empire immediately fall into Free Cities, and Free Cities can exert pressure on other cities. On easier difficulty settings, AI players lose a lot of cities. On harder difficulty settings, human players do. On Prince, they lose an equal amount.[NEWLINE][NEWLINE]Georgia's civilization unique ability is brand new, to match the mode's unique rules.</Text>
+    </Replace>	
+	<!--模块描述-->	  
+	<Replace Tag="LOC_GA_RANDOMEVENTS_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>若关闭，则移除黄金时代模组中所有跟部落村庄（包括流星雨）和自然灾害（不包括天启模式）有关的改动。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_RANDOMEVENTS_DESCRIPTION" Language="en_US">
+      <Text>When disabled, all Goodyhuts (and meteor shower) and natural disasters (except apocalypse mode) related changes in GoldenAge will be removed.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GA_WMD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>添加4种全新大规模杀伤性武器，包括导弹、核导弹、氢弹、中子弹。[NEWLINE][NEWLINE]感谢 Searching... 的 Orbital thermonuclear ballistic missile。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_WMD_DESCRIPTION" Language="en_US">
+      <Text>Add 4 new WMDs, including Missile, Nuclear Missile, Hydrogen Bomb, and Neutron bomb.[NEWLINE][NEWLINE]Credit to Orbital thermonuclear ballistic missile by Searching....</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_UNITPILEUP_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>玩家可以把至多两个战斗单位移至同一个单元格！另外，远程攻击单位可以占领0血的城市。[NEWLINE][NEWLINE]感谢 Dazz Aephiex 的 Stakataka: Unit Stacking。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_UNITPILEUP_DESCRIPTION" Language="en_US">
+      <Text>Players can pile up two combat units on one tile! Moreover, ranged attack units can capture city with 0 hitpoint.[NEWLINE][NEWLINE]Credit to Stakataka: Unit Stacking by Dazz Aephiex.</Text>
+    </Replace>
+	<!--偏好-->	  
+	<Replace Tag="LOC_GA_BARBARIAN_NAME" Language="zh_Hans_CN">
+      <Text>疯狂野蛮人</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_BARBARIAN_NAME" Language="en_US">
+      <Text>Crazy Barbarian</Text>
+    </Replace>
+    <Replace Tag="LOC_GA_BARBARIAN_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>蛮族将从四面八方蜂拥而来！你能在蛮族猛烈的攻势下保护自己的家园吗？</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_BARBARIAN_DESCRIPTION" Language="en_US">
+      <Text>Barbarians are pouring in from all directions! Can you defend them and protect your homeland?</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_HARBOR_NAME" Language="zh_Hans_CN">
+      <Text>移除港口防御</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_HARBOR_NAME" Language="en_US">
+      <Text>Remove Harbor's defense</Text>
+    </Replace>
+    <Replace Tag="LOC_GA_HARBOR_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>海峡地形的港口会挡住整个航道，挺烦人的。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_HARBOR_DESCRIPTION" Language="en_US">
+      <Text>Harbor located on a strait will block the channel, which is very annoying.</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_AICHEAT_NAME" Language="zh_Hans_CN">
+      <Text>AI作弊强化</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_AICHEAT_NAME" Language="en_US">
+      <Text>Enhanced AI Cheating</Text>
+    </Replace>
+    <Replace Tag="LOC_GA_AICHEAT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>AI的 [ICON_Production] 生产力，[ICON_Gold] 金币，[ICON_Faith] 信仰值百分比加成作弊强势回归。这是一个前所未有的新挑战！[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]容易造成游戏后期卡顿，对电脑性能要求较高，慎用！[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_AICHEAT_DESCRIPTION" Language="en_US">
+      <Text>AI's [ICON_Production] production, [ICON_Gold] gold, and [ICON_Faith] faith percentage bonus cheating is back. Higher difficulty challenge for you![NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Warning: High computer performance is required, or your late game will be slow.[ENDCOLOR] </Text>
+    </Replace>
+	<Replace Tag="LOC_GA_STORM_NAME" Language="zh_Hans_CN">
+      <Text>超级风暴</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_STORM_NAME" Language="en_US">
+      <Text>Super Storm</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_STORM_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>将所有风暴类自然灾害的持续时间延长至10回合！</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_STORM_DESCRIPTION" Language="en_US">
+      <Text>Increased the duration of all stormlike natural disasters to 10 turns.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GA_MORE_SIGHT_NAME" Language="zh_Hans_CN">
+      <Text>开局获得更多视野</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MORE_SIGHT_NAME" Language="en_US">
+      <Text>More Start Sights</Text>
+    </Replace>
+    <Replace Tag="LOC_GA_MORE_SIGHT_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>获得额外6格的起始视野。[NEWLINE][NEWLINE]感谢 TC 的 Expanded Initial Vision。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_MORE_SIGHT_DESCRIPTION" Language="en_US">
+      <Text>Gain 6 tiles of initial vision at the beginning of the game.[NEWLINE][NEWLINE]Credit to Expanded Initial Vision by TC.</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GA_NOAI_HERO_NAME" Language="zh_Hans_CN">
+      <Text>禁止AI招募英雄</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_NOAI_HERO_NAME" Language="en_US">
+      <Text>Ban AI Hero</Text>
+    </Replace>
+    <Replace Tag="LOC_GA_NOAI_HERO_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>感谢 muyyi 的 Only Human Hero。[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]需要新纪元季票或巴比伦DLC。[ENDCOLOR]</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_NOAI_HERO_DESCRIPTION" Language="en_US">
+      <Text>Credit to Only Human Hero by muyyi.[NEWLINE][NEWLINE][COLOR_FLOAT_MILITARY]Requires New Frontier Pass or Babylon DLC.[ENDCOLOR]</Text>
+    </Replace>
+	
+	<Replace Tag="LOC_GA_CITYMOVER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>可在城市解锁新项目“打包城市”！创建新单位“打包好的城市”，这个单位拥有无限的移动力，可以立刻把城市移动到一个更好的地方！城市中的已经建好的区域和建筑将被拷贝到新城市，世界奇观除外。建过的区域在选择好单元格之后将立即完成。[NEWLINE][NEWLINE]感谢alexandre.torres的City Mover。</Text>
+    </Replace>
+	<Replace Tag="LOC_GA_CITYMOVER_DESCRIPTION" Language="en_US">
+      <Text>Unlock a new project "Pack the entire city"! This will create the unit 'city on wheels'. This unit has unlimited movements and can settle at a better location. Districts and buildings in this city will be copied, except for the world wonders. District will be completed immediately once you choose where it will be placed.[NEWLINE][NEWLINE]Credit to City Mover by alexandre.torres.</Text>
+    </Replace>
+	
+	
+	<!-- 地图设置 -->
+	<Replace Tag="LOC_MAPSIZE_DUEL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>适合2~4（推荐3）名玩家使用的超小地图。</Text>
+    </Replace>
+    <Replace Tag="LOC_MAPSIZE_TINY_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>适合4~6（推荐5）名玩家使用的较小地图。</Text>
+    </Replace>
+    <Replace Tag="LOC_MAPSIZE_SMALL_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>适合6~10（推荐8）名玩家使用的小地图。</Text>
+    </Replace>
+    <Replace Tag="LOC_MAPSIZE_STANDARD_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>适合8~12（推荐10）名玩家使用的中型地图。</Text>
+    </Replace>
+    <Replace Tag="LOC_MAPSIZE_LARGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>适合10~14（推荐12）名玩家使用的大型地图。</Text>
+    </Replace>
+    <Replace Tag="LOC_MAPSIZE_HUGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>适合12~18（推荐15）名玩家使用的巨型地图。</Text>
+    </Replace>
+	<Replace Tag="LOC_MAPSIZE_DUEL_DESCRIPTION" Language="en_US">
+      <Text>Very small map for 2~4 players.</Text>
+    </Replace>
+    <Replace Tag="LOC_MAPSIZE_TINY_DESCRIPTION" Language="en_US">
+      <Text>Slightly smaller map for 4~6 players.</Text>
+    </Replace>
+    <Replace Tag="LOC_MAPSIZE_SMALL_DESCRIPTION" Language="en_US">
+      <Text>Small map for 6~10 players.</Text>
+    </Replace>
+    <Replace Tag="LOC_MAPSIZE_STANDARD_DESCRIPTION" Language="en_US">
+      <Text>Average-sized map for 8~12 players.</Text>
+    </Replace>
+    <Replace Tag="LOC_MAPSIZE_LARGE_DESCRIPTION" Language="en_US">
+      <Text>Large map for 10~14 players.</Text>
+    </Replace>
+    <Replace Tag="LOC_MAPSIZE_HUGE_DESCRIPTION" Language="en_US">
+      <Text>Enormous map for 12~18 players.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,113 @@
+<GameData>
+    <LocalizedText>	
+	<!--GoldenAge_Megalopolis-->	
+	<Replace Tag="LOC_CAMPUS_SCIENCE_MEGA" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自每个相邻学院（城市化）。</Text>
+    </Replace>
+	<Replace Tag="LOC_CAMPUS_SCIENCE_MEGA" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from each adjacent Campus (Urbanization).</Text>
+    </Replace>
+	<Replace Tag="LOC_CAMPUS_SCIENCE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自每个相邻学院（行政部门）。</Text>
+    </Replace>
+	<Replace Tag="LOC_CAMPUS_SCIENCE" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from each adjacent Campus (Civil Service).</Text>
+    </Replace>
+	<Replace Tag="LOC_CAMPUS_SCIENCE_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Science] 科技值来自每个相邻学院。</Text>
+    </Replace>
+	<Replace Tag="LOC_CAMPUS_SCIENCE_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Science] Science from each adjacent Campus.</Text>
+    </Replace>	
+	<Replace Tag="LOC_THEATER_CULTURE_MEGA" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自每个相邻剧院广场（城市化）。</Text>
+    </Replace>
+	<Replace Tag="LOC_THEATER_CULTURE_MEGA" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from each adjacent Theater (Urbanization).</Text>
+    </Replace>
+	<Replace Tag="LOC_THEATER_CULTURE" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自每个相邻剧院广场（行政部门）。</Text>
+    </Replace>
+	<Replace Tag="LOC_THEATER_CULTURE" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from each adjacent Theater (Civil Service).</Text>
+    </Replace>
+	<Replace Tag="LOC_THEATER_CULTURE_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Culture] 文化值来自每个相邻剧院广场。</Text>
+    </Replace>
+	<Replace Tag="LOC_THEATER_CULTURE_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Culture] Culture from each adjacent Theater.</Text>
+    </Replace>
+	<Replace Tag="LOC_HOLY_SITE_FAITH_MEGA" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Faith] 信仰值来自每个相邻圣地（城市化）。</Text>
+    </Replace>
+	<Replace Tag="LOC_HOLY_SITE_FAITH_MEGA" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from each adjacent Holy site (Urbanization).</Text>
+    </Replace>
+	<Replace Tag="LOC_HOLY_SITE_FAITH" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Faith] 信仰值来自每个相邻圣地（行政部门）。</Text>
+    </Replace>
+	<Replace Tag="LOC_HOLY_SITE_FAITH" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from each adjacent Holy site (Civil Service).</Text>
+    </Replace>
+	<Replace Tag="LOC_HOLY_SITE_FAITH_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Faith] 信仰值来自每个相邻圣地。</Text>
+    </Replace>
+	<Replace Tag="LOC_HOLY_SITE_FAITH_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Faith] Faith from each adjacent Holy site.</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD_MEGA" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自每个相邻商业中心（城市化）。</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD_MEGA" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from each adjacent Commercial hub (Urbanization).</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自每个相邻商业中心（行政部门）。</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from each adjacent Commercial hub (Civil Service).</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自每个相邻商业中心。</Text>
+    </Replace>
+	<Replace Tag="LOC_COMMERCIAL_HUB_GOLD_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from each adjacent Commercial hub.</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION_MEGA" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自每个相邻工业区（城市化）。</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION_MEGA" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from each adjacent Industrial zone (Urbanization).</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自每个相邻工业区（行政部门）。</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from each adjacent Industrial zone (Civil Service).</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Production] 生产力来自每个相邻工业区。</Text>
+    </Replace>
+	<Replace Tag="LOC_INDUSTRIAL_ZONE_PRODUCTION_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Production] Production from each adjacent Industrial zone.</Text>
+    </Replace>
+	<Replace Tag="LOC_HARBOR_GOLD_MEGA" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自每个相邻港口（城市化）。</Text>
+    </Replace>
+	<Replace Tag="LOC_HARBOR_GOLD_MEGA" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from each adjacent Harbor (Urbanization).</Text>
+    </Replace>
+	<Replace Tag="LOC_HARBOR_GOLD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自每个相邻港口（行政部门）。</Text>
+    </Replace>
+	<Replace Tag="LOC_HARBOR_GOLD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from each adjacent Harbor (Civil Service).</Text>
+    </Replace>
+	<Replace Tag="LOC_HARBOR_GOLD_STANDARD" Language="zh_Hans_CN">
+      <Text>+{1_num} [ICON_Gold] 金币来自每个相邻港口。</Text>
+    </Replace>
+	<Replace Tag="LOC_HARBOR_GOLD_STANDARD" Language="en_US">
+      <Text>+{1_num} [ICON_Gold] Gold from each adjacent Harbor.</Text>
+    </Replace>
+	</LocalizedText>
+</GameData>
