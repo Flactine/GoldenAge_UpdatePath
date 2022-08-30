@@ -1,0 +1,1054 @@
+<GameInfo>
+   <Types>
+
+   </Types>
+
+   <Buildings>    
+	<!--城墙防御-->
+	<Update>
+	  <Where OuterDefenseStrength="3"/> <Set OuterDefenseStrength="0"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_PALACE"/> <Set Entertainment="1"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_CASTLE"/> <Set Cost="256"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_STAR_FORT"/> <Set Cost="480"/>
+	</Update>																									
+	<Update>
+	  <Where BuildingType="BUILDING_HANGAR"/> <Set Maintenance="2" Cost="800"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_AIRPORT"/> <Set Maintenance="3" Cost="960"/>
+	</Update>
+    <Update>
+	  <Where BuildingType="BUILDING_SEWER"/> <Set Maintenance="2" Description="LOC_BUILDING_SEWER_DESCRIPTION" Housing="4" Cost="500"/>
+	</Update>  
+	<Update>
+	  <Where BuildingType="BUILDING_WATER_MILL"/> <Set Housing="2" Maintenance="1" RequiresAdjacentRiver="false"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_FLOOD_BARRIER"/> <Set Maintenance="3" PrereqTech="TECH_STEEL" Cost="100"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_HYDROELECTRIC_DAM"/> <Set Maintenance="3" Cost="1000"/>
+	</Update>	
+	<Update>
+	  <Where BuildingType="BUILDING_MONUMENT"/> <Set Maintenance="1"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_SHOPPING_MALL"/> <Set Maintenance="3" Entertainment="0" Cost="800"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_FOOD_MARKET"/> <Set Maintenance="3" Cost="800"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_BANK"/> <Set CitizenSlots="1" Description="LOC_BUILDING_BANK_DESCRIPTION" RegionalRange="4" Cost="480"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_STOCK_EXCHANGE"/> <Set CitizenSlots="1" Description="LOC_BUILDING_STOCK_EXCHANGE_DESCRIPTION" RegionalRange="6" Cost="800"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_GRANARY"/> <Set Maintenance="1" Description="LOC_BUILDING_GRANARY_DESCRIPTION"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_GOV_CITYSTATES"/> <Set Cost="480"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_GOV_SPIES"/> <Set Cost="480"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_GOV_FAITH"/> <Set Cost="480"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_GOV_MILITARY"/> <Set Cost="800"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_GOV_CULTURE"/> <Set Cost="800"/>
+	</Update>
+	<Update>
+	  <Where BuildingType="BUILDING_GOV_SCIENCE"/> <Set Cost="800"/>
+	</Update>
+   </Buildings>
+  
+   <MutuallyExclusiveBuildings>
+        <Delete Building="BUILDING_FOOD_MARKET" MutuallyExclusiveBuilding="BUILDING_SHOPPING_MALL"/>
+		<Delete Building="BUILDING_SHOPPING_MALL" MutuallyExclusiveBuilding="BUILDING_FOOD_MARKET"/>
+   </MutuallyExclusiveBuildings>
+   <!-- 核事故 -->
+   	<RandomEvents>
+	    <Update>
+	      <Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR"/> <Set MinTurnAtRisk="20"/>
+	    </Update> 
+		<Update>
+	      <Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR"/> <Set MinTurnAtRisk="40"/>
+	    </Update>
+		<Update>
+	      <Where RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC"/> <Set MinTurnAtRisk="60"/>
+	    </Update>
+	</RandomEvents>
+	
+   <BuildingPrereqs>        
+	</BuildingPrereqs>
+	  
+   <Building_GreatWorks>       
+		<Update>
+	      <Where BuildingType="BUILDING_GOV_CULTURE"/> <Set NumSlots="6"/>
+	   </Update> 
+   </Building_GreatWorks>
+   
+   <Building_GreatPersonPoints>
+   </Building_GreatPersonPoints>
+   
+   <Building_YieldDistrictCopies>
+		<Delete BuildingType="BUILDING_SHIPYARD" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_PRODUCTION"/>
+		<Delete BuildingType="BUILDING_COAL_POWER_PLANT" OldYieldType="YIELD_PRODUCTION" NewYieldType="YIELD_PRODUCTION"/>																													
+	</Building_YieldDistrictCopies>
+   
+   <Building_YieldChanges>
+	<Update>
+	  <Where BuildingType="BUILDING_PALACE" YieldType="YIELD_CULTURE"/> <Set YieldChange="3"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_PALACE" YieldType="YIELD_SCIENCE"/> <Set YieldChange="3"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_PALACE" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="3"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_PALACE" YieldType="YIELD_GOLD"/> <Set YieldChange="8"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE"/> <Set YieldChange="3"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE"/> <Set YieldChange="3"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE"/> <Set YieldChange="4"/>
+	</Update> 	
+	<Update>
+	  <Where BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD"/> <Set YieldChange="2"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD"/> <Set YieldChange="4"/>
+	</Update> 	
+	<Update>
+	  <Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/> <Set YieldChange="6"/>
+	</Update> 	
+	<Delete BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_FOOD" YieldChange="1"/>
+	<Delete BuildingType="BUILDING_SEAPORT" YieldType="YIELD_GOLD" YieldChange="2"/>
+	<Delete BuildingType="BUILDING_SEAPORT" YieldType="YIELD_FOOD" YieldChange="2"/>
+	<Update>
+	  <Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="4"/>
+	</Update> 
+	<Replace BuildingType="BUILDING_COAL_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="6"/>	
+	<Update>
+	  <Where BuildingType="BUILDING_FOSSIL_FUEL_POWER_PLANT" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="7"/>
+	</Update> 
+	<Delete BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_SCIENCE"/>
+    <Update>
+	  <Where BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="8"/>
+	</Update> 	
+	<Update>																							   	 
+	  <Where BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE"/> <Set YieldChange="4"/>
+	</Update> 	 	
+	<Update>
+	  <Where BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/> <Set YieldChange="6"/>
+	</Update> 	
+	<Update>
+	  <Where BuildingType="BUILDING_FOOD_MARKET" YieldType="YIELD_FOOD"/> <Set YieldChange="4"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_GRANARY" YieldType="YIELD_FOOD"/> <Set YieldChange="1"/>
+	</Update> 
+	<Row BuildingType="BUILDING_GRANARY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	<Delete BuildingType="BUILDING_ARENA" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	<Delete BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD" YieldChange="2"/>
+	<Delete BuildingType="BUILDING_FERRIS_WHEEL" YieldType="YIELD_CULTURE" YieldChange="3"/>
+	<Update>
+	  <Where BuildingType="BUILDING_SHRINE" YieldType="YIELD_FAITH"/> <Set YieldChange="2"/>
+	</Update> 
+	<Update>
+	  <Where BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH"/> <Set YieldChange="4"/>
+	</Update> 	
+	<Delete BuildingType="BUILDING_BARRACKS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	<Delete BuildingType="BUILDING_STABLE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>	
+	<Delete BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+	<Delete BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" YieldChange="4"/>	
+	<Delete BuildingType="BUILDING_GOV_FAITH"/>	
+   </Building_YieldChanges>
+   
+   <Buildings_XP2>
+       <Row BuildingType="BUILDING_AMPHITHEATER" RequiredPower="1"/>
+	   <Row BuildingType="BUILDING_LIBRARY" RequiredPower="1"/>
+       <Row BuildingType="BUILDING_ARENA" RequiredPower="1" EntertainmentBonusWithPower="1"/>
+		<Replace BuildingType="BUILDING_WORKSHOP" RequiredPower="1"/>
+		<Update>
+	       <Where BuildingType="BUILDING_FACTORY"/> <Set RequiredPower="2"/>
+	   </Update>		
+       <Row BuildingType="BUILDING_MARKET" RequiredPower="1"/>	 
+       <Row BuildingType="BUILDING_SHRINE" RequiredPower="1"/>
+	   <Row BuildingType="BUILDING_TEMPLE" RequiredPower="2"/>	   	   
+	   <Row BuildingType="BUILDING_MUSEUM_ART" RequiredPower="2"/>
+	   <Row BuildingType="BUILDING_MUSEUM_ARTIFACT" RequiredPower="2"/>
+       <Row BuildingType="BUILDING_UNIVERSITY" RequiredPower="2"/>	   
+	   <Row BuildingType="BUILDING_BANK" RequiredPower="2"/>
+	   <Row BuildingType="BUILDING_ZOO" RequiredPower="2" EntertainmentBonusWithPower="2"/>	   	   
+	   <Row BuildingType="BUILDING_AQUARIUM" RequiredPower="2" EntertainmentBonusWithPower="2"/>
+	   <Row BuildingType="BUILDING_FERRIS_WHEEL" RequiredPower="1" EntertainmentBonusWithPower="1"/>	   
+	   <Update>
+	       <Where BuildingType="BUILDING_STADIUM"/> <Set RequiredPower="3" EntertainmentBonusWithPower="3"/>
+	   </Update> 
+	   <Update>
+	       <Where BuildingType="BUILDING_AQUATICS_CENTER"/> <Set RequiredPower="3" EntertainmentBonusWithPower="3"/>
+	   </Update> 
+	   <Update>
+	       <Where BuildingType="BUILDING_STOCK_EXCHANGE"/> <Set RequiredPower="3"/>
+	   </Update> 
+	   <Update>
+	       <Where BuildingType="BUILDING_RESEARCH_LAB"/> <Set RequiredPower="3"/>
+	   </Update>
+	   <Update>
+	       <Where BuildingType="BUILDING_FILM_STUDIO"/> <Set RequiredPower="3"/>
+	   </Update>
+	   <Update>
+	       <Where BuildingType="BUILDING_BROADCAST_CENTER"/> <Set RequiredPower="3"/>
+	   </Update>
+   </Buildings_XP2>
+   
+   <Building_YieldChangesBonusWithPower>
+    <Update>
+	  <Where BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD"/> <Set YieldChange="6"/>
+	</Update> 	
+	<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="4"/>	
+	<Update>
+	  <Where BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE"/> <Set YieldChange="6"/>
+	</Update> 
+	<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="4"/>	
+	<Delete BuildingType="BUILDING_SHOPPING_MALL" YieldType="YIELD_GOLD" YieldChange="2"/>
+	<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="4"/>
+	<Row BuildingType="BUILDING_SHRINE" YieldType="YIELD_FAITH" YieldChange="2"/>
+	<Row BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	<Row BuildingType="BUILDING_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="2"/>	
+	<Row BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD" YieldChange="2"/>
+	<Replace BuildingType="BUILDING_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	<Update>
+	  <Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/> <Set YieldChange="4"/>
+	</Update> 	
+   </Building_YieldChangesBonusWithPower>
+    
+   <Building_CitizenYieldChanges>
+        <Replace BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Update>
+	      <Where BuildingType="BUILDING_BROADCAST_CENTER"/> <Set YieldChange="1"/>
+	    </Update>		
+		<Replace BuildingType="BUILDING_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>		
+																		 
+		<Replace BuildingType="BUILDING_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="1"/>		
+		<Update>
+	      <Where BuildingType="BUILDING_RESEARCH_LAB"/> <Set YieldChange="1"/>
+	    </Update>
+		<Replace BuildingType="BUILDING_SHRINE" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="1"/>		
+		<Update>
+	      <Where BuildingType="BUILDING_CATHEDRAL"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_DAR_E_MEHR"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_GURDWARA"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_MEETING_HOUSE"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_MOSQUE"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_PAGODA"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_STUPA"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_SYNAGOGUE"/> <Set YieldChange="1"/>
+	    </Update>
+		<Update>
+	      <Where BuildingType="BUILDING_WAT"/> <Set YieldChange="1"/>
+	    </Update>
+		<Replace BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="1"/>	
+		<Update>
+	      <Where BuildingType="BUILDING_STOCK_EXCHANGE"/> <Set YieldChange="1"/>
+	    </Update>
+		<Replace BuildingType="BUILDING_LIGHTHOUSE" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<!-- <Replace BuildingType="BUILDING_LIGHTHOUSE" YieldType="YIELD_CULTURE" YieldChange="1"/> -->
+		<Replace BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<!-- <Replace BuildingType="BUILDING_SHIPYARD" YieldType="YIELD_CULTURE" YieldChange="1"/> -->
+		<Delete BuildingType="BUILDING_SEAPORT"/>
+		<!-- <Replace BuildingType="BUILDING_SEAPORT" YieldType="YIELD_GOLD" YieldChange="1"/>		 -->
+		<Replace BuildingType="BUILDING_SEAPORT" YieldType="YIELD_CULTURE" YieldChange="1"/>		
+		<!-- <Replace BuildingType="BUILDING_BARRACKS" YieldType="YIELD_SCIENCE" YieldChange="1"/> -->
+		<!-- <Replace BuildingType="BUILDING_STABLE" YieldType="YIELD_SCIENCE" YieldChange="1"/> -->
+		<!-- <Replace BuildingType="BUILDING_ARMORY" YieldType="YIELD_SCIENCE" YieldChange="1"/> -->
+		<Replace BuildingType="BUILDING_BARRACKS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_STABLE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+        <Delete BuildingType="BUILDING_MILITARY_ACADEMY"/>		
+		<Replace BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+        <!-- <Replace BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>			 -->
+		
+		<Replace BuildingType="BUILDING_ARENA" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<!-- <Replace BuildingType="BUILDING_ARENA" YieldType="YIELD_GOLD" YieldChange="1"/> -->
+		<Replace BuildingType="BUILDING_ARENA" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<!-- <Replace BuildingType="BUILDING_ARENA" YieldType="YIELD_SCIENCE" YieldChange="1"/> -->
+		<!-- <Replace BuildingType="BUILDING_ZOO" YieldType="YIELD_CULTURE" YieldChange="1"/> -->
+		<Replace BuildingType="BUILDING_ZOO" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<!-- <Replace BuildingType="BUILDING_ZOO" YieldType="YIELD_FAITH" YieldChange="1"/> -->
+		<Replace BuildingType="BUILDING_ZOO" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_STADIUM" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_STADIUM" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<!-- <Replace BuildingType="BUILDING_STADIUM" YieldType="YIELD_FAITH" YieldChange="1"/> -->
+		<!-- <Replace BuildingType="BUILDING_STADIUM" YieldType="YIELD_SCIENCE" YieldChange="1"/> -->
+		<Replace BuildingType="BUILDING_FERRIS_WHEEL" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<!-- <Replace BuildingType="BUILDING_FERRIS_WHEEL" YieldType="YIELD_GOLD" YieldChange="1"/> -->
+		<Replace BuildingType="BUILDING_FERRIS_WHEEL" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<!-- <Replace BuildingType="BUILDING_FERRIS_WHEEL" YieldType="YIELD_SCIENCE" YieldChange="1"/> -->
+		<!-- <Replace BuildingType="BUILDING_AQUARIUM" YieldType="YIELD_CULTURE" YieldChange="1"/> -->
+		<Replace BuildingType="BUILDING_AQUARIUM" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<!-- <Replace BuildingType="BUILDING_AQUARIUM" YieldType="YIELD_FAITH" YieldChange="1"/> -->
+		<Replace BuildingType="BUILDING_AQUARIUM" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_AQUATICS_CENTER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Replace BuildingType="BUILDING_AQUATICS_CENTER" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<!-- <Replace BuildingType="BUILDING_AQUATICS_CENTER" YieldType="YIELD_FAITH" YieldChange="1"/> -->
+		<!-- <Replace BuildingType="BUILDING_AQUATICS_CENTER" YieldType="YIELD_SCIENCE" YieldChange="1"/>	 -->
+   </Building_CitizenYieldChanges>
+   
+   <CivicModifiers>
+	    <Delete CivicType="CIVIC_CONSERVATION" ModifierId="CONSERVATION_ARENA_TOURISM"/>
+	</CivicModifiers>
+
+
+   <BuildingModifiers>	
+	<!--地块产出-->
+	<Row BuildingType="BUILDING_GRANARY" ModifierId="GOLDEN_GRANARY_ADDCATTLEFOOD"/>
+	<Row BuildingType="BUILDING_GRANARY" ModifierId="GOLDEN_GRANARY_ADDSHEEPFOOD"/>
+	<Row BuildingType="BUILDING_GRANARY" ModifierId="GOLDEN_GRANARY_ADDDEERFOOD"/>
+	<!-- <Row BuildingType="BUILDING_WATER_MILL" ModifierId="GOLDEN_MILL_ADDBANANASFOOD"/>	 -->
+	<Row BuildingType="BUILDING_FOOD_MARKET" ModifierId="GOLDEN_GRANARY_ADDCATTLEFOOD"/>
+	<Row BuildingType="BUILDING_FOOD_MARKET" ModifierId="GOLDEN_GRANARY_ADDSHEEPFOOD"/>
+	<Row BuildingType="BUILDING_FOOD_MARKET" ModifierId="GOLDEN_GRANARY_ADDDEERFOOD"/>
+	<Row BuildingType="BUILDING_FOOD_MARKET" ModifierId="GOLDEN_MILL_ADDBANANASFOOD"/>
+	<Row BuildingType="BUILDING_FOOD_MARKET" ModifierId="WATERMILL_ADDRICEFOOD"/>
+	<Row BuildingType="BUILDING_FOOD_MARKET" ModifierId="WATERMILL_ADDWHEATYIELD"/>
+	<!-- <Row BuildingType="BUILDING_WORKSHOP" ModifierId="GOLDEN_WORKSHOP_ADDCOPPERPRODUCTION"/> -->
+	<!-- <Row BuildingType="BUILDING_WORKSHOP" ModifierId="GOLDEN_WORKSHOP_ADDSTONEPRODUCTION"/> -->
+	<!-- <Row BuildingType="BUILDING_FACTORY" ModifierId="GOLDEN_FACTORY_PRODUCTION_FROM_STRATEGIC_RESOURCES"/>	 -->
+	<!-- <Row BuildingType="BUILDING_WORKSHOP" ModifierId="GOLDEN_WORKSHOP_LUMBER_MILL_PRODUCTION"/> -->
+	<!-- <Row BuildingType="BUILDING_FACTORY" ModifierId="GOLDEN_FACTORY_MINE_PRODUCTION"/> -->
+	<!--水利-->
+	<Row BuildingType="BUILDING_SEWER" ModifierId="GOLDEN_SEWER_CITY_GROWTH"/>
+	<Row BuildingType="BUILDING_HYDROELECTRIC_DAM" ModifierId="GOLDEN_HYDROELECTRIC_DAM_SPREAD_POWER"/>
+	<!--港口区-->
+	<!-- <Row BuildingType="BUILDING_SHIPYARD" ModifierId="GOLDEN_SHIPYARD_FISHINGBOATS_PRODUCTION"/> -->
+	<Row BuildingType="BUILDING_SHIPYARD" ModifierId="GOLDEN_SHIPYARD_COAST_PRODUCTION"/>
+	<!-- <Row BuildingType="BUILDING_LIGHTHOUSE" ModifierId="GOLDEN_LIGHTHOUSE_FISHINGBOATS_FOOD"/> -->
+	<!-- <Row BuildingType="BUILDING_SEAPORT" ModifierId="GOLDEN_SEAPORT_FISHINGBOATS_GOLD"/> -->
+	<Row BuildingType="BUILDING_LIGHTHOUSE" ModifierId="GOLDEN_LIGHTHOUSE_OCEAN_FOOD"/>
+	<Row BuildingType="BUILDING_SHIPYARD" ModifierId="GOLDEN_SHIPYARD_OCEAN_PRODUCTION"/>
+	<Row BuildingType="BUILDING_SEAPORT" ModifierId="GOLDEN_SEAPORT_OCEAN_GOLD"/>
+	<Delete BuildingType="BUILDING_LIGHTHOUSE" ModifierId="LIGHTHOUSE_COASTAL_CITY_HOUSING"/>
+	<Delete BuildingType="BUILDING_SHIPYARD" ModifierId="SHIPYARD_UNIMPROVED_COAST_PRODUCTION"/>
+	<!--娱乐建筑优化-->
+	<Delete BuildingType="BUILDING_FERRIS_WHEEL" ModifierId="FERRIS_WHEEL_TOURISM"/>
+	<Delete BuildingType="BUILDING_AQUARIUM" ModifierId="AQUARIUM_SEARESOURCE_SCIENCE"/>
+	<Delete BuildingType="BUILDING_AQUARIUM" ModifierId="AQUARIUM_REEF_SCIENCE"/>
+	<Delete BuildingType="BUILDING_AQUATICS_CENTER" ModifierId="AQUATICS_CENTER_WONDER_TOURISM"/>
+	<Delete BuildingType="BUILDING_ZOO" ModifierId="ZOO_RAINFOREST_SCIENCE"/>
+	<Delete BuildingType="BUILDING_ZOO" ModifierId="ZOO_MARSH_SCIENCE"/>
+	<Delete BuildingType="BUILDING_STADIUM" ModifierId="STADIUM_10_POPULATION_TOURISM"/>
+	<Delete BuildingType="BUILDING_STADIUM" ModifierId="STADIUM_20_POPULATION_TOURISM"/>
+	<Row BuildingType="BUILDING_ARENA" ModifierId="GOLDEN_ARENA_TOURISM"/>	
+	<Row BuildingType="BUILDING_ZOO" ModifierId="GOLDEN_ZOO_TOURISM"/>
+	<Row BuildingType="BUILDING_STADIUM" ModifierId="GOLDEN_STADIUM_TOURISM"/>
+	<Row BuildingType="BUILDING_FERRIS_WHEEL" ModifierId="GOLDEN_FERRIS_WHEEL_TOURISM"/>
+	<Row BuildingType="BUILDING_AQUARIUM" ModifierId="GOLDEN_AQUARIUM_TOURISM"/>
+	<Row BuildingType="BUILDING_AQUATICS_CENTER" ModifierId="GOLDEN_AQUATICS_CENTER_TOURISM"/>
+	<!--市政广场建筑-->	
+	<Row BuildingType="BUILDING_GOV_MILITARY" ModifierId="GOLDEN_GOV_MILITARY_TRAINED_LAND_CORPS_ARMY_DISCOUNT"/>
+	<Row BuildingType="BUILDING_GOV_MILITARY" ModifierId="GOLDEN_GOV_MILITARY_TRAINED_SEA_CORPS_ARMY_DISCOUNT"/>
+	<Row BuildingType="BUILDING_GOV_CULTURE" ModifierId="GOLDEN_GOV_CULTURE_TOURISM"/>
+
+	<Row BuildingType="BUILDING_GOV_SPIES" ModifierId="GOLDEN_GOV_SPIES_DEFENSE"/>
+	<Row BuildingType="BUILDING_GOV_SPIES" ModifierId="GOLDEN_GOV_SPIES_UPGRADE"/>
+	<Row BuildingType="BUILDING_GOV_SPIES" ModifierId="GOLDEN_GOV_SPIES_LESS_ALLIANCE_POINT"/>
+	<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOLDEN_GOV_CITYSTATES_INFLUENCE_POINTS"/>
+	<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOLDEN_GOV_CITYSTATES_CAPTURED_CITY_FAVOR_PENALTY"/>
+	<Row BuildingType="BUILDING_GOV_FAITH" ModifierId="GOLDEN_GOV_FAITH_BISHOP_PRESSURE"/>
+	<Row BuildingType="BUILDING_GOV_FAITH" ModifierId="GOLDEN_GOV_FAITH_PURCHASE_CIVILIAN"/>
+	<Row BuildingType="BUILDING_GOV_FAITH" ModifierId="GOLDEN_GOV_FAITH_PURCHASE_LAND_UNIT_COST_PENALTY"/>
+	<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PILLAGE_IMPROVEMENT_FAITH"/>
+	<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PILLAGE_DISTRICT_FAITH"/>
+	<!--贸易路线-->
+	<Row BuildingType="BUILDING_BANK" ModifierId="GOLDEN_BANK_TRADE_ROUTE_CAPACITY_MODIFIER"/>	
+	<Row BuildingType="BUILDING_STOCK_EXCHANGE" ModifierId="GOLDEN_STOCK_EXCHANGE_TRADE_ROUTE_CAPACITY_MODIFIER"/>
+   </BuildingModifiers>
+   
+   <Modifiers>
+        <Row>
+			<ModifierId>GOLDEN_HYDROELECTRIC_DAM_SPREAD_POWER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_SUPERSPREAD_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_HYDROELECTRIC_DAM_SPREAD_POWER_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+		</Row>
+        <Row>
+			<ModifierId>GOLDEN_GRANARY_ADDCATTLEFOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_RESOURCE_CATTLE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>   
+        <Row>
+			<ModifierId>GOLDEN_GRANARY_ADDSHEEPFOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_RESOURCE_SHEEP_REQUIREMENTS</SubjectRequirementSetId>
+		</Row> 
+        <Row>
+			<ModifierId>GOLDEN_GRANARY_ADDDEERFOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_RESOURCE_DEER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row> 		
+		<Row>
+			<ModifierId>GOLDEN_MILL_ADDBANANASFOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_RESOURCE_BANANAS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row> 
+        <!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_WORKSHOP_ADDCOPPERPRODUCTION</ModifierId> -->
+			<!-- <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType> -->
+			<!-- <SubjectRequirementSetId>GOLDEN_PLOT_HAS_RESOURCE_COPPER_REQUIREMENTS</SubjectRequirementSetId> -->
+		<!-- </Row>  -->
+        <!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_WORKSHOP_ADDSTONEPRODUCTION</ModifierId> -->
+			<!-- <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType> -->
+			<!-- <SubjectRequirementSetId>GOLDEN_PLOT_HAS_RESOURCE_STONE_REQUIREMENTS</SubjectRequirementSetId> -->
+		<!-- </Row> 		 -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_FACTORY_PRODUCTION_FROM_STRATEGIC_RESOURCES</ModifierId> -->
+			<!-- <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType> -->
+			<!-- <SubjectRequirementSetId>PLOT_HAS_STRATEGIC_RESOURCE</SubjectRequirementSetId> -->
+		<!-- </Row>				 -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_WORKSHOP_LUMBER_MILL_PRODUCTION</ModifierId> -->
+			<!-- <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType> -->
+			<!-- <SubjectRequirementSetId>GOLDEN_PLOT_HAS_LUMBER_MILL_ADJACENT_TO_LUMBER_MILL_REQUIREMENTS</SubjectRequirementSetId> -->
+		<!-- </Row> 		 -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_FACTORY_MINE_PRODUCTION</ModifierId> -->
+			<!-- <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType> -->
+			<!-- <SubjectRequirementSetId>GOLDEN_PLOT_HAS_MINE_ADJACENT_TO_MINE_REQUIREMENTS</SubjectRequirementSetId> -->
+		<!-- </Row>	 -->
+
+        <Row>
+			<ModifierId>GOLDEN_SEWER_CITY_GROWTH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>	
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_SHIPYARD_FISHINGBOATS_PRODUCTION</ModifierId> -->
+			<!-- <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType> -->
+			<!-- <SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_REQUIREMENTS</SubjectRequirementSetId> -->
+		<!-- </Row> -->		
+		<Row>
+			<ModifierId>GOLDEN_SHIPYARD_COAST_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COAST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_LIGHTHOUSE_FISHINGBOATS_FOOD</ModifierId> -->
+			<!-- <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType> -->
+			<!-- <SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_REQUIREMENTS</SubjectRequirementSetId> -->
+		<!-- </Row> -->
+
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_SEAPORT_FISHINGBOATS_GOLD</ModifierId> -->
+			<!-- <ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType> -->
+			<!-- <SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_REQUIREMENTS</SubjectRequirementSetId> -->
+		<!-- </Row> -->
+
+		<Row>
+			<ModifierId>GOLDEN_LIGHTHOUSE_OCEAN_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_OCEAN_ELECTRICITY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SHIPYARD_OCEAN_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_OCEAN_ELECTRICITY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEAPORT_OCEAN_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLOT_HAS_OCEAN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	    <!--市政广场建筑-->
+		<Row>
+			<ModifierId>GOLDEN_GOV_SPIES_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SPY_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_SPIES_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNLIMITED_PROMOTION_CHOICES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_SPIES_LESS_ALLIANCE_POINT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_ALLIANCE_POINTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_FAITH_COMBAT_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_MILITARY_TRAINED_LAND_CORPS_ARMY_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_CITY_CORPS_ARMY_ADJUST_DISCOUNT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_MILITARY_TRAINED_SEA_CORPS_ARMY_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_CITY_CORPS_ARMY_ADJUST_DISCOUNT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_FAITH_BISHOP_PRESSURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_RELIGION_PRESSURE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_CULTURE_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TOURISM</ModifierType>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_GOV_CITYSTATES_INFLUENCE_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_CITYSTATES_CAPTURED_CITY_FAVOR_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_CITYSTATES_CAPTURED_CITY_FAVOR_PENALTY_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN</ModifierType>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_GOV_FAITH_PURCHASE_CIVILIAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_FAITH_PURCHASE_LAND_UNIT_COST_PENALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNITS_PURCHASE_COST</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_PLAYER_NO_FOUNDED_RELIGION_OR_CITY_NOT_FOLLOWS_RELIGION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<!--娱乐建筑优化-->
+		<Row>
+			<ModifierId>GOLDEN_ARENA_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ZOO_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_STADIUM_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FERRIS_WHEEL_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AQUARIUM_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AQUATICS_CENTER_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+		</Row>
+		<!--贸易路线-->
+		<Row>
+			<ModifierId>GOLDEN_BANK_TRADE_ROUTE_CAPACITY_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_TWENTYFOUR_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_STOCK_EXCHANGE_TRADE_ROUTE_CAPACITY_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOLDEN_CITY_HAS_THIRTYSIX_POPULATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BANK_TRADE_ROUTE_CAPACITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_STOCK_EXCHANGE_TRADE_ROUTE_CAPACITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>		
+   </Modifiers>
+   
+   <ModifierArguments>
+        <Row>
+			<ModifierId>GOLDEN_HYDROELECTRIC_DAM_SPREAD_POWER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_HYDROELECTRIC_DAM_SPREAD_POWER_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_HYDROELECTRIC_DAM_SPREAD_POWER_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_HYDROELECTRIC_DAM_SPREAD_POWER_MODIFIER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_WATER</Value>
+		</Row>
+		<Update>
+	        <Where ModifierId="HYDROELECTRIC_DAM_FREE_POWER" Name="Amount"/> <Set Value="3"/>
+	    </Update> 
+		<Row>
+			<ModifierId>GOLDEN_GRANARY_ADDCATTLEFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRANARY_ADDCATTLEFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MILL_ADDBANANASFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_MILL_ADDBANANASFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>		
+		<Row>
+			<ModifierId>GOLDEN_GRANARY_ADDSHEEPFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRANARY_ADDSHEEPFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRANARY_ADDDEERFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GRANARY_ADDDEERFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_WORKSHOP_ADDCOPPERPRODUCTION</ModifierId> -->
+			<!-- <Name>Amount</Name> -->
+			<!-- <Value>1</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_WORKSHOP_ADDCOPPERPRODUCTION</ModifierId> -->
+			<!-- <Name>YieldType</Name> -->
+			<!-- <Value>YIELD_PRODUCTION</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_WORKSHOP_ADDSTONEPRODUCTION</ModifierId> -->
+			<!-- <Name>Amount</Name> -->
+			<!-- <Value>1</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_WORKSHOP_ADDSTONEPRODUCTION</ModifierId> -->
+			<!-- <Name>YieldType</Name> -->
+			<!-- <Value>YIELD_PRODUCTION</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_FACTORY_PRODUCTION_FROM_STRATEGIC_RESOURCES</ModifierId> -->
+			<!-- <Name>YieldType</Name> -->
+			<!-- <Value>YIELD_PRODUCTION</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_FACTORY_PRODUCTION_FROM_STRATEGIC_RESOURCES</ModifierId> -->
+			<!-- <Name>Amount</Name> -->
+			<!-- <Value>1</Value> -->
+		<!-- </Row>	 -->
+        <!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_WORKSHOP_LUMBER_MILL_PRODUCTION</ModifierId> -->
+			<!-- <Name>YieldType</Name> -->
+			<!-- <Value>YIELD_PRODUCTION</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_WORKSHOP_LUMBER_MILL_PRODUCTION</ModifierId> -->
+			<!-- <Name>Amount</Name> -->
+			<!-- <Value>1</Value> -->
+		<!-- </Row>	<Row> -->
+			<!-- <ModifierId>GOLDEN_FACTORY_MINE_PRODUCTION</ModifierId> -->
+			<!-- <Name>YieldType</Name> -->
+			<!-- <Value>YIELD_PRODUCTION</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_FACTORY_MINE_PRODUCTION</ModifierId> -->
+			<!-- <Name>Amount</Name> -->
+			<!-- <Value>1</Value> -->
+		<!-- </Row>					 -->
+		<Row>
+			<ModifierId>GOLDEN_SEWER_CITY_GROWTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Update>
+	        <Where ModifierId="SHOPPING_MALL_TOURISM" Name="Amount"/> <Set Value="10"/>
+	    </Update> 
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_SHIPYARD_FISHINGBOATS_PRODUCTION</ModifierId> -->
+			<!-- <Name>YieldType</Name> -->
+			<!-- <Value>YIELD_PRODUCTION</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_SHIPYARD_FISHINGBOATS_PRODUCTION</ModifierId> -->
+			<!-- <Name>Amount</Name> -->
+			<!-- <Value>1</Value> -->
+		<!-- </Row> -->
+
+		<Row>
+			<ModifierId>GOLDEN_SHIPYARD_COAST_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SHIPYARD_COAST_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_LIGHTHOUSE_FISHINGBOATS_FOOD</ModifierId> -->
+			<!-- <Name>YieldType</Name> -->
+			<!-- <Value>YIELD_FOOD</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_LIGHTHOUSE_FISHINGBOATS_FOOD</ModifierId> -->
+			<!-- <Name>Amount</Name> -->
+			<!-- <Value>1</Value> -->
+		<!-- </Row> -->
+
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_SEAPORT_FISHINGBOATS_GOLD</ModifierId> -->
+			<!-- <Name>YieldType</Name> -->
+			<!-- <Value>YIELD_GOLD</Value> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <ModifierId>GOLDEN_SEAPORT_FISHINGBOATS_GOLD</ModifierId> -->
+			<!-- <Name>Amount</Name> -->
+			<!-- <Value>2</Value> -->
+		<!-- </Row> -->
+
+		<Row>
+			<ModifierId>GOLDEN_LIGHTHOUSE_OCEAN_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_LIGHTHOUSE_OCEAN_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SHIPYARD_OCEAN_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SHIPYARD_OCEAN_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEAPORT_OCEAN_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_SEAPORT_OCEAN_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+        <Update>
+	        <Where ModifierId="ARMORY_ADJUST_RESOURCE_STOCKPILE_CAP" Name="Amount"/> <Set Value="20"/>
+	    </Update> 
+		<Update>
+	        <Where ModifierId="MILITARY_ACADEMY_ADJUST_RESOURCE_STOCKPILE_CAP" Name="Amount"/> <Set Value="30"/>
+	    </Update> 
+	
+	
+		<!--市政广场建筑-->
+		<Update>
+	        <Where ModifierId="GOV_CITYSTATES_COMBAT_MODIFIER" Name="Amount"/> <Set Value="5"/>
+	    </Update> 
+        <Row>
+			<ModifierId>GOLDEN_GOV_SPIES_DEFENSE</ModifierId>
+			<Name>Offense</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_SPIES_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_SPIES_UPGRADE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SPY</Value>
+		</Row>	
+		<Row>
+			<ModifierId>GOLDEN_GOV_SPIES_LESS_ALLIANCE_POINT</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>		
+		<Update>
+	        <Where ModifierId="GOV_PROJECT_ABILITY" Name="Amount"/> <Set Value="5"/>
+	    </Update> 
+		<Row>
+			<ModifierId>GOLDEN_GOV_FAITH_COMBAT_BUFF</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_RELIGIOUS_ORDERS_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_MILITARY_TRAINED_LAND_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_MILITARY_TRAINED_LAND_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_MILITARY_TRAINED_SEA_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_MILITARY_TRAINED_SEA_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_FAITH_BISHOP_PRESSURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_CULTURE_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>		
+		
+		<Row>
+			<ModifierId>GOLDEN_GOV_CITYSTATES_INFLUENCE_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_CITYSTATES_CAPTURED_CITY_FAVOR_PENALTY</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_GOV_CITYSTATES_CAPTURED_CITY_FAVOR_PENALTY_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_CITYSTATES_CAPTURED_CITY_FAVOR_PENALTY_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Update>
+	        <Where ModifierId="GOVCITYSTATES_ADJUST_FAVOR" Name="Amount"/> <Set Value="5"/>
+	    </Update>
+		<Row>
+			<ModifierId>GOLDEN_GOV_FAITH_PURCHASE_CIVILIAN</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LANDCIVILIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_FAITH_PURCHASE_LAND_UNIT_COST_PENALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_FAITH_PURCHASE_LAND_UNIT_COST_PENALTY</ModifierId>
+			<Name>IncludeCivilian</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_GOV_FAITH_PURCHASE_LAND_UNIT_COST_PENALTY</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+	    
+		<!--娱乐建筑优化-->
+		<Row>
+			<ModifierId>GOLDEN_ARENA_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_ZOO_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_STADIUM_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>9</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_FERRIS_WHEEL_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AQUARIUM_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AQUATICS_CENTER_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>9</Value>
+		</Row>		
+		<!--贸易路线-->
+		<Row>
+			<ModifierId>GOLDEN_BANK_TRADE_ROUTE_CAPACITY_MODIFIER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_BANK_TRADE_ROUTE_CAPACITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_STOCK_EXCHANGE_TRADE_ROUTE_CAPACITY_MODIFIER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GOLDEN_STOCK_EXCHANGE_TRADE_ROUTE_CAPACITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_BANK_TRADE_ROUTE_CAPACITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_STOCK_EXCHANGE_TRADE_ROUTE_CAPACITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+   </ModifierArguments>
+   
+   <RequirementSets>
+        <Row>
+			<RequirementSetId>GOLDEN_CITY_SUPERSPREAD_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>	
+		<!-- <Row> -->
+			<!-- <RequirementSetId>GOLDEN_PLOT_HAS_LUMBER_MILL_ADJACENT_TO_LUMBER_MILL_REQUIREMENTS</RequirementSetId> -->
+			<!-- <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <RequirementSetId>GOLDEN_PLOT_HAS_MINE_ADJACENT_TO_MINE_REQUIREMENTS</RequirementSetId> -->
+			<!-- <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <RequirementSetId>GOLDEN_CITY_HAS_HIGHER_THAN_BUILDING_CITYHALL_COUNTY_REQUIREMENTS</RequirementSetId> -->
+			<!-- <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType> -->
+		<!-- </Row>		 -->
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_OCEAN_ELECTRICITY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>		
+   </RequirementSets>
+   
+   <RequirementSetRequirements>
+        <Row>
+			<RequirementSetId>GOLDEN_CITY_SUPERSPREAD_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_CITY_SUPERSPREAD</RequirementId>
+		</Row>	
+		
+		<!-- <Row> -->
+			<!-- <RequirementSetId>GOLDEN_PLOT_HAS_LUMBER_MILL_ADJACENT_TO_LUMBER_MILL_REQUIREMENTS</RequirementSetId> -->
+			<!-- <RequirementId>GOLDEN_REQUIRES_PLOT_HAS_IMPROVEMENT_LUMBER_MILL</RequirementId> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <RequirementSetId>GOLDEN_PLOT_HAS_LUMBER_MILL_ADJACENT_TO_LUMBER_MILL_REQUIREMENTS</RequirementSetId> -->
+			<!-- <RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_IMPROVEMENT_LUMBER_MILL</RequirementId> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <RequirementSetId>GOLDEN_PLOT_HAS_MINE_ADJACENT_TO_MINE_REQUIREMENTS</RequirementSetId> -->
+			<!-- <RequirementId>GOLDEN_REQUIRES_PLOT_HAS_IMPROVEMENT_MINE</RequirementId> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <RequirementSetId>GOLDEN_PLOT_HAS_MINE_ADJACENT_TO_MINE_REQUIREMENTS</RequirementSetId> -->
+			<!-- <RequirementId>GOLDEN_REQUIRES_PLOT_IS_ADJACENT_TO_IMPROVEMENT_MINE</RequirementId> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <RequirementSetId>GOLDEN_CITY_HAS_HIGHER_THAN_BUILDING_CITYHALL_COUNTY_REQUIREMENTS</RequirementSetId> -->
+			<!-- <RequirementId>GOLDEN_REQUIRES_CITY_HAS_BUILDING_CITYHALL_COUNTY</RequirementId> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <RequirementSetId>GOLDEN_CITY_HAS_HIGHER_THAN_BUILDING_CITYHALL_COUNTY_REQUIREMENTS</RequirementSetId> -->
+			<!-- <RequirementId>GOLDEN_REQUIRES_CITY_HAS_BUILDING_CITYHALL_CITY</RequirementId> -->
+		<!-- </Row> -->
+		<!-- <Row> -->
+			<!-- <RequirementSetId>GOLDEN_CITY_HAS_HIGHER_THAN_BUILDING_CITYHALL_COUNTY_REQUIREMENTS</RequirementSetId> -->
+			<!-- <RequirementId>GOLDEN_REQUIRES_CITY_HAS_BUILDING_CITYHALL_METROPOLIS</RequirementId> -->
+		<!-- </Row> -->
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_OCEAN_ELECTRICITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLOT_HAS_OCEAN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLDEN_PLOT_HAS_OCEAN_ELECTRICITY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GOLDEN_REQUIRES_PLAYER_HAS_TECH_ELECTRICITY</RequirementId>
+		</Row>	
+   </RequirementSetRequirements>
+   
+   <Requirements>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_CITY_SUPERSPREAD</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_BUILDING_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+   
+   <RequirementArguments>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_CITY_SUPERSPREAD</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_HYDROELECTRIC_DAM</Value>
+		</Row>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_CITY_SUPERSPREAD</RequirementId>
+			<Name>MaxRange</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<RequirementId>GOLDEN_REQUIRES_CITY_SUPERSPREAD</RequirementId>
+			<Name>MinRange</Name>
+			<Value>1</Value>
+		</Row>
+	</RequirementArguments>
+	
+</GameInfo> 
+	  
+
+		

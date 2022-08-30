@@ -1,0 +1,85 @@
+<GameInfo>
+    <Improvements>
+	    <Update>
+	        <Where ImprovementType="IMPROVEMENT_GOODY_HUT"/> <Set TilesPerGoody="100"/>
+	    </Update>
+	</Improvements>
+
+	<GoodyHutSubTypes>																
+		<Update>
+	        <Where GoodyHut="GOODYHUT_GOLD" SubTypeGoodyHut="GOODYHUT_LARGE_GOLD"/> <Set Turn="0"/>
+	    </Update> 
+		<Update>
+	        <Where GoodyHut="GOODYHUT_GOLD" SubTypeGoodyHut="GOODYHUT_MEDIUM_GOLD"/> <Set Turn="0"/>
+	    </Update> 
+		<Update>
+	        <Where GoodyHut="GOODYHUT_FAITH" SubTypeGoodyHut="GOODYHUT_LARGE_FAITH"/> <Set Turn="0"/>
+	    </Update> 
+		<Update>
+	        <Where GoodyHut="GOODYHUT_FAITH" SubTypeGoodyHut="GOODYHUT_MEDIUM_FAITH"/> <Set Turn="0"/>
+	    </Update> 
+		<Update>
+	        <Where GoodyHut="GOODYHUT_FAITH" SubTypeGoodyHut="GOODYHUT_SMALL_FAITH"/> <Set Turn="0"/>
+	    </Update> 
+		
+		<Update>
+	        <Where GoodyHut="GOODYHUT_SURVIVORS" SubTypeGoodyHut="GOODYHUT_ADD_POP"/> <Set Weight="30"/>
+	    </Update>  
+		<Update>
+	        <Where GoodyHut="GOODYHUT_SURVIVORS" SubTypeGoodyHut="GOODYHUT_GRANT_BUILDER"/> <Set Weight="30"/>
+	    </Update>  
+		<Update>
+	        <Where GoodyHut="GOODYHUT_SURVIVORS" SubTypeGoodyHut="GOODYHUT_GRANT_TRADER"/> <Set Weight="30" Turn="0"/>
+	    </Update>
+		<Update>
+	        <Where GoodyHut="GOODYHUT_SURVIVORS" SubTypeGoodyHut="GOODYHUT_GRANT_SETTLER"/> <Set Weight="10"/>
+	    </Update>  		
+		
+		<Update>
+	        <Where GoodyHut="GOODYHUT_CULTURE" SubTypeGoodyHut="GOODYHUT_TWO_CIVIC_BOOSTS"/> <Set Turn="0"/>
+	    </Update> 
+		<Update>
+	        <Where GoodyHut="GOODYHUT_SCIENCE" SubTypeGoodyHut="GOODYHUT_ONE_TECH"/> <Set Turn="0"/>
+	    </Update> 
+		<Update>
+	        <Where GoodyHut="GOODYHUT_SCIENCE" SubTypeGoodyHut="GOODYHUT_TWO_TECH_BOOSTS"/> <Set Turn="0"/>
+	    </Update> 
+		
+		<Update>
+	        <Where GoodyHut="GOODYHUT_MILITARY" SubTypeGoodyHut="GOODYHUT_GRANT_SCOUT"/> <Set Weight="40"/>
+	    </Update> 
+		<Update>
+	        <Where GoodyHut="GOODYHUT_MILITARY" SubTypeGoodyHut="GOODYHUT_GRANT_EXPERIENCE"/> <Set Weight="40"/>
+	    </Update> 
+		<Update>
+	        <Where GoodyHut="GOODYHUT_MILITARY" SubTypeGoodyHut="GOODYHUT_HEAL"/> <Set Weight="0"/>
+	    </Update> 
+	</GoodyHutSubTypes>
+	
+	<ModifierArguments>
+	    <Update>
+		   <Where ModifierId="GOODY_GOLD_LARGE_MODIFIER" Name="Amount"/>
+		   <Set Value="150"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="GOODY_GOLD_MEDIUM_MODIFIER" Name="Amount"/>
+		   <Set Value="100"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="GOODY_GOLD_SMALL_MODIFIER" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>
+		 <Update>
+		   <Where ModifierId="GOODY_FAITH_LARGE_MODIFIER" Name="Amount"/>
+		   <Set Value="150"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="GOODY_FAITH_MEDIUM_MODIFIER" Name="Amount"/>
+		   <Set Value="100"/>
+	    </Update>
+		<Update>
+		   <Where ModifierId="GOODY_FAITH_SMALL_MODIFIER" Name="Amount"/>
+		   <Set Value="50"/>
+	    </Update>
+	</ModifierArguments>
+</GameInfo>

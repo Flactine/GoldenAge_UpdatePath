@@ -1,0 +1,103 @@
+<GameInfo>
+    <Parameters>
+	    <Row ParameterId="GA_MEGALOPOLIS_PRO" Name="LOC_GA_MEGALOPOLIS_PRO_NAME" Description="LOC_GA_MEGALOPOLIS_PRO_DESCRIPTION" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="GA_MEGALOPOLIS_PRO" NameArrayConfigurationId="GAMEMODES_ENABLED_NAMES" GroupId="GameModes" SortIndex="215"/>       
+	    <Row ParameterId="GA_CULTIVATION" Name="LOC_GA_CULTIVATION_NAME" Description="LOC_GA_CULTIVATION_DESCRIPTION" Domain="bool" DefaultValue="1" ConfigurationGroup="Game" ConfigurationId="GA_CULTIVATION" NameArrayConfigurationId="GAMEMODES_ENABLED_NAMES" GroupId="GameModes" SortIndex="213"/>       				
+		<Update>
+			<Where ParameterId="GA_TOTALWAR"/> <Set DefaultValue="1"/>
+		</Update>
+		<Delete ParameterId="GA_BUILDINGEXPANSION"/>	
+		<Row ParameterId="GA_BUILDINGEXPANSION_NEW" Name="LOC_GA_BUILDINGEXPANSION_NAME" Description="LOC_GA_BUILDINGEXPANSION_DESCRIPTION" Domain="bool" DefaultValue="1" ConfigurationGroup="Game" ConfigurationId="GA_BUILDINGEXPANSION_NEW" NameArrayConfigurationId="GAMEMODES_ENABLED_NAMES" GroupId="GameModes" SortIndex="210"/>       		
+		<Row ParameterId="GA_MILESTONE" Name="LOC_GA_MILESTONE_NAME" Description="LOC_GA_MILESTONE_DESCRIPTION" Domain="bool" DefaultValue="0" ConfigurationGroup="Game" ConfigurationId="GA_MILESTONE" NameArrayConfigurationId="GAMEMODES_ENABLED_NAMES" GroupId="GameModes" SortIndex="214"/> 
+		
+		<Delete ParameterId="GA_RANDOMEVENTS"/>	
+		<Row ParameterId="GA_RANDOMEVENTS_NEW" ConfigurationGroup="Game" ConfigurationId="GA_RANDOMEVENTS_NEW" DefaultValue="1" Description="LOC_GA_RANDOMEVENTS_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_RANDOMEVENTS_NAME" SortIndex="23"/>		
+		<Delete ParameterId="GA_CITYSTATE"/>	
+		<Row ParameterId="GA_CITYSTATE_NEW" ConfigurationGroup="Game" ConfigurationId="GA_CITYSTATE_NEW" DefaultValue="1" Description="LOC_GA_CITYSTATE_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_CITYSTATE_NAME" SortIndex="22"/>				
+		<Delete ParameterId="GA_BUILDING"/>	
+		<Row ParameterId="GA_BUILDING_NEW" ConfigurationGroup="Game" ConfigurationId="GA_BUILDING_NEW" DefaultValue="1" Description="LOC_GA_BUILDING_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_BUILDING_NAME" SortIndex="5"/>		
+
+		<Row ParameterId="GAModeHeader" ConfigurationGroup="Game" ConfigurationId="GAModeHeader" DefaultValue="1" Description="LOC_GAModeHeader_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GAModeHeader_NAME" ReadOnly="1" SortIndex="40"/>	    
+		<Row ParameterId="GA_APOCALYPSE" ConfigurationGroup="Game" ConfigurationId="GA_APOCALYPSE" DefaultValue="1" Description="LOC_GA_APOCALYPSE_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_APOCALYPSE_NAME" SortIndex="41"/>	    		
+		<Row ParameterId="GA_SECRETSOCIETIES" ConfigurationGroup="Game" ConfigurationId="GA_SECRETSOCIETIES" DefaultValue="1" Description="LOC_GA_SECRETSOCIETIES_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_SECRETSOCIETIES_NAME" SortIndex="42"/>	    		
+		<Row ParameterId="GA_DRAMATICAGES" ConfigurationGroup="Game" ConfigurationId="GA_DRAMATICAGES" DefaultValue="1" Description="LOC_GA_DRAMATICAGES_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_DRAMATICAGES_NAME" SortIndex="43"/>	    		
+		<Row ParameterId="GA_MONOPOLIES" ConfigurationGroup="Game" ConfigurationId="GA_MONOPOLIES" DefaultValue="1" Description="LOC_GA_MONOPOLIES_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_MONOPOLIES_NAME" SortIndex="44"/>	    		
+		
+		<Update>
+			<Where ParameterId="GAPreference"/> <Set SortIndex="50"/>
+		</Update>
+		<Delete ParameterId="GA_ERALIMIT"/>	
+		<Delete ParameterId="GA_COST_CIVIC_TECH"/>
+		<Row ParameterId="GA_COST_CIVIC_TECH_NEW" ConfigurationGroup="Game" ConfigurationId="GA_COST_CIVIC_TECH_NEW" DefaultValue="100" Description="LOC_GA_COST_CIVIC_TECH_DESCRIPTION" Domain="GA_CivicTechCost" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_COST_CIVIC_TECH_NAME" SortIndex="51"/>		
+		<Update>
+			<Where ParameterId="GA_ERALIMIT"/> <Set SortIndex="52"/>
+		</Update>
+		<Update>
+			<Where ParameterId="GA_CITY_DISTANCE"/> <Set SortIndex="53"/>
+		</Update>
+		<Update>
+			<Where ParameterId="GA_DEFENSIVEIMPROVEMENTS"/> <Set SortIndex="54"/>
+		</Update>
+		<Row ParameterId="GA_BARBARIAN" ConfigurationGroup="Game" ConfigurationId="GA_BARBARIAN" DefaultValue="0" Description="LOC_GA_BARBARIAN_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_BARBARIAN_NAME" SortIndex="55"/>		
+		<Row ParameterId="GA_HARBOR" ConfigurationGroup="Game" ConfigurationId="GA_HARBOR" DefaultValue="0" Description="LOC_GA_HARBOR_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_HARBOR_NAME" SortIndex="56"/>		
+		<Row ParameterId="GA_AICHEAT" ConfigurationGroup="Game" ConfigurationId="GA_AICHEAT" DefaultValue="0" Description="LOC_GA_AICHEAT_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_AICHEAT_NAME" SortIndex="57"/>	
+		<Row ParameterId="GA_STORM" ConfigurationGroup="Game" ConfigurationId="GA_STORM" DefaultValue="0" Description="LOC_GA_STORM_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_STORM_NAME" SortIndex="58"/>		
+		<!-- <Row ParameterId="GA_NO_SPY" ConfigurationGroup="Game" ConfigurationId="GA_NO_SPY" DefaultValue="0" Description="LOC_GA_NO_SPY_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_NO_SPY_NAME" SortIndex="58"/>		 -->
+		<!-- <Row ParameterId="GA_ABUNDANCE" ConfigurationGroup="Game" ConfigurationId="GA_ABUNDANCE" DefaultValue="0" Description="LOC_GA_ABUNDANCE_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_ABUNDANCE_NAME" SortIndex="59"/>		 -->
+		<Update>
+			<Where ParameterId="NoGoodyHuts"/> <Set SortIndex="60"/>
+		</Update>
+		<Update>
+			<Where ParameterId="NoBarbarians"/> <Set SortIndex="61"/>
+		</Update>
+		
+		<Update>
+			<Where ParameterId="GA_CHEATING"/> <Set SortIndex="70"/>
+		</Update>
+		<Update>
+			<Where ParameterId="GA_AIBANWONDER"/> <Set SortIndex="71"/>
+		</Update>
+		<Update>
+			<Where ParameterId="GA_NOMINORWALL"/> <Set SortIndex="72"/>
+		</Update>
+		<Update>
+			<Where ParameterId="GA_CITYMOVER"/> <Set SortIndex="73"/>
+		</Update>
+		<Update>
+			<Where ParameterId="GA_UNITPILEUP"/> <Set SortIndex="74"/>
+		</Update>
+		<Row ParameterId="GA_MORE_SIGHT" ConfigurationGroup="Game" ConfigurationId="GA_MORE_SIGHT" DefaultValue="0" Description="LOC_GA_MORE_SIGHT_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_MORE_SIGHT_NAME" SortIndex="75"/>		
+		<Row ParameterId="GA_NOAI_HERO" ConfigurationGroup="Game" ConfigurationId="GA_NOAI_HERO" DefaultValue="0" Description="LOC_GA_NOAI_HERO_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_GA_NOAI_HERO_NAME" SortIndex="76"/>	
+
+		<Update>
+			<Where ParameterId="GAFooter"/> <Set SortIndex="90"/>
+		</Update>
+	</Parameters>
+	
+	<GameModeItems>
+		<Row GameModeType="GA_MEGALOPOLIS_PRO" Name="LOC_GA_MEGALOPOLIS_PRO_NAME" Description="LOC_GA_MEGALOPOLIS_PRO_DESCRIPTION" Portrait="LEADER_QIN_BACKGROUND" Background="LEADER_QIN_BACKGROUND" Icon="ICON_TECH_NANOTECHNOLOGY" SortIndex="36" />	
+		<Row GameModeType="GA_CULTIVATION" Name="LOC_GA_CULTIVATION_NAME" Description="LOC_GA_CULTIVATION_DESCRIPTION" Portrait="LEADER_QIN_BACKGROUND" Background="LEADER_QIN_BACKGROUND" Icon="ICON_TECH_IRRIGATION" SortIndex="34" />		
+		<Delete GameModeType="GA_BUILDINGEXPANSION"/>	
+		<Row GameModeType="GA_BUILDINGEXPANSION_NEW" Name="LOC_GA_BUILDINGEXPANSION_NAME" Description="LOC_GA_BUILDINGEXPANSION_DESCRIPTION" Portrait="LEADER_QIN_BACKGROUND" Background="LEADER_QIN_BACKGROUND" Icon="ICON_TECH_INDUSTRIALIZATION" SortIndex="31" />		
+		<Row GameModeType="GA_MILESTONE" Name="LOC_GA_MILESTONE_NAME" Description="LOC_GA_MILESTONE_DESCRIPTION" Portrait="LEADER_QIN_BACKGROUND" Background="LEADER_QIN_BACKGROUND" Icon="ICON_TECH_FUTURE_TECH" SortIndex="35" />		
+
+	</GameModeItems>
+	
+	<ConfigurationUpdates>
+		<Row SourceGroup="Game" SourceId="GA_MILESTONE" SourceValue="1" TargetGroup="Game" TargetId="GAMEMODE_TREE_RANDOMIZER" TargetValue="0" Static="0"/>
+		<Row SourceGroup="Game" SourceId="GAMEMODE_TREE_RANDOMIZER" SourceValue="1" TargetGroup="Game" TargetId="GA_MILESTONE" TargetValue="0" Static="0"/>
+		<Row SourceGroup="Game" SourceId="GA_MILESTONE" SourceValue="1" TargetGroup="Game" TargetId="GA_TECH_CIVIC" TargetValue="1" Static="0"/>
+		
+		<!-- <Row SourceGroup="Game" SourceId="GA_APOCALYPSE" SourceValue="1" TargetGroup="Game" TargetId="GAMEMODE_APOCALYPSE" TargetValue="1" Static="0"/> -->
+		<!-- <Row SourceGroup="Game" SourceId="GA_SECRETSOCIETIES" SourceValue="1" TargetGroup="Game" TargetId="GAMEMODE_SECRETSOCIETIES" TargetValue="1" Static="0"/> -->
+		<!-- <Row SourceGroup="Game" SourceId="GA_DRAMATICAGES" SourceValue="1" TargetGroup="Game" TargetId="GAMEMODE_DRAMATICAGES" TargetValue="1" Static="0"/> -->
+		<!-- <Row SourceGroup="Game" SourceId="GA_MONOPOLIES" SourceValue="1" TargetGroup="Game" TargetId="GAMEMODE_MONOPOLIES" TargetValue="1" Static="0"/> -->
+	</ConfigurationUpdates>
+	<ParameterCriteria>
+		<Row ParameterId="GA_MILESTONE" ConfigurationGroup="Game" ConfigurationId="GAMEMODE_TREE_RANDOMIZER" Operator="NotEquals" ConfigurationValue="1" />
+		<Row ParameterId="GameMode_Tree_Randomizer" ConfigurationGroup="Game" ConfigurationId="GA_MILESTONE" Operator="NotEquals" ConfigurationValue="1"/>	
+
+		<!-- <Row ParameterId="GA_DEFENSIVEIMPROVEMENTS" ConfigurationGroup="Game" ConfigurationId="GAMEMODE_TOWERDEFENSE" Operator="NotEquals" ConfigurationValue="1" /> -->
+		<!-- <Row ParameterId="GameMode_TowerDefense" ConfigurationGroup="Game" ConfigurationId="GA_DEFENSIVEIMPROVEMENTS" Operator="NotEquals" ConfigurationValue="1"/>	 -->
+	</ParameterCriteria>
+</GameInfo>
+

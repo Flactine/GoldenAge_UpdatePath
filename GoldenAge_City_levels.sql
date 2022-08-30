@@ -1,0 +1,2 @@
+--V225 高级城市数量限制
+-- UPDATE Projects SET MaxPlayerInstances = 2 WHERE ProjectType = 'PROJECT_VILLAGE_TOWN';

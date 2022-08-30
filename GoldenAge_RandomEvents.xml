@@ -1,0 +1,420 @@
+<GameInfo>
+    <GlobalParameters>
+	<!--更多会被淹没的单元格（45）-->
+		<Replace Name="CLIMATE_CHANGE_PERCENT_COASTAL_LOWLANDS" Value="60" />
+	</GlobalParameters>
+	
+	<RandomEvents>
+        <Update>
+	        <Where RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT"/> <Set Duration="4"/>
+	    </Update>
+		<Update>
+	        <Where RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING"/> <Set Duration="4"/>
+	    </Update>
+		 <Update>
+	        <Where RandomEventType="RANDOM_EVENT_TORNADO_FAMILY"/> <Set Duration="4"/>
+	    </Update>
+		<Update>
+	        <Where RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK"/> <Set Duration="4"/>
+	    </Update>
+		 <Update>
+	        <Where RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT"/> <Set Duration="4"/>
+	    </Update>
+		<Update>
+	        <Where RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB"/> <Set Duration="4"/>
+	    </Update>
+		<Update>
+	        <Where RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4"/> <Set Duration="4"/>
+	    </Update>
+		<Update>
+	        <Where RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5"/> <Set Duration="4"/>
+	    </Update>
+		<Update>
+	        <Where RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR"/> <Set Duration="8"/>
+	    </Update>
+		<Update>
+	        <Where RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME"/> <Set Duration="8"/>
+	    </Update>
+	</RandomEvents>
+	
+	<RealismSettings>
+	    <Replace RealismSettingType="REALISM_SETTING_MINIMAL" Name="LOC_REALISM_SETTING_MINIMAL_NAME" PercentVolcanoesActive="40" ExtraRange="true" ClimateChangePoints="0"/>
+		<Replace RealismSettingType="REALISM_SETTING_LIGHT" Name="LOC_REALISM_SETTING_LIGHT_NAME" PercentVolcanoesActive="50" ExtraRange="true" ClimateChangePoints="0"/>
+		<Replace RealismSettingType="REALISM_SETTING_MODERATE" Name="LOC_REALISM_SETTING_MODERATE_NAME" PercentVolcanoesActive="60" ExtraRange="true" ClimateChangePoints="0"/>
+		<Replace RealismSettingType="REALISM_SETTING_HEAVY" Name="LOC_REALISM_SETTING_HEAVY_NAME" PercentVolcanoesActive="70" ExtraRange="true" ClimateChangePoints="0"/>
+		<Replace RealismSettingType="REALISM_SETTING_HYPERREAL" Name="LOC_REALISM_SETTING_HYPERREAL_NAME" PercentVolcanoesActive="80" ExtraRange="true" ClimateChangePoints="0"/>
+	</RealismSettings>
+	
+	<RandomEvent_Frequencies>
+	    <Replace RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame=".5"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="0"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="0"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1.5"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame=".5"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1.5"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame=".5"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="3"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="3"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1.5"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame=".5"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="3"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="2"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="3"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="3"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="6"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="2"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="6"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="2"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="9"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="3"/>
+
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1.5"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="4"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="3"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="6"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="6"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="12"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="4"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="12"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="4"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="18"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="6"/>
+
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="2.5"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="2"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1.5"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="5"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="4"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="3"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="8"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="4"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="8"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="4"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="16"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="8"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="16"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="8"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="27"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="9"/>
+
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="3"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="2.5"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="2"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="6"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="5"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="4"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="10"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="6"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="10"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="6"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="12"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="12"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="36"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="12"/>
+	</RandomEvent_Frequencies>
+	
+	<RandomEvent_Damages>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="IMPROVEMENT_DESTROYED" Percentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="IMPROVEMENT_PILLAGED" Percentage="40"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="DISTRICT_PILLAGED" Percentage="10"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="BUILDING_PILLAGED" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="POPULATION_LOSS" Percentage="10"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="1" MaxHP="25"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="CITY_GARRISON" Percentage="100" MinHP="1" MaxHP="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="CITY_WALLS" Percentage="100" MinHP="1" MaxHP="50"/>		
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="IMPROVEMENT_DESTROYED" Percentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="IMPROVEMENT_PILLAGED" Percentage="60"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="DISTRICT_PILLAGED" Percentage="15"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="BUILDING_PILLAGED" Percentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="POPULATION_LOSS" Percentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="UNIT_KILLED_CIVILIAN" Percentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="26" MaxHP="50"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="CITY_GARRISON" Percentage="100" MinHP="51" MaxHP="100"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="CITY_WALLS" Percentage="100" MinHP="51" MaxHP="100"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="IMPROVEMENT_DESTROYED" Percentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="IMPROVEMENT_PILLAGED" Percentage="80"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="DISTRICT_PILLAGED" Percentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="BUILDING_PILLAGED" Percentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="POPULATION_LOSS" Percentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="UNIT_KILLED_CIVILIAN" Percentage="60"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="51" MaxHP="75"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="CITY_GARRISON" Percentage="100" MinHP="101" MaxHP="150"/>
+		<Replace RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="CITY_WALLS" Percentage="100" MinHP="101" MaxHP="150"/>
+		
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="IMPROVEMENT_DESTROYED" Percentage="20" ExtraRangePercentage="10"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="IMPROVEMENT_PILLAGED" Percentage="40" ExtraRangePercentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="DISTRICT_PILLAGED" Percentage="10" ExtraRangePercentage="5"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="BUILDING_PILLAGED" Percentage="20" ExtraRangePercentage="10"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="POPULATION_LOSS" Percentage="10" ExtraRangePercentage="5"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20" ExtraRangePercentage="10"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="1" MaxHP="25" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="CITY_GARRISON" Percentage="100" MinHP="1" MaxHP="50" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="CITY_WALLS" Percentage="100" MinHP="1" MaxHP="50" ExtraRangePercentage="50"/>				
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="IMPROVEMENT_DESTROYED" Percentage="30" ExtraRangePercentage="15"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="IMPROVEMENT_PILLAGED" Percentage="60" ExtraRangePercentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="DISTRICT_PILLAGED" Percentage="15" ExtraRangePercentage="8"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="BUILDING_PILLAGED" Percentage="30" ExtraRangePercentage="15"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="POPULATION_LOSS" Percentage="20" ExtraRangePercentage="10"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="UNIT_KILLED_CIVILIAN" Percentage="40" ExtraRangePercentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="26" MaxHP="50" ExtraRangePercentage="50"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="CITY_GARRISON" Percentage="100" MinHP="51" MaxHP="100" ExtraRangePercentage="50"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="CITY_WALLS" Percentage="100" MinHP="51" MaxHP="100" ExtraRangePercentage="50"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="IMPROVEMENT_DESTROYED" Percentage="40" ExtraRangePercentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="IMPROVEMENT_PILLAGED" Percentage="80" ExtraRangePercentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="DISTRICT_PILLAGED" Percentage="20" ExtraRangePercentage="10"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="BUILDING_PILLAGED" Percentage="40" ExtraRangePercentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="POPULATION_LOSS" Percentage="30" ExtraRangePercentage="15"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="UNIT_KILLED_CIVILIAN" Percentage="60" ExtraRangePercentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="51" MaxHP="75" ExtraRangePercentage="50"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="CITY_GARRISON" Percentage="100" MinHP="101" MaxHP="150" ExtraRangePercentage="50"/>
+		<Replace RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="CITY_WALLS" Percentage="100" MinHP="101" MaxHP="150" ExtraRangePercentage="50"/>
+		
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="IMPROVEMENT_DESTROYED" Percentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="IMPROVEMENT_PILLAGED" Percentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="DISTRICT_PILLAGED" Percentage="10"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="BUILDING_PILLAGED" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="POPULATION_LOSS" Percentage="10"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="1" MaxHP="33"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="UNIT_DAMAGE_NAVAL" Percentage="100" MinHP="1" MaxHP="33"/>				
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="CITY_GARRISON" Percentage="100" MinHP="1" MaxHP="66"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="CITY_WALLS" Percentage="100" MinHP="1" MaxHP="66"/>		
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="IMPROVEMENT_DESTROYED" Percentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="IMPROVEMENT_PILLAGED" Percentage="60"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="DISTRICT_PILLAGED" Percentage="15"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="BUILDING_PILLAGED" Percentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="POPULATION_LOSS" Percentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="UNIT_KILLED_CIVILIAN" Percentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="34" MaxHP="66"/>
+		<Replace RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="UNIT_DAMAGE_NAVAL" Percentage="100" MinHP="34" MaxHP="66"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="CITY_GARRISON" Percentage="100" MinHP="67" MaxHP="133"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="CITY_WALLS" Percentage="100" MinHP="67" MaxHP="133"/>
+		
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="IMPROVEMENT_DESTROYED" Percentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="IMPROVEMENT_PILLAGED" Percentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="DISTRICT_PILLAGED" Percentage="10"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="BUILDING_PILLAGED" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="POPULATION_LOSS" Percentage="10"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="1" MaxHP="33"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="UNIT_DAMAGE_NAVAL" Percentage="100" MinHP="1" MaxHP="33"/>	
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="CITY_GARRISON" Percentage="100" MinHP="1" MaxHP="66"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="CITY_WALLS" Percentage="100" MinHP="1" MaxHP="66"/>		
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="IMPROVEMENT_DESTROYED" Percentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="IMPROVEMENT_PILLAGED" Percentage="60"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="DISTRICT_PILLAGED" Percentage="15"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="BUILDING_PILLAGED" Percentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="POPULATION_LOSS" Percentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="UNIT_KILLED_CIVILIAN" Percentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="34" MaxHP="66"/>
+		<Replace RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="UNIT_DAMAGE_NAVAL" Percentage="100" MinHP="34" MaxHP="66"/>	
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="CITY_GARRISON" Percentage="100" MinHP="67" MaxHP="133"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="CITY_WALLS" Percentage="100" MinHP="67" MaxHP="133"/>
+		
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="IMPROVEMENT_DESTROYED" Percentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="IMPROVEMENT_PILLAGED" Percentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="DISTRICT_PILLAGED" Percentage="10"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="BUILDING_PILLAGED" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="POPULATION_LOSS" Percentage="10"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="1" MaxHP="33"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="UNIT_DAMAGE_NAVAL" Percentage="100" MinHP="1" MaxHP="33"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="CITY_GARRISON" Percentage="100" MinHP="1" MaxHP="66"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="CITY_WALLS" Percentage="100" MinHP="1" MaxHP="66"/>		
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="IMPROVEMENT_DESTROYED" Percentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="IMPROVEMENT_PILLAGED" Percentage="60"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="DISTRICT_PILLAGED" Percentage="15"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="BUILDING_PILLAGED" Percentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="POPULATION_LOSS" Percentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="UNIT_KILLED_CIVILIAN" Percentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="34" MaxHP="66"/>
+		<Replace RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="UNIT_DAMAGE_NAVAL" Percentage="100" MinHP="34" MaxHP="66"/>		
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="CITY_GARRISON" Percentage="100" MinHP="67" MaxHP="133"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="CITY_WALLS" Percentage="100" MinHP="67" MaxHP="133"/>
+				
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="IMPROVEMENT_DESTROYED" Percentage="20" CoastalLowlandPercentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="IMPROVEMENT_PILLAGED" Percentage="40" CoastalLowlandPercentage="80"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="DISTRICT_PILLAGED" Percentage="10" CoastalLowlandPercentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="BUILDING_PILLAGED" Percentage="20" CoastalLowlandPercentage="40"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="POPULATION_LOSS" Percentage="10"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="1" MaxHP="33"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="UNIT_DAMAGE_NAVAL" Percentage="100" MinHP="1" MaxHP="33"/>	
+        <Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="CITY_GARRISON" Percentage="100" MinHP="1" MaxHP="66"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="CITY_WALLS" Percentage="100" MinHP="1" MaxHP="66"/>				
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="IMPROVEMENT_DESTROYED" Percentage="30" CoastalLowlandPercentage="60"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="IMPROVEMENT_PILLAGED" Percentage="60" CoastalLowlandPercentage="100"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="DISTRICT_PILLAGED" Percentage="15" CoastalLowlandPercentage="30"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="BUILDING_PILLAGED" Percentage="30" CoastalLowlandPercentage="60"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="POPULATION_LOSS" Percentage="20"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="UNIT_KILLED_CIVILIAN" Percentage="40"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="34" MaxHP="66"/>
+		<Replace RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="UNIT_DAMAGE_NAVAL" Percentage="100" MinHP="34" MaxHP="66"/>	
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="CITY_GARRISON" Percentage="100" MinHP="67" MaxHP="133"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="CITY_WALLS" Percentage="100" MinHP="67" MaxHP="133"/>
+		
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" DamageType="SPECIFIC_IMPROVEMENT_PILLAGED" Percentage="50"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" DamageType="SPECIFIC_IMPROVEMENT_DESTROYED" Percentage="25"/>
+		<Replace RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" DamageType="SPECIFIC_IMPROVEMENT_PILLAGED" Percentage="75"/>
+	</RandomEvent_Damages>
+	
+	<RandomEvent_Yields>
+	    <Delete RandomEventType="RANDOM_EVENT_FLOOD_MODERATE"/>
+		<Delete RandomEventType="RANDOM_EVENT_FLOOD_MAJOR"/>
+		<Delete RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS" Percentage="12" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="12" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="12" ReplaceFeature="false"/>		
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="6" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS" Percentage="16" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="16" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="16" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS" Percentage="8" ReplaceFeature="false"/>		
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="8" ReplaceFeature="false"/>		
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="8" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS" Percentage="20" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="20" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="20" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS" Percentage="10" ReplaceFeature="false"/>	
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="10" ReplaceFeature="false"/>	
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FAITH" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_CULTURE" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_GOLD" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="10" ReplaceFeature="false"/>
+		
+		
+		<Delete RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE"/>
+		<Delete RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC"/>
+		<Delete RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL"/>	
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" YieldType="YIELD_FOOD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" YieldType="YIELD_FAITH" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="12" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" YieldType="YIELD_CULTURE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" YieldType="YIELD_GOLD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" YieldType="YIELD_FOOD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="8" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="8" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" YieldType="YIELD_FAITH" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="8" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="16" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" YieldType="YIELD_CULTURE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="8" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" YieldType="YIELD_GOLD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="8" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" YieldType="YIELD_FOOD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="10" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="10" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" YieldType="YIELD_FAITH" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="10" ReplaceFeature="true"/>
+        <Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="20" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" YieldType="YIELD_CULTURE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="10" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" YieldType="YIELD_GOLD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="10" ReplaceFeature="true"/>		
+		<Delete RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT"/>
+		<Delete RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING"/>
+		<Delete RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" />
+		<Delete RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" />
+		<Delete RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" />
+		<Delete RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" />		
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" YieldType="YIELD_FAITH" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" YieldType="YIELD_CULTURE" FeatureType="FEATURE_ICE" Percentage="10" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" YieldType="YIELD_GOLD" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" YieldType="YIELD_FAITH" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" YieldType="YIELD_CULTURE" FeatureType="FEATURE_ICE" Percentage="12" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" YieldType="YIELD_GOLD" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" YieldType="YIELD_FAITH" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" YieldType="YIELD_CULTURE" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" YieldType="YIELD_GOLD" FeatureType="FEATURE_ICE" Percentage="10" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" YieldType="YIELD_FAITH" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" YieldType="YIELD_CULTURE" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" YieldType="YIELD_GOLD" FeatureType="FEATURE_ICE" Percentage="12" ReplaceFeature="true"/>
+		
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" YieldType="YIELD_FAITH" FeatureType="FEATURE_ICE" Percentage="10" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" YieldType="YIELD_CULTURE" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" YieldType="YIELD_GOLD" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" YieldType="YIELD_FAITH" FeatureType="FEATURE_ICE" Percentage="12" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" YieldType="YIELD_CULTURE" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" YieldType="YIELD_GOLD" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" YieldType="YIELD_FAITH" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="10" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" YieldType="YIELD_CULTURE" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" YieldType="YIELD_GOLD" FeatureType="FEATURE_ICE" Percentage="5" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" YieldType="YIELD_FAITH" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>		
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="12" ReplaceFeature="true"/>	
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" YieldType="YIELD_CULTURE" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" YieldType="YIELD_GOLD" FeatureType="FEATURE_ICE" Percentage="6" ReplaceFeature="true"/>
+	</RandomEvent_Yields>
+</GameInfo>
