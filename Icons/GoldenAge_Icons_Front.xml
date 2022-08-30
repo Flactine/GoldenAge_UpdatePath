@@ -1,0 +1,8 @@
+<GameInfo>		
+	<IconDefinitions>
+		<Row Name="ICON_GA_MEGALOPOLIS_PRO"                        	Atlas="ICON_ATLAS_TECH_2" Index="1"/>
+		<Row Name="ICON_GA_CULTIVATION"                        		Atlas="ICON_ATLAS_TECH" Index="5"/>
+		<Row Name="ICON_GA_BUILDINGEXPANSION_NEW"                   Atlas="ICON_ATLAS_TECH" Index="35"/>
+		<Row Name="ICON_GA_MILESTONE"                        		Atlas="ICON_ATLAS_TECH_2" Index="2"/>
+	</IconDefinitions>
+</GameInfo>

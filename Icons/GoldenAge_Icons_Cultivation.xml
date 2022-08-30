@@ -1,0 +1,17 @@
+<GameInfo>
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_FARMER"                  Atlas="ICON_ATLAS_TECH" Index="5"/>
+		<Row Name="ICON_UNIT_FARMER_FOW"              Atlas="ICON_ATLAS_TECH_FOW" Index="5"/>
+		<Row Name="ICON_UNIT_HERDMAN"                 Atlas="ICON_ATLAS_TECH" Index="1"/>
+		<Row Name="ICON_UNIT_HERDMAN_FOW"             Atlas="ICON_ATLAS_TECH_FOW" Index="1"/>
+		<Row Name="ICON_UNIT_MINER"                   Atlas="ICON_ATLAS_TECH" Index="2"/>
+		<Row Name="ICON_UNIT_MINER_FOW"               Atlas="ICON_ATLAS_TECH_FOW" Index="2"/>
+		<Row Name="ICON_UNIT_FISHER"                   Atlas="ICON_ATLAS_TECH" Index="3"/>
+		<Row Name="ICON_UNIT_FISHER_FOW"               Atlas="ICON_ATLAS_TECH_FOW" Index="3"/>
+		
+		<Row Name="ICON_UNIT_FARMER_PORTRAIT"         Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="1"/>
+		<Row Name="ICON_UNIT_HERDMAN_PORTRAIT"        Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="1"/>
+		<Row Name="ICON_UNIT_MINER_PORTRAIT"          Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="1"/>
+		<Row Name="ICON_UNIT_FISHER_PORTRAIT"          Atlas="ICON_ATLAS_UNIT_PORTRAITS" Index="1"/>
+	</IconDefinitions>
+</GameInfo>
