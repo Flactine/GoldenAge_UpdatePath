@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="a739fbf8-0b8d-40a3-8fd7-ddd8c8e2183b" version="1">
   <Properties>
-    <Name>LOC_GOLDENAGE_NAME</Name>
+    <Name>LOC_GOLDENAGE_UPDATEPATH_NAME</Name>
     <Description>Version 224+ for GoldenAge· Brave New World.</Description>
     <Created>1629663837</Created>
-    <Teaser>LOC_GOLDENAGE_TEASER</Teaser>
+    <Teaser>LOC_GOLDENAGE_UPDATEPATH_TEASER</Teaser>
     <Authors>Gold</Authors>
-    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <CompatibleVersions>2.0</CompatibleVersions>
   </Properties>
   
   <LocalizedText>
-	<Text id="LOC_GOLDENAGE_NAME">
+	<Text id="LOC_GOLDENAGE_UPDATEPATH_NAME">
 		<en_US>[ICON_GLORY_SUPER_GOLDEN_AGE][COLOR_FLOAT_GOLD]GoldenAge· Brave New World (update patch)[ENDCOLOR]</en_US>
 		<zh_Hans_CN>[ICON_GLORY_SUPER_GOLDEN_AGE][COLOR_FLOAT_GOLD]黄金时代·美丽新世界（拓展包）[ENDCOLOR]</zh_Hans_CN>
 	</Text>
 
-	<Text id="LOC_GOLDENAGE_TEASER">
+	<Text id="LOC_GOLDENAGE_UPDATEPATH_TEASER">
 		<en_US>[COLOR:ResFoodLabelCS]Overhauled or tweaked[ENDCOLOR] [COLOR:ResScienceLabelCS]majority of the gameplay contents[ENDCOLOR] in Civilization VI, as well as added a couple of [COLOR:DiplomaticLabelCS]new mechanics[ENDCOLOR] to make the game more interesting.</en_US>
 		<zh_Hans_CN>对[COLOR:ResScienceLabelCS]大量游戏内容与机制[ENDCOLOR]进行[COLOR:ResFoodLabelCS]优化[ENDCOLOR]，并增添有趣的[COLOR:ResCultureLabelCS]新系统[ENDCOLOR]。</zh_Hans_CN>
 	</Text>
@@ -656,7 +656,7 @@
       <Properties><LoadOrder>10000</LoadOrder></Properties>
       <File>GoldenAge_GameMode.xml</File>
 	  <File>GoldenAge_MapSizes.sql</File>
-	  <File>Mod_Supprot/Leaders_ConfigData.sql</File>	
+	  <File>Mod_Support/Leaders_ConfigData.sql</File>	
     </UpdateDatabase>
 	
 	<UpdateDatabase id="Gameplay">
@@ -668,7 +668,7 @@
       <Properties><LoadOrder>10001</LoadOrder></Properties>			  
 		  <File>Texts/GoldenAge_Texts_Front.xml</File>
 		  <File>Texts/GoldenAge_Texts_Major.sql</File>
-		  <File>Mod_Supprot/Leader_texts.sql</File>
+		  <File>Mod_Support/Leader_texts.sql</File>
     </UpdateText>	
 	
     <UpdateIcons id="Icons">
@@ -943,7 +943,7 @@
 	<UpdateDatabase id="Citystate_CSE">
 	  <Properties><LoadOrder>18392</LoadOrder></Properties>  
       <Criteria>GA_CITYSTATE_NEW_CSE</Criteria>	 	        		  
-		<File>Mod_Supprot/GoldenAge_CityStates_CSE.sql</File>
+		<File>Mod_Support/GoldenAge_CityStates_CSE.sql</File>
 	</UpdateDatabase>
 	<UpdateText id="Citystate">
 	  <Properties><LoadOrder>18392</LoadOrder></Properties>
@@ -983,27 +983,27 @@
 	<UpdateDatabase id="Gameplay_Major_Mod">
 	  <Properties><LoadOrder>18410</LoadOrder></Properties>  
 	  <Criteria>CIVILIZATIONS_AND_LEADERS_WILLIAM_OF_ORANGE</Criteria>
-		  <File>Mod_Supprot/Leader_William_of_Orange.sql</File>	
+		  <File>Mod_Support/Leader_William_of_Orange.sql</File>	
 	</UpdateDatabase>	
 	<UpdateDatabase id="Gameplay_Major_Mod">
 	  <Properties><LoadOrder>18410</LoadOrder></Properties>  
 	  <Criteria>CIVILIZATIONS_AND_LEADERS_OTTO_VON_BISMARCK</Criteria>
-		  <File>Mod_Supprot/Leader_Otto_von_Bismarck.sql</File>	
+		  <File>Mod_Support/Leader_Otto_von_Bismarck.sql</File>	
 	</UpdateDatabase>
 	<UpdateDatabase id="Gameplay_Major_Mod">
 	  <Properties><LoadOrder>18410</LoadOrder></Properties>  
 	  <Criteria>CIVILIZATIONS_AND_LEADERS_DARIUS_I</Criteria>
-		  <File>Mod_Supprot/Leader_Darius_I.sql</File>	
+		  <File>Mod_Support/Leader_Darius_I.sql</File>	
 	</UpdateDatabase>
 	<UpdateDatabase id="Gameplay_Major_Mod">
 	  <Properties><LoadOrder>18410</LoadOrder></Properties>  
 	  <Criteria>CIVILIZATIONS_AND_LEADERS_GAJA_MADA</Criteria>
-		  <File>Mod_Supprot/Leader_Gaja_Mada.sql</File>	
+		  <File>Mod_Support/Leader_Gaja_Mada.sql</File>	
 	</UpdateDatabase>
 	<UpdateText id="Gameplay_Major_Mod">
 	  <Properties><LoadOrder>18410</LoadOrder></Properties>
       <Criteria>CIVILIZATIONS_AND_LEADERS</Criteria>	
-		  <File>Mod_Supprot/Leader_texts.sql</File>
+		  <File>Mod_Support/Leader_texts.sql</File>
     </UpdateText>
 		
 	<UpdateDatabase id="Gameplay_Major_DLC" criteria="CIVILIZATIONS_AND_LEADERS_KUBLAIKHAN_VIETNAM_GA">
@@ -1161,7 +1161,7 @@
       <Criteria>WORLDWONDER</Criteria>	 		  
 		  <File>GoldenAge_Wonders.sql</File>
 		  <!-- <File>DLC_Support/GoldenAge_DLC_Wonders.sql</File> -->
-		  <!-- <File>Mod_Supprot/World_Wonders.sql</File> -->
+		  <!-- <File>Mod_Support/World_Wonders.sql</File> -->
 	</UpdateDatabase>
 	<UpdateText id="Worldwonder">
 	  <Properties><LoadOrder>18860</LoadOrder></Properties>
@@ -1202,7 +1202,7 @@
 	<UpdateDatabase id="GA_OCEAN">
 	  <Properties><LoadOrder>19038</LoadOrder></Properties>  
       <Criteria>GA_OCEAN</Criteria>	 
-          <File>Mod_Supprot/GoldenAge_Ocean.sql</File>
+          <File>Mod_Support/GoldenAge_Ocean.sql</File>
 	</UpdateDatabase>
 	
 	<!-- 偏好 -->
@@ -1334,15 +1334,15 @@
 	<File>DLC_Support/GoldenAge_mode_Secretsocieties_on.sql</File>
 	
 
-	<File>Mod_Supprot/GoldenAge_CityStates_CSE.sql</File>
-	<File>Mod_Supprot/GoldenAge_Ocean.sql</File>
+	<File>Mod_Support/GoldenAge_CityStates_CSE.sql</File>
+	<File>Mod_Support/GoldenAge_Ocean.sql</File>
 	
-	<File>Mod_Supprot/Leaders_ConfigData.sql</File>	
-	<File>Mod_Supprot/Leader_Darius_I.sql</File>	
-	<File>Mod_Supprot/Leader_Gaja_Mada.sql</File>	
-	<File>Mod_Supprot/Leader_Otto_von_Bismarck.sql</File>	
-	<File>Mod_Supprot/Leader_William_of_Orange.sql</File>
-	<File>Mod_Supprot/Leader_texts.sql</File>
+	<File>Mod_Support/Leaders_ConfigData.sql</File>	
+	<File>Mod_Support/Leader_Darius_I.sql</File>	
+	<File>Mod_Support/Leader_Gaja_Mada.sql</File>	
+	<File>Mod_Support/Leader_Otto_von_Bismarck.sql</File>	
+	<File>Mod_Support/Leader_William_of_Orange.sql</File>
+	<File>Mod_Support/Leader_texts.sql</File>
 	
 	<!-- <File>Preference/GoldenAge_Abundance.sql</File> -->
 	<File>Preference/GoldenAge_AICheat.sql</File>
